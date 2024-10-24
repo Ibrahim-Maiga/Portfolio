@@ -1,0 +1,34 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+main:
+  - name: Portfolio
+    url: '#projects'
+    weight: 10
+  - name: Experience
+    url: '#experience'
+    weight: 20
+  - name: Education
+    url: '#degrees'
+    weight: 30
+  - name: Contact
+    url: '#contact'
+    weight: 65
+    icon: envelope
+  - name: Blog
+    url: 'https://franciscoyira.com'
+    weight: 50
+  - name: Newsletter
+    url: 'https://franciscoyira.com/subscribe/'
+    weight: 60
+  - name: Download Resume as PDF
+    url: FRANCISCO_ALBORNOZ_resume.pdf
+    weight: 70
+    icon_pack: fas
+    icon: download
+
+
+# Link to a PDF of your resume/CV from the menu.
+# To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
