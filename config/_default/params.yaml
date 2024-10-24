@@ -43,7 +43,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Francisco Yirá. This work is licensed under {license}'
+    notice: '© {year} Ibrahim Maïga. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
@@ -53,7 +53,7 @@ footer:
 # Localization
 
 # locale:
-  date_format: 'Jan, 2006'
+  date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
   address_format: en-us
 
@@ -75,14 +75,12 @@ features:
     branch: master
   avatar:
     gravatar: false
-    shape: square
+    shape: circle
   comment:
     provider: ''
     disqus:
       shortname: ''
       show_count: true
-    commento:
-      url: ''
   search:
     provider: wowchemy
     algolia:
