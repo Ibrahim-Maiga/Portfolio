@@ -75,8 +75,8 @@ features:
     branch: master
   avatar:
     gravatar: false
-    shape: rounded-full  # Changes shape from circle to fully rounded.
-    custom_class: "bg-white dark:bg-gray-800 p-1"  # Custom class for padding and background color.
+    shape: rounded-full 
+    custom_class: bg-white dark:bg-gray-800 p-1
   comment:
     provider: ''
     disqus:
