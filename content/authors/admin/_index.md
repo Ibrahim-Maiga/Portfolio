@@ -67,7 +67,9 @@ I love using statistical modelling and data to help businesses quantify the impa
 
 {{< icon name="download" pack="fas" >}} {{< staticref "Ibrahim_Maïga_resume.pdf" "newtab"  >}}Resume in PDF{{< /staticref >}}
 
-{{< icon name="download" pack="fas" >}} {{< staticref "Ibrahim_Maïga_resume.pdf" "newtab" >}}CV{{< /staticref >}}
+{{< icon name="download" pack="fas" >}} {{< staticref "Ibrahim_Maïga_resume.pdf" "newtab"  >}}<span class="btn btn-primary px-3 py-3">Resume in PDF</span>{{< /staticref >}}
+
+
 
 
 
