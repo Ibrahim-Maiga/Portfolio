@@ -17,7 +17,7 @@ education:
   - course: BSc in Economics
     institution: University of Chile
     year: 2010-2015
-email: "francisco.yira@outlook.com"
+email: "francisco.yir@outlook.com"
 highlight_name: true
 interests:
 - Machine Learning and AI
@@ -35,28 +35,28 @@ role: AI Developer
 social:
 - icon: twitter
   icon_pack: fab
-  link: https://www.threads.net/@francisco_yira
+  link: https://www.threads.net/@francisco_yir
 - icon: globe
   icon_pack: fas
-  link: https://franciscoyira.com
+  link: https://franciscoyir.com
 - icon: github
   icon_pack: fab
-  link: https://github.com/franciscoyira
+  link: https://github.com/franciscoyir
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/in/franciscoyira
+  link: https://www.linkedin.com/in/franciscoyir
 - icon: mastodon 
   icon_pack: fab
-  link: https://techhub.social/@franciscoyira # Add this line
+  link: https://techhub.social/@franciscoyir # Add this line
 superuser: true
 title: Ibrahim Maïga
 # Full name (for SEO)
 first_name: Ibrahim
 last_name: Maïga
-
 # Status emoji
 status:
   icon: ☕️
+  
 ---
 
 ## About Me
