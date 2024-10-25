@@ -25,7 +25,7 @@ content:
       captcha: true
 
   # Contact details (edit or remove options as required)
-  #email: francisco.yira@outlook.com
+  #email: francisco.yir@outlook.com
   #phone: +56 9 5115 9191
   address:
     city: Downtown Toronto
@@ -40,12 +40,12 @@ content:
 #  office_hours:
 #    - 'Monday 10:00 to 13:00'
 #    - 'Wednesday 09:00 to 10:00'
-  appointment_url: 'https://calendly.com/francisco-yira/meeting-with-francisco-yira'
+  appointment_url: 'https://calendly.com/francisco-yir/meeting-with-francisco-yira'
   contact_links:
     - icon: envelope
       icon_pack: fas
       name: E-mail me
-      link: 'mailto:francisco.yira@outlook.com'
+      link: 'mailto:francisco.yir@outlook.com'
 
 design:
   columns: '2'
