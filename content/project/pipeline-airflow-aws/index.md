@@ -1,6 +1,6 @@
 ---
 date: "2024-06-10T00:00:00Z"
-#external_link: "https://www.franciscoyira.com/categories/causal-inference/"
+#external_link: "https://www.franciscoyir.com/categories/causal-inference/"
 image:
   #caption: Photo by rawpixel on Unsplash
   focal_point: Smart
@@ -9,11 +9,11 @@ links:
 - icon: arrow-up-right-from-square
   icon_pack: fas
   name: See blog post
-  url: https://www.franciscoyira.com/post/airflow-pipeline-with-aws-data-cloud-part-3/
+  url: https://www.franciscoyir.com/post/airflow-pipeline-with-aws-data-cloud-part-3/
 - icon: github
   icon_pack: fab
   name: See on GitHub
-  url: https://github.com/franciscoyira/aws_airflow_tutorial
+  url: https://github.com/franciscoyir/aws_airflow_tutorial
 #slides: example
 # The summary is what appears on the home page
 summary: End-to-end data pipeline with Apache Airflow that interacts with AWS services such as RDS and S3 and makes the processed data available on PostgreSQL.
