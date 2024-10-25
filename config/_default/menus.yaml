@@ -24,7 +24,7 @@ main:
     url: 'https://franciscoyira.com/subscribe/'
     weight: 60
   - name: Download Resume as PDF
-    url: FRANCISCO_ALBORNOZ_resume.pdf
+    url: Ibrahim_Maïga_resume.pdf
     weight: 70
     icon_pack: fas
     icon: download
