@@ -9,7 +9,7 @@ links:
 - icon: arrow-up-right-from-square
   icon_pack: fas
   name: See on my blog
-  url: https://www.franciscoyira.com/categories/causal-inference/
+  url: https://www.franciscoyir.com/categories/causal-inference/
 #slides: example
 # The summary is what appears on the home page
 summary: A series of blog posts explaining key causal inference concepts in my own words, with lots of R code examples, visualizations and memes.
@@ -27,17 +27,17 @@ url_video: ""
 
 A series of blog posts explaining key causal inference concepts and methodologies in my own words, with lots of R code examples, visualizations and memes. Low-key aimed towards people like me, who find these ideas easier to grasp with code/algorithms and simulations rather than with math notation.
 
-1.  [Introduction to causal diagrams (DAGs)](https://franciscoyira.com/post/2021-07-11-diagramas-causalidad-cap-3-causal-inference-mixtape/) *(available [in Spanish](https://franciscoyira.com/es/post/2021-07-11-diagramas-causalidad-cap-3-causal-inference-mixtape/))*
+1.  [Introduction to causal diagrams (DAGs)](https://franciscoyir.com/post/2021-07-11-diagramas-causalidad-cap-3-causal-inference-mixtape/) *(available [in Spanish](https://franciscoyir.com/es/post/2021-07-11-diagramas-causalidad-cap-3-causal-inference-mixtape/))*
 
-2.  [Potential Outcomes Model (or why correlation is not causality)](https://franciscoyira.com/post/potential-outcomes-causal-inference-mixtape/) *(available [in Spanish](https://franciscoyira.com/es/post/potential-outcomes-causal-inference-mixtape/))*
+2.  [Potential Outcomes Model (or why correlation is not causality)](https://franciscoyir.com/post/potential-outcomes-causal-inference-mixtape/) *(available [in Spanish](https://franciscoyir.com/es/post/potential-outcomes-causal-inference-mixtape/))*
 
-3.  [Randomization Inference in R: a better way to compute p-values in randomized experiments](https://franciscoyira.com/post/randomization-inference-causal-mixtape/) *(available [in Spanish](https://franciscoyira.com/es/post/randomization-inference-causal-mixtape/))*
+3.  [Randomization Inference in R: a better way to compute p-values in randomized experiments](https://franciscoyir.com/post/randomization-inference-causal-mixtape/) *(available [in Spanish](https://franciscoyir.com/es/post/randomization-inference-causal-mixtape/))*
 
-4.  [Matching in R (I): Subclassification, Common Support and the Curse of Dimensionality](https://franciscoyira.com/post/matching-in-r-part-1/)
+4.  [Matching in R (I): Subclassification, Common Support and the Curse of Dimensionality](https://franciscoyir.com/post/matching-in-r-part-1/)
 
-5.  [Matching in R (II): Differences between Matching and Regression](https://franciscoyira.com/post/matching-in-r-2-differences-regression/)
+5.  [Matching in R (II): Differences between Matching and Regression](https://franciscoyir.com/post/matching-in-r-2-differences-regression/)
 
-6.  [Matching in R (III): Propensity score, Weighting and the Double Robust Estimator](https://franciscoyira.com/post/matching-in-r-3-propensity-score-iptw/)
+6.  [Matching in R (III): Propensity score, Weighting and the Double Robust Estimator](https://franciscoyir.com/post/matching-in-r-3-propensity-score-iptw/)
 
 *Work in progress, more posts to come...*
 
