@@ -43,7 +43,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {month year} By Ibrahim Maïga. This work is licensed under {license}'
+    notice: '© {month} {year} by Ibrahim Maïga. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
