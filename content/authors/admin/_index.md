@@ -8,11 +8,9 @@ superuser: true
 first_name: Ibrahim
 last_name: Maïga
 bio: Python, R, SQL, Data Science, and Artificial Intelligence.
-
 location:
   city: Toronto
   country: Canada
-  
 education:
   courses:
   - course: Post Graduate, Applied A.I. Solutions Development
@@ -21,9 +19,7 @@ education:
   - course: Honours Bachelor of Science, Financial Mathematics and Economics
     institution: University of Ottawa
     year: 2017-2021
-    
 email: "imaig090@gmail.com"
-
 Interests include:  
 - Artificial Intelligence
 - Mathematics & Statistics
@@ -31,14 +27,11 @@ Interests include:
 - Data Science & Big Data Analytics
 - Data Visualization & Dashboarding  
 - Process Automation  
-
-
 # Organizations/Affiliations to display in Biography blox
 organizations:
   - name: Semper8
     url: https://semper8.com
 role: AI Developer
-
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 social:
@@ -54,7 +47,6 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/ibrahim-ma%C3%AFga
-  
 ---
 
 # About Me
