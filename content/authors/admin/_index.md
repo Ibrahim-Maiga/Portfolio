@@ -66,9 +66,7 @@ Hi! I'm Francisco, a data scientist with 6 years of experience across different 
 
 I love using statistical modelling and data to help businesses quantify the impact of what they do and make data-driven decisions. I also enjoy improving business outcomes through machine learning, automation and data management best practices.
 
-<span class="btn btn-primary px-3 py-3">{{< icon name="download" pack="fas" >}} {{< staticref "Ibrahim_Maïga_resume.pdf" "newtab"  >}}Download CV{{< /staticref >}}</span>
-
-<span class="btn btn-outline-primary btn-page-header btn-download px-3 py-3">
+<span class="btn btn-outline-primary btn-page-header btn-download">
   {{< icon name="download" pack="fas" >}} {{< staticref "Ibrahim_Maïga_resume.pdf" "newtab" >}}Download CV{{< /staticref >}}
 </span>
 
