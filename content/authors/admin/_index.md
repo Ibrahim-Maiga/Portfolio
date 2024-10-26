@@ -68,6 +68,11 @@ I love using statistical modelling and data to help businesses quantify the impa
 
 <span class="btn btn-primary px-3 py-3">{{< icon name="download" pack="fas" >}} {{< staticref "Ibrahim_Maïga_resume.pdf" "newtab"  >}}Download CV{{< /staticref >}}</span>
 
+<span class="btn btn-outline-primary btn-page-header btn-download px-3 py-3">
+  {{< icon name="download" pack="fas" >}} {{< staticref "Ibrahim_Maïga_resume.pdf" "newtab" >}}Download CV{{< /staticref >}}
+</span>
+
+
 
 
 
