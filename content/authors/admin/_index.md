@@ -28,8 +28,6 @@ email: "imaig090@gmail.com"
 
 Interests include:  
 - Artificial Intelligence
-  icon: facebook
-  icon_pack: fab
 - Mathematics & Statistics
 - Finance & Econometrics
 - Data Science & Big Data Analytics
