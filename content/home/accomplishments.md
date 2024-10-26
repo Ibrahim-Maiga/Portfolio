@@ -23,52 +23,70 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
-  - certificate_url: https://www.credly.com/badges/581f1252-6f98-4fce-97e5-226321a00337/public_url
-    date_start: '2024-05-01'
-    description: 'Validation of core Tableau knowledge and hands-on development skills with Tableau Desktop, Tableau Prep, and Tableau Server, including connecting to data sources, preparing data for analysis, creating impactful visualizations with complex data, and effectively communicating insights through interactive dashboards and storyboards.'
-    organization: Tableau
-    organization_url: https://www.tableau.com/
-    title: Tableau Certified Data Analyst
-    url: 'https://www.tableau.com/learn/certification/certified-data-analyst'
-  - certificate_url: https://www.credly.com/badges/6a8cbac6-5696-4686-8e3f-666dd68140dd/print
+  - certificate_url: https://www.credly.com/badges/7ef955db-e669-4939-a1af-2907d37a787c/
+    date_start: '2024-05-24'
+    description: 'Earners of this certification have an in-depth understanding of how to use AWS services to implement data pipelines and to monitor, troubleshoot, and optimize cost and performance issues following best practices. Badge owners have the technical expertise to understand the effects of volume, variety, and velocity on data ingestion. They are familiar with transformation, modeling, security, governance, privacy, schema design, and optimal data store design.'
+    organization: AWS
+    organization_url: https://aws.amazon.com/training/
+    title: AWS Certified Data Engineer - Associate
+    url: 'https://aws.amazon.com/certification/certified-data-engineer-associate/'
+  - certificate_url: https://www.credly.com/badges/2d98a7fd-7c3c-4d81-95d9-d469cc78f3b1/
     date_start: '2024-02-07'
-    description: 'Achieved badge from IBM demonstrating foundational skills in applying design thinking principles at scale, focusing on user-centric research, innovative problem-solving, and compelling storytelling to address and understand user challenges.'
+    description: 'Earned an IBM badge showcasing foundational skills in Enterprise Design Thinking, emphasizing user-centered design, empathy, experience design, and innovative problem-solving. Gained expertise in applying design thinking at scale, focusing on user research, ideation, and storytelling to address user challenges. Skilled in identifying and utilizing design thinking concepts in everyday work.'
     organization: IBM
     organization_url: https://www.ibm.com
-    title: Enterprise Design Thinking Practitioner
+    title: Enterprise Design Thinking Practitioner 
     url: 'https://www.ibm.com/training/badge/enterprise-design-thinking-practitioner'
-  - certificate_url: https://www.datacamp.com/statement-of-accomplishment/track/316a23cb17a54a5b31bc4d9cf1b8df3f8681b459
-    date_start: '2023-06-02'
-    date_end: '2023-12-02'
-    description: 'Completed 24-hour course track on Apache Spark using the PySpark Python API. The track included courses on PySpark basics, data cleaning, feature engineering, machine learning, and building recommendation engines.'
-    organization: DataCamp
-    organization_url: https://www.datacamp.com/
-    title: Big Data with PySpark
-    url: 'https://www.datacamp.com/tracks/big-data-with-pyspark'
-  - certificate_url: https://www.credly.com/badges/152c1ac3-a987-4b06-9346-df318561a3ca/public_url
-    #date_end: '2022-08-12'
-    date_start: '2022-08-12'
-    description: 'Earned an industry-recognized credential that validates foundational understanding of AWS Cloud concepts, services, and terminology. Demonstrated knowledge of cloud economics, security, architecture, and support models.'
-    organization: AWS
-    organization_url: https://www.aws.training/
-    title: AWS Cloud Practitioner Certification
-    url: 'https://aws.amazon.com/certification/certified-cloud-practitioner/'
-  - certificate_url: https://coursera.org/share/d77edd109cedb94424aff8e0a96d9bee
-    date_end: '2022-03-17'
-    date_start: '2022-01-25'
-    description: '30-hour specialisation on DevOps concepts and practices in the AWS Cloud. Learned how to use AWS services and tools for Continuous Integration and Delivery, serverless deployment, and monitoring and logging.'
-    organization: Coursera
+  - certificate_url: https://www.credly.com/badges/b4b1c58d-20c2-43f4-b4a8-a20d2685b4b4
+    date_end: '2022-06-30'
+    date_start: '2022-02-01'
+    description: 'Completed a rigorous, project-based certification with a strong focus on applied learning. Gained proficiency in key tools and libraries such as Python, SQL, Jupyter, GitHub, R Studio, Pandas, Numpy, Scikit-Learn, and Matplotlib. Developed expertise through projects including financial data analysis, SQL queries on demographic datasets, regression modeling for housing prices, a dynamic dashboard for flight reliability, and machine learning models for loan repayment prediction. Earned 12 college credits and 6 ECTS credits.'
+    organization: Coursera (Authorized by IBM)
     organization_url: https://www.coursera.org
-    title: DevOps on AWS
-    url: 'https://www.coursera.org/specializations/aws-devops'
-  - certificate_url: https://www.datacamp.com/statement-of-accomplishment/course/dc780825ade94239e7601d24de6e22a564805470
-    date_end: '2018-07-12'
-    date_start: '2018-06-12'
-    description: '4-hour course on hierarchical and mixed effects models in R with the `lmer` package. Learned how to fit and compare random effects models for nested and longitudinal data.'
-    organization: DataCamp
-    organization_url: https://www.datacamp.com/
-    title: Hierarchical and Mixed Effects Models in R
-    url: 'https://www.datacamp.com/courses/hierarchical-and-mixed-effects-models-in-r'
+    title: IBM Data Science Professional Certificate
+    url: 'https://www.coursera.org/professional-certificates/ibm-data-science'
+ - certificate_url: https://www.credly.com/badges/43acab6a-614d-45fa-9e25-d0db557945dd
+    date_end: '2022-06-26'
+    date_start: '2022-04-26'
+    description: 'Completed a machine learning course in Python, covering supervised and unsupervised algorithms, including K-Nearest Neighbors (KNN), decision trees, logistic regression, and k-means clustering. Gained proficiency in building and evaluating models using linear, non-linear, and multiple regression techniques. Hands-on labs with Python, SciPy, and scikit-learn reinforced skills in implementing, evaluating, and comparing machine learning models.'
+    organization: Coursera (Authorized by IBM)
+    organization_url: https://www.coursera.org
+    title: Machine Learning with Python
+    url: 'https://www.coursera.org/learn/machine-learning-with-python/'
+  - certificate_url: https://www.credly.com/badges/bbbeed32-e60e-476a-a260-b6b8eefd1690
+    date_end: '2022-06-23'
+    date_start: '2022-05-23'
+    description: 'Completed a course in Python-based data visualization, developing skills in storytelling with data through various plots and charts. Gained expertise in libraries such as Matplotlib, Seaborn, Folium, Plotly, and Dash to create both basic and advanced visualizations, including line, area, waffle, word cloud, and choropleth maps. Built interactive dashboards and practiced hands-on techniques in Jupyter Notebooks and a cloud-based IDE.'
+    organization: Coursera (Authorized by IBM)
+    organization_url: https://www.coursera.org
+    title: Data Visualization with Python
+    url: 'https://www.coursera.org/learn/python-for-data-visualization'
+  - certificate_url: https://www.credly.com/badges/6fb65e12-99d4-4b4b-8f45-dce7f6f360d3
+    date_end: '2022-06-12'
+    date_start: '2022-04-12'
+    description: 'Completed an intensive course on data analysis with Python, focusing on data cleaning, preparation, and exploratory data analysis (EDA) with libraries like Pandas, Numpy, and Scipy. Developed skills in data manipulation, data visualization, and creating data pipelines. Built and evaluated regression models using Scikit-learn for predictive analytics.'
+    organization: Coursera (Authorized by IBM)
+    organization_url: https://www.coursera.org
+    title: Data Analysis with Python
+    url: 'https://www.coursera.org/learn/data-analysis-with-python'
+  - certificate_url: https://www.credly.com/badges/72698e18-7fe3-495f-ad8d-2b3fe7ee9ac4
+    date_end: '2022-05-28'
+    date_start: '2022-03-28'
+    description: 'Completed a comprehensive course on SQL, covering foundational to advanced database skills essential for data science. Gained experience with SQL commands (DML & DDL), including SELECT, INSERT, UPDATE, DELETE, and advanced techniques like JOINs, views, transactions, and stored procedures. Practiced analyzing real-world datasets and creating relational databases, as well as using SQL and Python in Jupyter notebooks for data extraction and manipulation.'
+    organization: Coursera (Authorized by IBM)
+    organization_url: https://www.coursera.org
+    title: Databases and SQL for Data Science
+    url: 'https://www.coursera.org/learn/sql-data-science'
+- certificate_url: https://www.credly.com/badges/c3b130de-3a61-4f42-95e1-6af0e62a221f
+    date_end: '2022-04-20'
+    date_start: '2022-02-20'
+    description: 'Completed a detailed course on data science methodology, focusing on foundational and CRISP-DM approaches for problem-solving in data science. Developed skills in selecting analytic models, determining data sources, data preparation, model building, deployment, data storytelling, and feedback collection. Gained practical experience through labs using Jupyter Notebooks and Python in real-world-inspired scenarios.'
+    organization: Coursera (Authorized by IBM)
+    organization_url: https://www.coursera.org
+    title: Data Science Methodology
+    url: 'https://www.coursera.org/learn/data-science-methodology'
+  
+   
 
 design:
   background:
