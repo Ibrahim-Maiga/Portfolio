@@ -41,7 +41,7 @@ Interests include:
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-    name: Semper8
+  - name: Semper8
     url: https://semper8.com
 role: AI Developer
 
