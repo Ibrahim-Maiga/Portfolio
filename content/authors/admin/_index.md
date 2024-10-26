@@ -60,7 +60,7 @@ status:
 ---
 
 ## About Me
-
+<br><br>
 Hi! I'm Francisco, a data scientist with 6 years of experience across different industries (including retail, Fintech and telco), currently studying Applied AI Solutions Development at George Brown College in Toronto. I am an expert in SQL, R, and Python, and certified on AWS and Tableau.
 
 I love using statistical modelling and data to help businesses quantify the impact of what they do and make data-driven decisions. I also enjoy improving business outcomes through machine learning, automation and data management best practices.
