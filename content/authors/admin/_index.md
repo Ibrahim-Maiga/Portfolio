@@ -1,11 +1,9 @@
 ---
 # Is this the primary user of the site?
 superuser: true
-
 # Display name
 - title: Ibrahim Maïga
   highlight_name: true
-
 # Full name (for SEO)
 first_name: Ibrahim
 last_name: Maïga
