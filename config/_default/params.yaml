@@ -43,7 +43,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Ibrahim Maïga. This work is licensed under {license}'
+    notice: '© {month year} By Ibrahim Maïga. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
@@ -76,7 +76,6 @@ features:
   avatar:
     gravatar: false
     shape: rounded-full 
-    custom_class: bg-white dark:bg-gray-800 p-1
   comment:
     provider: ''
     disqus:
