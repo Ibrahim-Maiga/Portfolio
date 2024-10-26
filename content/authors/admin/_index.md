@@ -4,9 +4,7 @@ superuser: true
 
 # Display name
 - title: Ibrahim Maïga
-  icon: facebook
-  icon_pack: fab
-highlight_name: true
+  highlight_name: true
 
 # Full name (for SEO)
 first_name: Ibrahim
