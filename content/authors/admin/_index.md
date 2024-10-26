@@ -1,59 +1,9 @@
 ---
-bio: R, Python, causal inference, machine learning, data visualization.
-location:
-  city: Toronto
-  country: Canada
-education:
-  courses:
-  - course: Applied A.I. Solutions Development Postgraduate Diploma
-    institution: George Brown College
-    year: 2024
-  - course: Diploma in Econometrics
-    institution: University of Chile
-    year: 2020-2021
-  - course: Diploma in Big Data
-    institution: Pontifical Catholic University of Chile
-    year: 2017-2018
-  - course: BSc in Economics
-    institution: University of Chile
-    year: 2010-2015
-email: "francisco.yira@outlook.com"
-highlight_name: true
-interests:
-- Machine Learning and AI
-- Causal Inference and Experimentation
-- Data Visualization, Dashboards and Reports
-- Automation
-- MLOps and Data Engineering
-
-#  organizations:
-# - name: Stanford University
-#   url: https://www.stanford.edu/
-role: Data Scientist
-social:
-- icon: twitter
-  icon_pack: fab
-  link: https://www.threads.net/@francisco_yira
-- icon: globe
-  icon_pack: fas
-  link: https://franciscoyira.com
-- icon: github
-  icon_pack: fab
-  link: https://github.com/franciscoyira
-- icon: linkedin
-  icon_pack: fab
-  link: https://www.linkedin.com/in/franciscoyira
-- icon: mastodon 
-  icon_pack: fab
-  link: https://techhub.social/@franciscoyira # Add this line
-superuser: true
-title: Francisco Yirá
----
 # Is this the primary user of the site?
 superuser: true
 # Display name
-- title: Ibrahim Maïga
-  highlight_name: true
+title: Ibrahim Maïga
+highlight_name: true
 # Full name (for SEO)
 first_name: Ibrahim
 last_name: Maïga
@@ -97,7 +47,7 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/ibrahim-ma%C3%AFga
-
+---
 
 # About Me
 <br>
