@@ -23,11 +23,11 @@ main:
   - name: Newsletter
     url: 'https://franciscoyir.com/subscribe/'
     weight: 60
-  - name: Download Resume as PDF
-    url: Ibrahim_Maïga_resume.pdf
-    weight: 70
-    icon_pack: fas
-    icon: download
+  #- name: Download Resume as PDF
+  #  url: Ibrahim_Maïga_resume.pdf
+  #  weight: 70
+  #  icon_pack: fas
+  #  icon: download
 
 
 # Link to a PDF of your resume/CV from the menu.
