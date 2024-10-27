@@ -66,10 +66,17 @@ social:
 ## **About Me**
 <br>
 Ibrahim Maïga is a dynamic data specialist with a background in mathematics and finance. His career showcases a blend of technical skills and interpersonal abilities, illustrated through various professional roles and successful projects. He demonstrates remarkable ability in crafting original AI solutions such as Flypto, an AI-powered cryptocurrency trading bot. Passionate about using data to create positive changes, he continues to build on his experience with a clear focus on innovation and efficiency, aiming to uniquely impact data-driven organizations.
-<br>
-{{< icon name="download" pack="fas" >}} {{< staticref "Ibrahim_Maïga_resume.pdf" "newtab" >}}Download CV{{< /staticref >}}
+<br><br>
+<span class="btn btn-outline-primary btn-page-header btn-download">
+ {{< icon name="download" pack="fas" >}} {{< staticref "Ibrahim_Maïga_resume.pdf" "newtab" >}}Download CV{{< /staticref >}}
+</span>
 
-
+<span class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] dark:from-primary-800 dark:to-primary-900">
+  Pandas
+  <svg style="height:1em" class="inline-flex h-6 w-6 pl-2" viewBox="0 0 24 24">
+    <path fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.5 6H5.25A2.25 2.25.0 003 8.25v10.5A2.25 2.25.0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"></path>
+  </svg>
+</span>
 
 
 
