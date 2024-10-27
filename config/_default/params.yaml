@@ -6,9 +6,9 @@
 # Appearance
 
 appearance:
-  theme_day: native
-  theme_night: native
-  font: native
+  theme_day: rose
+  theme_night: rose
+  font: rose
   font_size: m
 
 # SEO
