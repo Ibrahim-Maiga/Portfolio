@@ -6,9 +6,9 @@
 # Appearance
 
 appearance:
-  theme_day: mr_robot
-  theme_night: mr_robot
-  font: mr_robot
+  theme_day: native
+  theme_night: native
+  font: native
   font_size: m
 
 # SEO
