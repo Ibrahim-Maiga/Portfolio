@@ -58,7 +58,7 @@ social:
   link: https://www.linkedin.com/in/ibrahim-ma%C3%AFga
 ---
 
-# ***About Me***
+# **About Me**
 <br>
 Ibrahim Maïga is a dynamic data specialist with a background in mathematics and finance. His career showcases a blend of technical skills and interpersonal abilities, illustrated through various professional roles and successful projects. He demonstrates remarkable ability in crafting original AI solutions such as Flypto, an AI-powered cryptocurrency trading bot. Passionate about using data to create positive changes, he continues to build on his experience with a clear focus on innovation and efficiency, aiming to uniquely impact data-driven organizations.
 <br><br>
