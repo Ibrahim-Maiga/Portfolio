@@ -1,1 +1,20 @@
+a {
+  background-image: linear-gradient(to right, var(--tw-gradient-from) 0%, var(--tw-gradient-to) 100%);
+  background-size: 0px 10px;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s;
+}
+
+a:hover {
+  background-size: 100% 3px;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  a {
+    --tw-gradient-from: #1f2937; /* dark primary color */
+    --tw-gradient-to: #4b5563;
+  }
+}
 
