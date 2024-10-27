@@ -47,8 +47,6 @@ experience:
         * Ethics & Law For Data Science: Focused on ethical considerations and legal responsibilities in AI, covering topics like data privacy, informed consent, accountability, and bias mitigation, preparing students to handle sensitive data responsibly and adhere to legal frameworks.
         * Full Stack Data Science System: Developed end-to-end AI projects integrating model building, optimization, and deployment with data management showcasing the culmination of skills learned across the program.<br><br>
   
- 
-
         **Relevant Documents** (access available [upon request](#contact)):
         * [Unofficial Transcript](https://drive.proton.me/urls/RHCMZAZNCC#9GRzNmo4W8Uv).<br><br>
 
@@ -63,7 +61,7 @@ experience:
     description: |2-
         An interdisciplinary degree combining advanced mathematical and statistical methods with economic theory to model and analyze financial systems. This program emphasized problem-solving and data-driven insights, covering topics such as market fluctuations, futures pricing, and data mining. Graduates are well-prepared to apply quantitative analysis across finance, business, and sciences.
 
-    **Major Courses:**
+        **Major Courses:**
         * Financial Mathematics: Studied advanced financial mathematics, covering martingales, stopping times, the Snell envelope, interest rate calculations, discrete time option pricing, and the Black-Scholes formula. Applied multivariate normal distribution concepts to Markowitz portfolio theory.
         * Bayesian Statistics: Gained an understanding of Bayesian inference, utilizing Markov Chain Monte Carlo (MCMC) methods in R for statistical computation, balancing both theoretical and practical applications.
         * Categorical Data Analysis: Analyzed multi-way contingency tables and categorical data using logistic and log-linear models. Focused on study design, risk and association measures, and statistical software applications in categorical data analysis.
