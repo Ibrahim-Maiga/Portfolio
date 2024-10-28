@@ -56,21 +56,12 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/ibrahim-ma%C3%AFga
-
+#  <br><br>
+#<span class="btn btn-outline-primary btn-page-header btn-download">
+# {{< icon name="download" pack="fas" >}} {{< staticref "Ibrahim_Maïga_resume.pdf" "newtab" >}}Download CV{{< /staticref >}}
+#</span>
 ---
-</br ></br > Welcome! I’m a psychologist and lifelong video game player researching how gaming affects mental health. This includes both positive impacts such as stress relief, and negative impacts such as neglecting personal relationships. To study this, I work with data from companies such as Nintendo, Xbox, and Unity.
-
-A broader goal of my work is to make psychological research on games more trustworthy via the [open science](https://nickballou.com/openscience) movement.
-
-I'm a postdoc at the [Oxford Internet Institute](https://www.oii.ox.ac.uk/people/profiles/nick-ballou/), having recently finished my PhD at Queen Mary University of London.<sup><abbr title="Supervised in the former by the inimitable Andy Przybylski, and in the latter by the wonderful team of Sebastian Deterding, David Zendle, and Laurissa Tokarchuk."><small><small><i class="fas fa-heart"></i></small></small></abbr></sup> 
-
-<!---
-In my PhD, I'm supervised by a delightful team: [Prof Sebastian Deterding](https://codingconduct.cc/Publications), [Dr David Zendle](https://pure.york.ac.uk/portal/en/researchers/david-zendle(127e6f28-98bb-4662-a759-369391c609e6)/publications.html), and [Dr Laurissa Tokarchuk](http://www.eecs.qmul.ac.uk/~laurissa/Laurissas_Pages/About_Me.html).
-
-In my postdoc, I work with [Prof Andy Przybylski](https://www.oii.ox.ac.uk/people/profiles/andrew-przybylski/) to understand how video games affect mental health.
--->
-
-Please feel free to <a href="#contact">contact me</a> about anything related to video games, mental health, disordered play, or similar topics---or perhaps if you just need a recommendation for your next game.
+Ibrahim Maïga is a dynamic data specialist with a background in mathematics and finance. His career showcases a blend of technical skills and interpersonal abilities, illustrated through various professional roles and successful projects. He demonstrates remarkable ability in crafting original AI solutions such as Flypto, an AI-powered cryptocurrency trading bot. Passionate about using data to create positive changes, he continues to build on his experience with a clear focus on innovation and efficiency, aiming to uniquely impact data-driven organizations.
 
 
 
