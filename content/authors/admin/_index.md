@@ -56,7 +56,7 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/ibrahim-ma%C3%AFga
-  <br><br>
+#  <br><br>
 #<span class="btn btn-outline-primary btn-page-header btn-download">
 # {{< icon name="download" pack="fas" >}} {{< staticref "Ibrahim_Maïga_resume.pdf" "newtab" >}}Download CV{{< /staticref >}}
 #</span>
