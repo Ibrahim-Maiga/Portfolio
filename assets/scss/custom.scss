@@ -33,17 +33,20 @@
 	  left: -1000px;
 	  -webkit-animation: slide-right 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
 	  animation: slide-right 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+		
+	.article-style .main-content {
+	    animation: slide-right 2s cubic-bezier(0.87, 0, 0.13, 1) forwards !important;
+	}
+	
+	.article-style .main-content .btn {
+	    background-color: #2962ff !important;
+	    color: #ffffff !important;
+	}
+	
+	.article-style .main-content .btn:hover {
+	    transform: scale(1.1) !important;
 	}
 
-	.article-style .main-content h2, 
-        .article-style .main-content p, 
-        .article-style .main-content span {
-          opacity: 0 !important ;
-          position: relative !important ;
-          left: -1000px !important ;
-          -webkit-animation: slide-right 2s cubic-bezier(0.87, 0, 0.13, 1) forwards !important ;
-          animation: slide-right 2s cubic-bezier(0.87, 0, 0.13, 1) forwards !important ;
-        }
 	
 	@-webkit-keyframes slide-right {
 	  100% { left: 0; opacity: 1; }
