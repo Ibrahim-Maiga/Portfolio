@@ -79,7 +79,7 @@
               animation-delay: 1.4s;
     }
     
-    .fa-linkedin {
+    .fa-github {
       opacity: 0;
       -webkit-animation: grow 2s ease forwards;
               animation: grow 2s ease forwards;
@@ -87,7 +87,7 @@
               animation-delay: 1.5s;
     }
     
-    .fa-github {
+    .fa-linkedin {
       opacity: 0;
       -webkit-animation: grow 2s ease forwards;
               animation: grow 2s ease forwards;
@@ -107,8 +107,8 @@
 
 /* buttons */
 .btn-toolbar .btn.active  {
-  -webkit-box-shadow: 3px 3px 0 0 white !important;
-          box-shadow: 3px 3px 0 0 white !important;
+  -webkit-box-shadow: 3px 3px 0 0 grey !important;
+          box-shadow: 3px 3px 0 0 grey !important;
 }
 
 .btn-links .btn {
