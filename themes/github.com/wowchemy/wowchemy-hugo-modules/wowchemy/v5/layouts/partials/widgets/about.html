@@ -92,7 +92,7 @@
     {{ if and $page.Params.widget $page.Title }}<h1>{{ $page.Title | markdownify | emojify }}</h1>{{ end }}
 
     <div class="article-style">
-      <div class="main-content">{{ $person_page.Content }}</div>
+      {{ $person_page.Content }}
     </div>
 
     <div class="row">
