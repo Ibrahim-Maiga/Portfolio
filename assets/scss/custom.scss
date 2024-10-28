@@ -1,4 +1,46 @@
 /* My Custom Animations */
+@keyframes slide-from-right {
+  0% {
+    transform: translateX(150%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fa-info-circle:before {
+content: "\f501\00a0"
+}
+
+.btn-download::before {
+  font-family: fontAwesome;
+  content: "\f019\00a0";
+}  
+
+.btn-copy-code::before {
+  font-family: fontAwesome;
+  content: "\f0c5\00a0";
+}
+
+.main-content {
+  animation: slide-from-right 1.5s cubic-bezier(0.4, 0, 0.13, 1) forwards;
+  animation-delay: 0ms;
+}
+
+.btn-download {
+  opacity: 0;
+  animation: fade-in 2s forwards;
+  animation-delay: 1.4s;
+}
 
 #profile {
 	.avatar-circle {
@@ -98,6 +140,16 @@
 .btn-toolbar .btn.active  {
   -webkit-box-shadow: 1.5px 1.5px 0 0 grey !important;
           box-shadow: 1.5px 1.5px 0 0 grey !important;
+}
+
+.btn-links .btn {
+  padding: .3rem;
+}
+
+.btn-links .btn:hover {
+  padding: .3rem;
+  color: $sta-primary-dark;
+  border-color: $sta-primary-dark;
 }
 
 /* link styling */
