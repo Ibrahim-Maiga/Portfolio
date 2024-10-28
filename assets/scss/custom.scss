@@ -1,4 +1,4 @@
-/* Animation */
+/* My Custom Animations */
 
 #profile {
 	.avatar-circle {
@@ -35,7 +35,7 @@
 	  animation: slide-right 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
 	}
 
-	.cta-group .btn {
+	.btn.btn-primary.px-3.py-3 {
 	  opacity: 0;
 	  position: relative;
 	  left: -1000px;
