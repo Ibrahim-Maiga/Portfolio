@@ -15,21 +15,15 @@
   animation-delay: 0ms;
 }
 
-.btn-download {
-  opacity: 0;
-  animation: fade-in 2s forwards;
-  animation-delay: 1.4s;
-}
-
 #profile {
   .avatar-circle {
     clip-path: circle(50%); /* Keeps the avatar circular */
-    border: 3px solid grey; /* Adds a grey frame */
+    border: 4px solid grey; /* Adds a grey frame */
     position: relative;
     opacity: 0; /* Start hidden for animation */
-    right: -300px;
-    -webkit-animation: slide-left 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
-    animation: slide-left 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+    right: -200px;
+    -webkit-animation: slide-right 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+    animation: slide-right 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
   }
 
   .avatar-circle::after {
