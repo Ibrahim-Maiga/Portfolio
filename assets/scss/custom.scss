@@ -10,92 +10,87 @@
 
 /* intro animation */
 
-.main-content {
-  animation: slide-from-right 1.5s cubic-bezier(0.4, 0, 0.13, 1) forwards;
-  animation-delay: 0ms;
-}
-
 #profile {
-.main-content {
-  animation: slide-from-right 1.5s cubic-bezier(0.4, 0, 0.13, 1) forwards;
-  animation-delay: 0ms;
-}
-
-.avatar-circle {
-  clip-path: circle(50%); /* Keeps the avatar circular */
-  border: 4px solid grey; /* Adds a grey frame */
-  position: relative;
-  opacity: 0; /* Start hidden for animation */
-  left: -300px; /* Start from the left side */
-  -webkit-animation: slide-right 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
-  animation: slide-right 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
-}
-
-.portrait-title {
-  opacity: 0;
-  position: relative;
-  left: -1000px;
-  -webkit-animation: slide-right 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
-  animation: slide-right 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
-}
-
-@-webkit-keyframes slide-right {
-  100% { left: 0; opacity: 1; }
-}
-
-@keyframes slide-right {
-  100% { left: 0; opacity: 1; }
-}
-
-@-webkit-keyframes slide-left {
-  100% { right: 0; opacity: 1; }
-}
-
-@keyframes slide-left {
-  100% { right: 0; opacity: 1; }
-}
-
-.network-icon {
-  margin-top: 15px;
-  padding: 5px;
-}
-
-.social-icon .fa-facebook,
-.network-icon .fa-globe,
-.network-icon .fa-github,
-.network-icon .fa-linkedin {
-  opacity: 0;
-  -webkit-animation: grow 2s ease forwards;
-  animation: grow 2s ease forwards;
-}
-
-.social-icon .fa-facebook {
-  -webkit-animation-delay: 1.3s;
-  animation-delay: 1.3s;
-}
-
-.network-icon .fa-globe {
-  -webkit-animation-delay: 1.4s;
-  animation-delay: 1.4s;
-}
-
-.network-icon .fa-github {
-  -webkit-animation-delay: 1.5s;
-  animation-delay: 1.5s;
-}
-
-.network-icon .fa-linkedin {
-  -webkit-animation-delay: 1.6s;
-  animation-delay: 1.6s;
-}
-
-@-webkit-keyframes grow {
-  100% { opacity: 1; }
-}
-
-@keyframes grow {
-  100% { opacity: 1; }
-}
+	.main-content {
+	  animation: slide-from-right 1.5s cubic-bezier(0.4, 0, 0.13, 1) forwards;
+	  animation-delay: 0ms;
+	}
+	
+	.avatar-circle {
+	  clip-path: circle(50%); /* Keeps the avatar circular */
+	  border: 4px solid grey; /* Adds a grey frame */
+	  position: relative;
+	  opacity: 0; /* Start hidden for animation */
+	  left: -300px; /* Start from the left side */
+	  -webkit-animation: slide-right 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+	  animation: slide-right 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+	}
+	
+	.portrait-title {
+	  opacity: 0;
+	  position: relative;
+	  left: -1000px;
+	  -webkit-animation: slide-right 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+	  animation: slide-right 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+	}
+	
+	@-webkit-keyframes slide-right {
+	  100% { left: 0; opacity: 1; }
+	}
+	
+	@keyframes slide-right {
+	  100% { left: 0; opacity: 1; }
+	}
+	
+	@-webkit-keyframes slide-left {
+	  100% { right: 0; opacity: 1; }
+	}
+	
+	@keyframes slide-left {
+	  100% { right: 0; opacity: 1; }
+	}
+	
+	.network-icon {
+	  margin-top: 15px;
+	  padding: 5px;
+	}
+	
+	.network-icon .fa-facebook,
+	.network-icon .fa-globe,
+	.network-icon .fa-github,
+	.network-icon .fa-linkedin {
+	  opacity: 0;
+	  -webkit-animation: grow 2s ease forwards;
+	  animation: grow 2s ease forwards;
+	}
+	
+	.network-icon .fa-facebook {
+	  -webkit-animation-delay: 1.3s;
+	  animation-delay: 1.3s;
+	}
+	
+	.network-icon .fa-globe {
+	  -webkit-animation-delay: 1.4s;
+	  animation-delay: 1.4s;
+	}
+	
+	.network-icon .fa-github {
+	  -webkit-animation-delay: 1.5s;
+	  animation-delay: 1.5s;
+	}
+	
+	.network-icon .fa-linkedin {
+	  -webkit-animation-delay: 1.6s;
+	  animation-delay: 1.6s;
+	}
+	
+	@-webkit-keyframes grow {
+	  100% { opacity: 1; }
+	}
+	
+	@keyframes grow {
+	  100% { opacity: 1; }
+	}
 }
 
 /* buttons */
@@ -104,155 +99,3 @@
           box-shadow: 3px 3px 0 0 grey !important;
 }
 
-.btn-links .btn {
-  padding: .3rem;
-}
-
-.btn-links .btn:hover {
-  padding: .3rem;
-  color: $sta-primary-dark;
-  border-color: $sta-primary-dark;
-}
-
-/* link styling */
-.card-text p a, .powered-by a {
-  text-decoration: none;
-}
-
-
-/* awards and experience cards */
-.card.experience.course.card-title {
-  font-size: 1rem;
-}
-
-.card-subtitle.my-0.article-metadata,
-.card .text-muted.exp-meta {
-  font-size: .8rem;
-  letter-spacing: 0 !important;
-}
-
-.course .card-body .card-text,
-.experience .card-body .card-text {
-  padding: .8rem 0.5rem .8rem 0 !important;
-}
-
-/* scrolling animation */
-.mouse {
-  width: 150px;
-  
-}
-
-.mouse-icon {
-   width: 25px;
-   height: 33px;
-   border: 3px solid white;
-   border-radius: 15px;
-   cursor: pointer;
-   display: inline-block;
-   text-align: center;
-}
-
-.mouse-wheel {
-  height: 6px;
-  margin: 3px auto 0;
-  display: block;
-  width: 3px;
-  background-color: white;
-  border-radius: 50%;
-  -webkit-animation: 1.6s ease infinite wheel-up-down;
-  -moz-animation: 1.6s ease infinite wheel-up-down;
-  animation: 1.6s ease infinite wheel-up-down;
-}
-
-//add images to experience cards
-.flex-w-experience-image-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.flex-w-experience-text {
-  display: flex;
-  flex-direction: column;
-}
-.experience-image {
-  max-width: 60px;
-  margin-right: 10px;
-}
-
-@-webkit-keyframes wheel-up-down {
-	0% {
-	    margin-top: 2px;
-	    opacity: 0;
-	}
-	30% {
-	    opacity: 1;
-	}
-	100% {
-	    margin-top: 10px;
-	    opacity: 0;
-	}
-}
-@-moz-keyframes wheel-up-down {
-	0% {
-	    margin-top: 2px;
-	    opacity: 0;
-	}
-	30% {
-	    opacity: 1;
-	}
-	100% {
-	    margin-top: 10px;
-	    opacity: 0;
-	}
-}
-@keyframes wheel-up-down {
-	0% {
-	    margin-top: 2px;
-	    opacity: 0;
-	}
-	30% {
-	    opacity: 1;
-	}
-	100% {
-	    margin-top: 10px;
-	    opacity: 0;
-	}
-}
-
-//custom css for awards
-#accomplishments {
-  .margin-top {
-    margin-top: 20px;
-  }
-  .vertical-center {
-    justify-content: center;
-  }
-  .card-title {
-    font-size: 1.4rem;
-  }
-  .card-subtitle {
-    font-size: 1.2rem;
-  }
-  .card {
-
-    .init-hidden {
-        p {
-          max-height: 0;
-          transition: max-height 1s ease-out;
-          overflow: hidden;
-          margin-bottom: 0 !important;
-        }
-        
-        &.card-text {
-          padding: 0 !important;
-        }
-      }
-    
-    &:hover {
-    .init-hidden p {
-      max-height: 1000px;
-      transition: max-height 1s ease-in;
-    }
-  }
-}
-}
