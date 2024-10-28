@@ -18,25 +18,26 @@
 #profile {
   .avatar-circle {
     clip-path: circle(50%); /* Keeps the avatar circular */
-    border: 4px solid grey; /* Adds a grey frame */
+    border: 9px solid grey; /* Adds a grey frame */
     position: relative;
     opacity: 0; /* Start hidden for animation */
-    right: -200px;
-    -webkit-animation: slide-right 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
-    animation: slide-right 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+    right: -150px;
+    -webkit-animation: slide-left 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+    animation: slide-left 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
   }
 
   .avatar-circle::after {
     content: "👋"; /* Emoji you want to display */
-    font-size: 1.2rem; /* Adjust emoji size as needed */
+    font-size: 1.5rem; /* Adjust emoji size as needed */
     position: absolute;
-    bottom: 5px;
-    right: 5px;
+    bottom: -5px; /* Adjust to make sure it’s on the frame */
+    right: -5px; /* Adjust to make sure it’s on the frame */
     background-color: white;
+    border: 2px solid grey; /* Match the avatar frame */
     border-radius: 50%;
-    padding: 2px; /* Add padding to separate the emoji from the frame */
+    padding: 3px; /* Add padding for better spacing */
+    z-index: 2; /* Ensure it appears above the avatar */
   }
-
   .portrait-title {
     opacity: 0;
     position: relative;
