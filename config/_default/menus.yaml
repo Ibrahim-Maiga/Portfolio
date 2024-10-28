@@ -18,10 +18,10 @@ main:
     weight: 65
     icon: envelope
   - name: Blog
-    url: 'https://franciscoyir.com'
+    url: 'https://franciscoyira.com'
     weight: 50
   - name: Newsletter
-    url: 'https://franciscoyir.com/subscribe/'
+    url: 'https://franciscoyira.com/subscribe/'
     weight: 60
   #- name: Download Resume as PDF
   #  url: Ibrahim_Maïga_resume.pdf
