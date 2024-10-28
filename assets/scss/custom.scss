@@ -35,7 +35,7 @@
 	  animation: slide-right 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
 	}
 
-	.about-me {
+	.main-content {
 	  opacity: 0;
 	  position: relative;
 	  left: -1000px;
@@ -43,20 +43,6 @@
 	  animation: slide-right 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
 	}
 
-	.col-md-5 {
-	  opacity: 0;
-	  position: relative;
-	  left: -1000px;
-	  -webkit-animation: slide-right 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
-	  animation: slide-right 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
-	}
-
-	.section-subheading {
-	  opacity: 0;
-	  position: relative;
-	  left: -1000px;
-	  -webkit-animation: slide-right 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
-	  animation: slide-right 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
 	}
 	
 	@-webkit-keyframes slide-right {
