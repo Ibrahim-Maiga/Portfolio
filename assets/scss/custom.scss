@@ -101,6 +101,9 @@
 }
 
 .btn-outline-primary {
+    border: 2px solid #1565c0; /* Blue border */
+    border-radius: 50%;        /* Circular shape */
+    padding: 10px 20px;        /* Adjust padding for circle size */
     background-color: transparent; /* Transparent background */
     color: #1565c0;            /* Blue text color */
     transition: background-color 0.3s, color 0.3s;
