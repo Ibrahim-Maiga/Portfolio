@@ -23,27 +23,28 @@
 
 #profile {
   .avatar-circle {
-    border-radius: 50%; /* Keeps avatar in a circular shape */
+    border-radius: 50%; /* Circular shape */
     border: 5px solid grey; /* Grey frame */
-    width: 150px; /* Set the width */
-    height: 150px; /* Set the height */
-    overflow: hidden; /* Ensure circle shape */
-    position: relative;
-    opacity: 1; /* Make the avatar visible */
+    width: 200px; /* Set width of avatar */
+    height: 200px; /* Set height of avatar */
+    overflow: hidden; /* Ensure circular shape */
+    position: relative; /* Required for positioning emoji */
+    opacity: 1; /* Avatar is visible */
     -webkit-animation: slide-left 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
     animation: slide-left 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
   }
 
-  /* Add emoji overlay */
-  .avatar-circle::before {
-    content: "🎉"; /* Choose any emoji */
+  /* Emoji overlay positioned at bottom-right, partially over border */
+  .avatar-circle::after {
+    content: "🎉"; /* Emoji icon */
     position: absolute;
-    bottom: 10px; /* Adjust positioning */
-    right: 10px;
-    font-size: 24px; /* Size of emoji */
+    bottom: -5px; /* Position over the border */
+    right: -5px; /* Adjusted to place over border */
+    font-size: 24px; /* Size of the emoji */
     background-color: white; /* Background for contrast */
-    border-radius: 50%;
-    padding: 2px;
+    border-radius: 50%; /* Make it circular */
+    padding: 2px; /* Padding around the emoji */
+    border: 2px solid grey; /* Optional: small border around the emoji */
   }
 
   .portrait-title {
