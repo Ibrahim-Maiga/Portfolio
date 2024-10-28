@@ -16,24 +16,31 @@
 }
 
 .btn-download {
-  opacity: 1;
+  opacity: 0;
   animation: fade-in 2s forwards;
   animation-delay: 1.4s;
 }
 
-
 #profile {
   
-  .avatar-circle {
+  .avatar-square {
   -webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
   clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
   opacity: 0;
   position: relative;
   right: -300px;
-  -webkit-animation: slide-felt 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+  -webkit-animation: slide-left 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
   animation: slide-left 2s forwards cubic-bezier(0.87, 0, 0.13, 1) forwards;
   }
-	
+
+  .portrait-title {
+    opacity: 0;
+    position: relative;
+    left: -1000px;
+    -webkit-animation: slide-right 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+    animation: slide-right 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+    
+  }
   
   @-webkit-keyframes slide-right {
       100% { left: 0; opacity: 1}
