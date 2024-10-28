@@ -11,7 +11,23 @@
 	  animation: slide-right 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
 	}
 	
-	.col-lg-4 {
+	.portrait-title {
+	  opacity: 0;
+	  position: relative;
+	  left: -1000px;
+	  -webkit-animation: slide-right 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+	  animation: slide-right 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+	}
+
+	.location {
+	  opacity: 0;
+	  position: relative;
+	  left: -1000px;
+	  -webkit-animation: slide-right 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+	  animation: slide-right 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+	}
+
+	.network-icon {
 	  opacity: 0;
 	  position: relative;
 	  left: -1000px;
