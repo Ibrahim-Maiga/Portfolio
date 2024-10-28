@@ -34,17 +34,19 @@
     animation: slide-left 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
   }
 
-  /* Emoji overlay positioned at bottom-right, partially over border */
+   /* Emoji overlay positioned at bottom-right, partially over border */
   .avatar-circle::after {
     content: "🎉"; /* Emoji icon */
     position: absolute;
-    bottom: -5px; /* Position over the border */
-    right: -5px; /* Adjusted to place over border */
+    display: inline-block; /* Ensure visibility */
+    bottom: -10px; /* Position over the border */
+    right: -10px; /* Adjusted to place over border */
     font-size: 24px; /* Size of the emoji */
     background-color: white; /* Background for contrast */
     border-radius: 50%; /* Make it circular */
     padding: 2px; /* Padding around the emoji */
-    border: 2px solid grey; /* Optional: small border around the emoji */
+    border: 2px solid grey; /* Small border around the emoji */
+    z-index: 10; /* Make sure it’s above the avatar */
   }
 
   .portrait-title {
