@@ -16,31 +16,16 @@
 }
 
 #profile {
-  position: relative;
-  width: 150px; /* Adjust as necessary */
-
   .avatar-circle {
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
-    border: 5px solid grey; /* Adds the grey frame */
+    clip-path: circle(50%); /* Keeps the avatar circular */
+    border: 5px solid grey; /* Adds a grey frame */
     position: relative;
-    right: -300px;
+    opacity: 0; /* Start hidden for animation */
+    right: -600px;
     -webkit-animation: slide-left 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
     animation: slide-left 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
   }
 
-  .emoji {
-    content: "🎉"; /* Choose your emoji */
-    position: absolute;
-    bottom: 5px; /* Adjust position if necessary */
-    right: 5px; /* Adjust position if necessary */
-    font-size: 1.5rem; /* Adjust size */
-    background-color: white; /* Optional: Adds background to emoji */
-    border-radius: 50%;
-    padding: 2px;
-    border: 2px solid grey;
-  }
   .portrait-title {
     opacity: 0;
     position: relative;
