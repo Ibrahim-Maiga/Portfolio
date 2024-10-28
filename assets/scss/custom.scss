@@ -100,6 +100,12 @@
           box-shadow: 0 1.5px 0 0 white;
 }
 
+.btn-outline-primary {
+    background-color: transparent; /* Transparent background */
+    color: #1565c0;            /* Blue text color */
+    transition: background-color 0.3s, color 0.3s;
+}
+
 
 .btn-outline-primary:hover {
     background-color: #1565c0; /* Blue background on hover */
