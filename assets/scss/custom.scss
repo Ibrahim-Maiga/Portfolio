@@ -22,16 +22,30 @@
 }
 
 #profile {
-  
-  .avatar-square {
-  -webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
-  clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
-  opacity: 0;
-  position: relative;
-  right: -300px;
-  -webkit-animation: slide-left 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
-  animation: slide-left 2s forwards cubic-bezier(0.87, 0, 0.13, 1) forwards;
+  .avatar-circle {
+    border-radius: 50%; /* Keeps avatar in a circular shape */
+    border: 5px solid grey; /* Grey frame */
+    width: 150px; /* Set the width */
+    height: 150px; /* Set the height */
+    overflow: hidden; /* Ensure circle shape */
+    position: relative;
+    opacity: 1; /* Make the avatar visible */
+    -webkit-animation: slide-left 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+    animation: slide-left 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
   }
+
+  /* Add emoji overlay */
+  .avatar-circle::before {
+    content: "🎉"; /* Choose any emoji */
+    position: absolute;
+    bottom: 10px; /* Adjust positioning */
+    right: 10px;
+    font-size: 24px; /* Size of emoji */
+    background-color: white; /* Background for contrast */
+    border-radius: 50%;
+    padding: 2px;
+  }
+}
 
   .portrait-title {
     opacity: 0;
