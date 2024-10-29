@@ -93,6 +93,9 @@
     border: 1px solid #1565c0; /* Border color */
     transition: background-color 1s ease, color 1s ease; /* Smooth color transition */
 }
+.btn-download:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
 
 .btn-toolbar .btn.active {
     box-shadow: 0 1.5px 0 0 white;
