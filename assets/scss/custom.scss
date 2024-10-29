@@ -1,6 +1,6 @@
 /* My Custom Animations */
 
-/* Slide-left animation */
+/* slideLeft and slideRight Animations */
 @keyframes slideLeft {
     from {
         transform: translateX(800px); /* Start 800px to the right */
@@ -12,12 +12,6 @@
     }
 }
 
-.slide-left {
-    animation: slideLeft 2s ease-out forwards; /* Applies to .slide-left class */
-    opacity: 0; /* Ensure elements are initially invisible */
-}
-
-/* Slide-right animation for profile section */
 @keyframes slideRight {
     from {
         left: -1000px; /* Start off-screen to the left */
@@ -29,8 +23,17 @@
     }
 }
 
+@keyframes grow {
+    100% { opacity: 1; }
+
+/* General Animations */
+.slide-left {
+    animation: slideLeft 2s ease-out forwards; /* Applies to .slide-left class */
+    opacity: 0; /* Ensure elements are initially invisible */
+}
+
 /* Avatar, Title, Location, and Social Icons with Staggered Slide Animation */
-#profile .avatar-circle {
+.avatar-circle {
     clip-path: circle(50%); /* Keeps the avatar circular */
     border: 4px solid grey; /* Adds a grey frame */
     position: relative;
@@ -74,10 +77,6 @@
 #profile .network-icon .fa-github { animation-delay: 1.6s; }
 #profile .network-icon .fa-linkedin { animation-delay: 1.8s; }
 
-@keyframes grow {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
 
 /* Button Styles */
 .btn-toolbar .btn.active {
