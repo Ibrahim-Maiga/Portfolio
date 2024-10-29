@@ -142,13 +142,13 @@
 .card-simple:hover {
     background-color: rgba(255, 255, 255, 0.2) !important; /* Lighten on hover for visibility */
 }
-.btn-links {
+.btn-sm {
     background-color: transparent;
     animation: grow 2s ease forwards; /* Icon fade-in animation */
     color: #1565c0;
     transition: background-color 1s, color 1s;
 }
-.btn-links:hover {
+.btn-sm:hover {
     background-color: #1565c0; /* Blue background on hover */
     color: #fff; /* White text on hover */
     transform: scale(1.1); /* Slightly grow button */
