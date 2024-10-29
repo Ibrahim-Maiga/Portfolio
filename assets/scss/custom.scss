@@ -120,6 +120,7 @@
 
 /* Button Styles */
 .btn-download {
+    animation: grow 2s ease forwards; /* Icon fade-in animation */
     transition: background-color 1.1s ease, color 1.1s ease, transform 0.3s ease; /* Smooth color and grow transition */
     margin-left: 0.2cm; /* Move button 0.2cm to the right */
 }
@@ -149,12 +150,10 @@
 }
 /* Add hover effect for better visibility */
 .card-simple:hover {
-    background-color: rgba(300, 300, 510, 0.2) !important; /* Lighten on hover for visibility */
+    background-color: rgba(300, 300, 710, 0.2) !important; /* Lighten on hover for visibility */
 }
 
 .btn-sm {
-    background-color: transparent;
-    color: #1565c0;
     transition: background-color 1s, color 1s;
 }
 .btn-sm:hover {
