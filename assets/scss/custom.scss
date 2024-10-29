@@ -4,7 +4,7 @@
 
 @keyframes slideLeft {
     from {
-        transform: translateX(50px); /* Start 50px to the right */
+        transform: translateX(500px); /* Start 50px to the right */
         opacity: 0; /* Start invisible */
     }
     to {
@@ -15,7 +15,7 @@
 
 /* Apply the slide-left animation to the class */
 .slide-left {
-    animation: slideLeft 0.5s ease-out forwards; /* Adjust duration as needed */
+    animation: slideLeft 5s ease-out forwards; /* Adjust duration as needed */
     opacity: 0; /* Ensure elements are initially invisible */
 }
 
