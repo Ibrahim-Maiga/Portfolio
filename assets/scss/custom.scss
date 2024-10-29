@@ -1,7 +1,7 @@
 /* My Custom Animations */
 
 .navbar-collapse {
-    margin-left: 3cm; 
+    margin-left: 2cm; 
 }
 .navbar-nav .nav-link {
   display: inline-block;
@@ -137,8 +137,6 @@
     transition: background-color 1s, color 1s;
 }
 .btn-outline-primary-circle:hover {
-    background-color: #1565c0; /* Blue background on hover */
-    color: #fff; /* White text on hover */
     transform: scale(1.1); /* Slightly grow button */
 }
 
@@ -150,7 +148,7 @@
 }
 /* Add hover effect for better visibility */
 .card-simple:hover {
-    background-color: rgba(200, 200, 8010, 0.2) !important; /* Lighten on hover for visibility */
+    background-color: rgba(200, 200, 10010, 0.2) !important; /* Lighten on hover for visibility */
 }
 
 .btn-sm {
