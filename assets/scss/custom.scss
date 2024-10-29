@@ -120,9 +120,6 @@
 
 /* Button Styles */
 .btn-download {
-    background-color: transparent; /* Initial transparent background */
-    color: #1565c0; /* Initial text color */
-    border: 1px solid #1565c0; /* Border color */
     transition: background-color 1.1s ease, color 1.1s ease, transform 0.3s ease; /* Smooth color and grow transition */
     animation: grow 2s ease forwards; /* Icon fade-in animation */
     margin-left: 0.2cm; /* Move button 0.2cm to the right */
@@ -170,5 +167,12 @@
     transform: scale(1.1); /* Slightly grow button */
 }
 
+.btn-outline-primary.btn-page-header {
+  transition: transform 0.2s ease, font-weight 0.2s ease;
+}
+.btn-outline-primary.btn-page-header:hover {
+  transform: scale(1.05); /* Grow effect */
+  font-weight: bold; /* Bold effect */
+}
 
 
