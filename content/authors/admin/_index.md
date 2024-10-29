@@ -5,8 +5,6 @@ superuser: true
 # Display name
 title: Ibrahim Maïga
 highlight_name: true
-status:
-  icon: ":smile:" # Use any emoji shortcode here
 
 # Full name (for SEO)
 first_name: Ibrahim
