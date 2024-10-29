@@ -145,12 +145,27 @@
 /* Make the background of project cards transparent */
 .card-simple {
     background-color: transparent !important; /* Ensure the background is transparent */
-    border: none !important; /* Remove any default borders */
+    border: 2px solid #bbdefb !important; /* Add blue border */
+    border-radius: 5px; /* Optional: gives the border a rounded edge */
+    transition: background-color 0.3s ease, border-color 0.3s ease;
 }
-/* Add hover effect for better visibility */
+
+/* Hover effect for better visibility */
 .card-simple:hover {
-    background-color: rgba(150, 150, 2510, 0.2) !important; /* Lighten on hover for visibility */
+    background-color: rgba(187, 222, 251, 0.2) !important; /* Light blue on hover for visibility */
 }
+/* Style the title link inside the card */
+.card-simple .section-subheading.article-title a {
+    color: #bbdefb !important; /* Make title text blue */
+    font-weight: bold; /* Optional: Makes the title stand out */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease;
+}
+/* Optional: Style title on hover for a more interactive effect */
+.card-simple .section-subheading.article-title a:hover {
+    color: #90caf9 !important; /* Slightly lighter blue on hover */
+}
+
 
 .btn-sm {
     transition: background-color 1s, color 1s;
