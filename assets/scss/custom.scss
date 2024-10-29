@@ -121,7 +121,6 @@
 /* Button Styles */
 .btn-download {
     transition: background-color 1.1s ease, color 1.1s ease, transform 0.3s ease; /* Smooth color and grow transition */
-    animation: grow 2s ease forwards; /* Icon fade-in animation */
     margin-left: 0.2cm; /* Move button 0.2cm to the right */
 }
 .btn-download:hover {
@@ -152,7 +151,7 @@
 }
 /* Add hover effect for better visibility */
 .card-simple:hover {
-    background-color: rgba(255, 255, 510, 0.2) !important; /* Lighten on hover for visibility */
+    background-color: rgba(100, 100, 510, 0.2) !important; /* Lighten on hover for visibility */
 }
 
 .btn-sm {
@@ -164,6 +163,7 @@
 .btn-sm:hover {
     background-color: #1565c0; /* Blue background on hover */
     color: #fff; /* White text on hover */
+    font-weight: bold; /* Make text bold */
     transform: scale(1.1); /* Slightly grow button */
 }
 
@@ -171,7 +171,7 @@
   transition: transform 0.2s ease, font-weight 0.2s ease;
 }
 .btn-outline-primary.btn-page-header:hover {
-  transform: scale(1.05); /* Grow effect */
+  transform: scale(1.1); /* Grow effect */
   font-weight: bold; /* Bold effect */
 }
 
