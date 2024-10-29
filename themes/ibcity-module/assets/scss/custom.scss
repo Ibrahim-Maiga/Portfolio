@@ -1,1 +1,36 @@
+.btn {
+    /* Your existing button styles */
+    color: white; /* Set text color to white for contrast */
+}
+
+.bg-gradient-to-r {
+    background-image: linear-gradient(to right, var(--color-start), var(--color-end));
+    transition: background-size 0.5s ease; /* Smooth transition */
+}
+
+.hover\:bg-\[length\:100%\_3px\]:hover {
+    background-size: 100% 3px; /* Adjust hover effect */
+}
+
+.group-hover\:bg-\[length\:100%\_10px\]:hover {
+    background-size: 100% 10px; /* Adjust group hover effect */
+}
+
+/* Define colors used in the gradient */
+.from-primary-200 {
+    --color-start: #3b82f6; /* Light blue color */
+}
+
+.to-primary-100 {
+    --color-end: #60a5fa; /* Slightly lighter blue color */
+}
+
+/* Dark mode colors */
+.dark\:from-primary-800 {
+    --color-start: #1e40af; /* Darker blue color */
+}
+
+.dark\:to-primary-900 {
+    --color-end: #1d4ed8; /* Even darker blue color */
+}
 // Override this file to add your own SCSS styling.
