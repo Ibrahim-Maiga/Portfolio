@@ -86,45 +86,49 @@
       </ul>
     </div>
   </div>
-  <div class="col-12 col-lg-8">
-
-    {{/* Only display widget title in explicit instances of about widget, not in author pages. */}}
-    {{ if and $page.Params.widget $page.Title }}<h1>{{ $page.Title | markdownify | emojify }}</h1>{{ end }}
-
-    <div class="article-style">
-      {{ $person_page.Content }}
+  <div class="col-12 col-lg-8 slide-left">
+    <div class="article-style slide-left">
+        <h2 id="about-me"><strong>About Me</strong></h2>
+        <br>
+        Ibrahim Maïga is a dynamic data specialist with a background in mathematics and finance...
+        <br><br>
+        <span class="btn btn-outline-primary btn-page-header btn-download slide-left">
+            <i class="fas fa-download pr-1 fa-fw"></i> <a href="/Ibrahim_Maïga_resume.pdf" target="_blank">Download CV</a>
+        </span>
     </div>
 
     <div class="row">
-
-      {{ with $person.interests }}
-      <div class="col-md-5">
-        <div class="section-subheading">{{ i18n "interests" | markdownify }}</div>
-        <ul class="ul-interests mb-0">
-          {{ range . }}
-          <li>{{ . | markdownify | emojify }}</li>
-          {{ end }}
-        </ul>
-      </div>
-      {{ end }}
-
-      {{ with $person.education }}
-      <div class="col-md-7">
-        <div class="section-subheading">{{ i18n "education" | markdownify }}</div>
-        <ul class="ul-edu fa-ul mb-0">
-          {{ range .courses }}
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
-              <p class="institution">{{ .institution }}</p>
-            </div>
-          </li>
-          {{ end }}
-        </ul>
-      </div>
-      {{ end }}
-
+        <div class="col-md-5 slide-left">
+            <div class="section-subheading">Interests</div>
+            <ul class="ul-interests mb-0 slide-left">
+                <li>Artificial Intelligence</li>
+                <li>Mathematics & Statistics</li>
+                <li>Finance & Econometrics</li>
+                <li>Data Science & Big Data Analytics</li>
+                <li>Data Visualization & Dashboarding</li>
+                <li>Process Automation</li>
+            </ul>
+        </div>
+        
+        <div class="col-md-7 slide-left">
+            <div class="section-subheading">Degrees</div>
+            <ul class="ul-edu fa-ul mb-0">
+                <li>
+                    <i class="fa-li fas fa-graduation-cap"></i>
+                    <div class="description">
+                        <p class="course slide-left">Post Graduate, Applied A.I. Solutions Development, 2024-2025</p>
+                        <p class="institution slide-left">George Brown College</p>
+                    </div>
+                </li>
+                <li>
+                    <i class="fa-li fas fa-graduation-cap"></i>
+                    <div class="description">
+                        <p class="course slide-left">Honours Bachelor of Science, Financial Mathematics and Economics, 2017-2021</p>
+                        <p class="institution slide-left">University of Ottawa</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
   </div>
 </div>
