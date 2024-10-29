@@ -59,7 +59,7 @@
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
     transform: translate(50%, 50%);
     opacity: 0;
-    animation: grow 1.5s ease-out 2s forwards;
+    animation: grow 1.5s ease-out 1.8s forwards;
 }
 
 #profile {
@@ -130,3 +130,16 @@
     color: #fff; /* White text on hover */
     transform: scale(1.1); /* Slightly grow button */
 }
+
+/* Make the background of project cards transparent */
+.project-card {
+    background-color: transparent !important; /* Ensure the background is transparent */
+    border: none; /* Remove any default borders if necessary */
+    box-shadow: none; /* Remove any default shadow if necessary */
+}
+
+/* Optional: Add hover effect for better visibility */
+.project-card:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Lighten on hover for visibility */
+}
+
