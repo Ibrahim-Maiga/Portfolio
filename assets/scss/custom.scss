@@ -47,11 +47,11 @@
 }
 
 #profile {
+ position: relative; /* Ensure the container is positioned relative */
  .portrait-title,
  .location,
  .network-icon {
     opacity: 0;
-    position: relative;
     animation: slideRight 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
  }
  .portrait-title {
@@ -83,11 +83,24 @@
  .network-icon .fa-globe { animation-delay: 1.3s; }
  .network-icon .fa-github { animation-delay: 1.5s; }
  .network-icon .fa-linkedin { animation-delay: 1.7s; }
+
+ .avatar {
+    border-radius: 50%; /* Ensure the avatar remains circular */
+    border: 4px solid grey; /* Optional: border around the avatar */
+ }
+ .emoji-overlay {
+    position: absolute;
+    bottom: -5px; /* Adjust as needed */
+    right: -5px; /* Adjust as needed */
+    font-size: 1.5em; /* Adjust emoji size */
+    background-color: white; /* Optional: background color */
+    border-radius: 50%; /* Circle background */
+    padding: 2px; /* Space around the emoji */
+ }
 }
 
 
 /* Button Styles */
-/* Download CV button */
 .btn-download {
     background-color: transparent; /* Initial transparent background */
     color: #1565c0; /* Initial text color */
@@ -111,5 +124,7 @@
     transition: background-color 1s, color 1s;
 }
 .btn-outline-primary-circle:hover {
+    background-color: #1565c0; /* Blue background on hover */
+    color: #fff; /* White text on hover */
     transform: scale(1.1); /* Slightly grow button */
 }
