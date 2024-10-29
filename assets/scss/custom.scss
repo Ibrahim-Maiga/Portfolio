@@ -5,17 +5,18 @@
 }
 .navbar-nav .nav-link {
   display: inline-block;
-  transition: transform 0.3s ease-in-out; /* Smooth animation */
+  transition: transform 0.3s ease-in-out, font-weight 0.3s ease-in-out; /* Smooth animation */
 }
-
 .navbar-nav .nav-link:hover {
   transform: scale(1.1); /* Slightly increase size */
+  font-weight: bold; /* Make text bold */
 }
 
 
 #about-me {
   color: grey;
 }
+
 
 /* slideLeft, slideRight and grow keyframes */
 @keyframes slideLeft {
@@ -54,7 +55,6 @@
 
 
 /* Avatar, Title, Location, and Social Icons with Staggered Slide Animation */
-/* Avatar, Title, Location, and Social Icons with Staggered Slide Animation */
 .avatar-circle {
     clip-path: circle(50%);
     border: 4px solid grey;
@@ -62,9 +62,8 @@
     opacity: 0;
     animation: slideRight 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
 }
-
 /* Emoji overlay positioned over the bottom-right corner of the avatar */
-.emoji-overlay {
+.emoji-overlay {  
     position: absolute;
     bottom: 295px;
     right: 85px;
@@ -101,6 +100,7 @@
     animation-delay: 0.3s;
  }
 
+    
  /* Network Icons with Hover Effect */
  .network-icon i {
     opacity: 0;
@@ -147,6 +147,7 @@
     transform: scale(1.1); /* Slightly grow button */
 }
 
+
 /* Make the background of project cards transparent */
 .card-simple {
     background-color: transparent !important; /* Ensure the background is transparent */
@@ -156,6 +157,7 @@
 .card-simple:hover {
     background-color: rgba(255, 255, 510, 0.2) !important; /* Lighten on hover for visibility */
 }
+
 .btn-sm {
     background-color: transparent;
     animation: grow 2s ease forwards; /* Icon fade-in animation */
