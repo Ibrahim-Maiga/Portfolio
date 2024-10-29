@@ -150,15 +150,13 @@
 }
 /* Add hover effect for better visibility */
 .card-simple:hover {
-    background-color: rgba(300, 300, 1010, 0.2) !important; /* Lighten on hover for visibility */
+    background-color: rgba(200, 200, 8010, 0.2) !important; /* Lighten on hover for visibility */
 }
 
 .btn-sm {
     transition: background-color 1s, color 1s;
 }
 .btn-sm:hover {
-    background-color: #1565c0; /* Blue background on hover */
-    color: #fff; /* White text on hover */
     font-weight: bold; /* Make text bold */
     transform: scale(1.1); /* Slightly grow button */
 }
