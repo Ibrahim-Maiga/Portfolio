@@ -132,7 +132,6 @@
 }
 
 .btn-outline-primary-circle {
-    background-color: transparent;
     color: #1565c0;
     transition: background-color 1s, color 1s;
 }
@@ -150,7 +149,7 @@
 }
 /* Add hover effect for better visibility */
 .card-simple:hover {
-    background-color: rgba(100, 300, 510, 0.2) !important; /* Lighten on hover for visibility */
+    background-color: rgba(300, 300, 510, 0.2) !important; /* Lighten on hover for visibility */
 }
 
 .btn-sm {
