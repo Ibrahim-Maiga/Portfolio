@@ -134,13 +134,11 @@
 /* Make the background of project cards transparent */
 .card-simple {
     background-color: transparent !important; /* Ensure the background is transparent */
-    border: none !important; /* Remove any default borders if necessary */
-    box-shadow: none !important; /* Remove any default shadow if necessary */
+    border: none !important; /* Remove any default borders */
 }
-
-/* Optional: Add hover effect for better visibility */
+/* Add hover effect for better visibility */
 .card-simple:hover {
-    background-color: rgba(255, 255, 255, 0.2) !important; /* Lighten on hover for visibility */
+    background-color: rgba(255, 255, 510, 0.2) !important; /* Lighten on hover for visibility */
 }
 .btn-sm {
     background-color: transparent;
