@@ -1,18 +1,5 @@
 /* My Custom Animations */
 
-.navbar-collapse {
-    display: flex;
-    justify-content: center; /* Centers the navbar items */
-}
-
-.navbar-nav {
-    flex-direction: row; /* Makes sure the items are aligned in a row */
-}
-
-.nav-item {
-    margin: 0 15px; /* Space between items */
-}
-
 /* slideLeft, slideRight and grow keyframes */
 @keyframes slideLeft {
     from {
