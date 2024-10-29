@@ -56,14 +56,17 @@
  }
  .portrait-title {
     left: -1000px;
+    animation-delay: 0.2s;
  }
  .location {
     left: -1400px;
+    animation-delay: 0.4s;
  }
  .network-icon {
     left: -1800px;
     margin-top: 15px;
     padding: 5px;
+    animation-delay: 0.6s;
  }
 /* Individual Icons in Network Section */
  .network-icon i {
