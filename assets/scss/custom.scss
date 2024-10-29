@@ -94,11 +94,9 @@
     border: 1px solid #1565c0; /* Border color */
     transition: background-color 1.1s ease, color 1.1s ease, transform 0.3s ease; /* Smooth color and grow transition */
     animation: grow 2s ease forwards; /* Icon fade-in animation */
-    margin-left: 1cm; /* Move button 1cm to the right */
+    margin-left: 0.2cm; /* Move button 0.2cm to the right */
 }
 .btn-download:hover {
-    background-color: #1565c0; /* Blue background on hover */
-    color: #fff; /* White text on hover */
     transform: scale(1.1); /* Slightly grow button */
 }
 
@@ -113,7 +111,5 @@
     transition: background-color 1s, color 1s;
 }
 .btn-outline-primary-circle:hover {
-    background-color: #1565c0;
-    color: #fff;
     transform: scale(1.1); /* Slightly grow button */
 }
