@@ -62,17 +62,24 @@
     left: -1400px;
     animation-delay: 0.2s;
  }
+ .network-icon {
+    left: -1800px;
+    margin-top: 15px;
+    padding: 5px;
+    animation-delay: 0.3s;
+ }
+
  /* Individual Icons in Network Section with Hover Effect */
  .network-icon i {
     opacity: 0;
     animation: grow 2s ease forwards; /* Icon fade-in animation */
-    color: #1565c0; /* Default color */
+    color: grey; /* Default color */
     transition: color 0.3s ease; /* Smooth color transition */
  }
 
-/* Change icon color to grey on active state */
+/* Change icon color to grey when pointed */
  .network-icon i:hover {
-    color: grey; /* Change to grey when clicked */
+    color: #1565c0; /* Change to blue when pointed */
  }
  .network-icon .fa-facebook { animation-delay: 1s; }
  .network-icon .fa-globe { animation-delay: 1.3s; }
