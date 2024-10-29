@@ -38,22 +38,27 @@
 
 
 /* Avatar, Title, Location, and Social Icons with Staggered Slide Animation */
+/* Avatar, Title, Location, and Social Icons with Staggered Slide Animation */
 .avatar-circle {
-    clip-path: circle(50%); /* Keeps the avatar circular */
-    border: 4px solid grey; /* Adds a grey frame */
+    clip-path: circle(50%);
+    border: 4px solid grey;
     position: relative;
-    opacity: 0; /* Start hidden for animation */
+    opacity: 0;
     animation: slideRight 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
 }
+
+/* Emoji overlay positioned over the bottom-right corner of the avatar */
 .emoji-overlay {
     position: absolute;
-    bottom: 0px; /* Adjust to position over the border */
-    right: 0px; /* Adjust to position over the border */
-    font-size: 1.5em; /* Adjust emoji size */
-    background-color: white; /* Optional: background color */
-    border-radius: 50%; /* Circle background */
-    padding: 3px; /* Space around the emoji */
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2); /* Optional: subtle shadow */
+    bottom: -8px;
+    right: -8px;
+    font-size: 1.5em;
+    background-color: white;
+    border-radius: 50%;
+    padding: 3px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    animation: grow 1.5s ease-out 2s forwards;
 }
 
 #profile {
