@@ -56,17 +56,14 @@
  }
  .portrait-title {
     left: -1000px;
-    animation-delay: 0s; /* Delayed start for staggered animation */
  }
  .location {
     left: -1400px;
-    animation-delay: 0.5s; /* Further delayed start */
  }
  .network-icon {
     left: -1800px;
     margin-top: 15px;
     padding: 5px;
-    animation-delay: 1s;
  }
 /* Individual Icons in Network Section */
  .network-icon i {
@@ -78,6 +75,7 @@
  .network-icon .fa-github { animation-delay: 1.4s; }
  .network-icon .fa-linkedin { animation-delay: 1.6s; }
 }
+
 
 /* Button Styles */
 .btn-toolbar .btn.active {
