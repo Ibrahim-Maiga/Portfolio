@@ -1,6 +1,7 @@
 /* My Custom Animations */
 
-/* slideLeft and slideRight Animations */
+
+/* slideLeft, slideRight and grow keyframes */
 @keyframes slideLeft {
     from {
         transform: translateX(800px); /* Start 800px to the right */
@@ -28,11 +29,13 @@
     to { opacity: 1; }
 }
 
+
 /* General Animations */
 .slide-left {
     animation: slideLeft 2s ease-out forwards; /* Applies to .slide-left class */
     opacity: 0; /* Ensure elements are initially invisible */
 }
+
 
 /* Avatar, Title, Location, and Social Icons with Staggered Slide Animation */
 .avatar-circle {
@@ -43,42 +46,38 @@
     animation: slideRight 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
 }
 
-#profile .portrait-title,
-#profile .location,
-#profile .network-icon {
+#profile {
+ .portrait-title,
+ .location,
+ .network-icon {
     opacity: 0;
     position: relative;
     animation: slideRight 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
-}
-
-#profile .portrait-title {
+ }
+ .portrait-title {
     left: -1000px;
-    animation-delay: 0.5s; /* Delayed start for staggered animation */
-}
-
-#profile .location {
+    animation-delay: 0s; /* Delayed start for staggered animation */
+ }
+ .location {
     left: -1400px;
-    animation-delay: 1s; /* Further delayed start */
-}
-
-#profile .network-icon {
+    animation-delay: 0.5s; /* Further delayed start */
+ }
+ .network-icon {
     left: -1800px;
     margin-top: 15px;
     padding: 5px;
-    animation-delay: 1.5s;
-}
-
+    animation-delay: 1s;
+ }
 /* Individual Icons in Network Section */
-#profile .network-icon i {
+ .network-icon i {
     opacity: 0;
     animation: grow 2s ease forwards; /* Icon fade-in animation */
+ }
+ .network-icon .fa-facebook { animation-delay: 1s; }
+ .network-icon .fa-globe { animation-delay: 1.2s; }
+ .network-icon .fa-github { animation-delay: 1.4s; }
+ .network-icon .fa-linkedin { animation-delay: 1.6s; }
 }
-
-#profile .network-icon .fa-facebook { animation-delay: 1.2s; }
-#profile .network-icon .fa-globe { animation-delay: 1.4s; }
-#profile .network-icon .fa-github { animation-delay: 1.6s; }
-#profile .network-icon .fa-linkedin { animation-delay: 1.8s; }
-
 
 /* Button Styles */
 .btn-toolbar .btn.active {
