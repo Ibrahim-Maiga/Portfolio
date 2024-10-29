@@ -87,15 +87,17 @@
 
 
 /* Button Styles */
+/* Download CV button */
 .btn-download {
     background-color: transparent; /* Initial transparent background */
     color: #1565c0; /* Initial text color */
     border: 1px solid #1565c0; /* Border color */
-    transition: background-color 1s ease, color 1s ease, transform 0.3s ease; /* Smooth transition for color and scale */
+    transition: background-color 1.1s ease, color 1.1s ease, transform 0.3s ease; /* Smooth color and grow transition */
 }
 .btn-download:hover {
-    transform: scale(1.05); /* Slight zoom effect on hover */
+    transform: scale(1.1); /* Slightly grow button */
 }
+
 
 .btn-toolbar .btn.active {
     box-shadow: 0 1.5px 0 0 white;
