@@ -65,10 +65,13 @@
  .network-icon {
     left: -1800px;
     margin-top: 15px;
-    padding: 5px;
-    animation-delay: 0.3s;
-    transition: background-color 1s, color 1s;
+    padding: 10px; /* Adds space around icons */
+    background-color: #f0f0f0; /* Light grey background */
+    border-radius: 8px; /* Rounds the corners */
+    animation-delay: 0.3s; /* Existing animation delay */
  }
+
+ 
 /* Individual Icons in Network Section */
  .network-icon i {
     opacity: 0;
