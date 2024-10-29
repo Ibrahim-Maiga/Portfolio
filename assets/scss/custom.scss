@@ -151,3 +151,53 @@
     color: #fff; /* White text on hover */
     transform: scale(1.1); /* Slightly grow button */
 }
+
+
+
+
+
+
+
+
+.btn {
+    display: inline-block; /* Ensure the button is displayed inline */
+    position: relative; /* Needed for background-size transitions */
+    padding: 0.5rem 1rem; /* Example padding, adjust as needed */
+    text-decoration: none; /* Remove underline for links */
+    color: white; /* Change this to fit your design */
+}
+
+.bg-gradient-to-r {
+    background-image: linear-gradient(to right, var(--color-start), var(--color-end));
+    background-size: 100% 3px; /* Initial size of the background */
+    background-repeat: no-repeat; /* Prevent repeating the gradient */
+    transition: background-size 0.5s; /* Smooth transition for the background size */
+}
+
+/* Hover effects */
+.hover\:bg-\[length\:100%\_3px\]:hover {
+    background-size: 100% 3px; /* Width of the hover effect */
+}
+
+.group-hover\:bg-\[length\:100%\_10px\]:hover {
+    background-size: 100% 10px; /* Width of the group hover effect */
+}
+
+/* Define gradient colors */
+.from-primary-200 {
+    --color-start: #yourColorStart; /* Set your desired start color */
+}
+
+.to-primary-100 {
+    --color-end: #yourColorEnd; /* Set your desired end color */
+}
+
+/* Dark mode colors */
+.dark\:from-primary-800 {
+    --color-start: #yourDarkColorStart; /* Set your dark mode start color */
+}
+
+.dark\:to-primary-900 {
+    --color-end: #yourDarkColorEnd; /* Set your dark mode end color */
+}
+
