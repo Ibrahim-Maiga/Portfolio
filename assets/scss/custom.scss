@@ -69,17 +69,15 @@
     animation-delay: 0.3s;
  }
 
- /* Individual Icons in Network Section with Hover Effect */
+ /* Network Icons with Hover Effect */
  .network-icon i {
     opacity: 0;
     animation: grow 2s ease forwards; /* Icon fade-in animation */
     color: grey; /* Default color */
-    transition: color 0.3s ease; /* Smooth color transition */
+    transition: color 0.8s ease; /* Smooth color transition */
  }
-
-/* Change icon color to grey when pointed */
  .network-icon i:hover {
-    color: #1565c0; /* Change to blue when pointed */
+    color: #1565c0; /* Change icons color to blue when pointed */
  }
  .network-icon .fa-facebook { animation-delay: 1s; }
  .network-icon .fa-globe { animation-delay: 1.3s; }
@@ -89,6 +87,17 @@
 
 
 /* Button Styles */
+.btn-download {
+    background-color: transparent; /* Initial transparent background */
+    color: #1565c0; /* Initial text color */
+    border: 1px solid #1565c0; /* Border color */
+    transition: background-color 0.8s ease, color 0.8s ease; /* Smooth color transition */
+}
+.btn-download:hover {
+    background-color: #1565c0; /* Blue background on hover */
+    color: #fff; /* White text on hover */
+}
+
 .btn-toolbar .btn.active {
     box-shadow: 0 1.5px 0 0 white;
 }
