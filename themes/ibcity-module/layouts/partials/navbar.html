@@ -52,10 +52,12 @@
       </div>
       {{end}}
 
+      
       <!-- Collect the nav links, forms, and other content for toggling -->
       {{ $align_menu := site.Params.header.navbar.align | default "l" }}
-      <div class="navbar-collapse main-menu-item collapse justify-content-center" id="navbar-content">
+      <div class="navbar-collapse main-menu-item collapse {{ if eq $align_menu "c" }}justify-content-center{{ else if eq $align_menu "r" }}justify-content-end{{else}}justify-content-start{{ end }}" id="navbar-content">
 
+       
         <!-- Left Nav Bar -->
         <ul class="navbar-nav d-md-inline-flex">
           {{ range site.Menus.main }}
