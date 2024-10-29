@@ -146,24 +146,23 @@
 .card-simple {
     background-color: transparent !important; /* Ensure the background is transparent */
     border: 2px solid #bbdefb !important; /* Add blue border */
-    border-radius: 5px; /* Optional: gives the border a rounded edge */
+    border-radius: 8px; /* gives the border a rounded edge */
     transition: background-color 0.3s ease, border-color 0.3s ease;
 }
-
 /* Hover effect for better visibility */
 .card-simple:hover {
     background-color: rgba(187, 222, 251, 0.2) !important; /* Light blue on hover for visibility */
 }
 /* Style the title link inside the card */
 .card-simple .section-subheading.article-title a {
-    color: #bbdefb !important; /* Make title text blue */
+    color: grey !important; /* Make title text grey */
     font-weight: bold; /* Optional: Makes the title stand out */
     text-decoration: none; /* Remove underline */
     transition: color 0.3s ease;
 }
-/* Optional: Style title on hover for a more interactive effect */
+/* Style title on hover for a more interactive effect */
 .card-simple .section-subheading.article-title a:hover {
-    color: #90caf9 !important; /* Slightly lighter blue on hover */
+    color: #1565c0 !important; /* Slightly lighter blue on hover */
 }
 
 
