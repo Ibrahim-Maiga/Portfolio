@@ -3,6 +3,15 @@
 .navbar-collapse {
     margin-left: 3cm; 
 }
+.navbar-nav .nav-link {
+  display: inline-block;
+  transition: transform 0.3s ease-in-out; /* Smooth animation */
+}
+
+.navbar-nav .nav-link:hover {
+  transform: scale(1.1); /* Slightly increase size */
+}
+
 
 #about-me {
   color: grey;
