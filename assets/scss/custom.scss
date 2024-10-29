@@ -62,23 +62,16 @@
     left: -1400px;
     animation-delay: 0.2s;
  }
- /* Individual Icons in Network Section with Click Effect */
+ /* Individual Icons in Network Section with Hover Effect */
  .network-icon i {
     opacity: 0;
-    animation: grow 2s ease forwards;
     color: #1565c0; /* Default color */
     transition: color 0.3s ease; /* Smooth color transition */
  }
 
-/* Change icon color to grey on active state (clicked) */
- .network-icon i:active {
+/* Change icon color to grey on active state */
+ .network-icon i:hover {
     color: grey; /* Change to grey when clicked */
- }
- 
-/* Individual Icons in Network Section */
- .network-icon i {
-    opacity: 0;
-    animation: grow 2s ease forwards; /* Icon fade-in animation */
  }
  .network-icon .fa-facebook { animation-delay: 1s; }
  .network-icon .fa-globe { animation-delay: 1.3s; }
