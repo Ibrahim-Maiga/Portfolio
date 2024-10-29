@@ -62,15 +62,18 @@
     left: -1400px;
     animation-delay: 0.2s;
  }
- .network-icon {
-    left: -1800px;
-    margin-top: 15px;
-    padding: 10px; /* Adds space around icons */
-    background-color: #f0f0f0; /* Light grey background */
-    border-radius: 8px; /* Rounds the corners */
-    animation-delay: 0.3s; /* Existing animation delay */
+ /* Individual Icons in Network Section with Click Effect */
+ .network-icon i {
+    opacity: 0;
+    animation: grow 2s ease forwards;
+    color: #1565c0; /* Default color */
+    transition: color 0.3s ease; /* Smooth color transition */
  }
 
+/* Change icon color to grey on active state (clicked) */
+ .network-icon i:active {
+    color: grey; /* Change to grey when clicked */
+ }
  
 /* Individual Icons in Network Section */
  .network-icon i {
