@@ -1,0 +1,17 @@
+# Font style metadata
+name = "Minimal"
+
+# Optional Google font URL
+#google_fonts = "family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700"
+
+# Font families
+heading_font = "Segoe UI"
+body_font = "Segoe UI"
+nav_font = "Segoe UI"
+mono_font = "Segoe UI"
+
+
+#heading_font = "Montserrat"
+#body_font = "Roboto"
+#nav_font = "Roboto"
+#mono_font = "Roboto Mono"
