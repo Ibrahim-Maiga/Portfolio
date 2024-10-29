@@ -95,6 +95,8 @@
     transition: background-color 1.1s ease, color 1.1s ease, transform 0.3s ease; /* Smooth color and grow transition */
 }
 .btn-download:hover {
+    background-color: #1565c0; /* Blue background on hover */
+    color: #fff; /* White text on hover */
     transform: scale(1.1); /* Slightly grow button */
 }
 
