@@ -145,14 +145,14 @@
 /* Make the background of project cards transparent */
 .card-simple {
     background-color: transparent !important; /* Ensure the background is transparent */
-    border: 3px solid white !important; /* Add blue border */
+    border: 2px solid white !important; /* Add blue border */
     border-radius: 20px; /* gives the border a rounded edge */
     transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 /* Hover effect for better visibility */
 .card-simple:hover {
     background-color: rgba(187, 222, 251, 0.2) !important; /* Light blue on hover for visibility */
-    transform: scale(1.005); /* Zoom effect on hover */
+    transform: scale(1.004); /* Zoom effect on hover */
 }
 /* Style the title link inside the card */
 .card-simple .section-subheading.article-title a {
