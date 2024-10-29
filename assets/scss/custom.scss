@@ -65,6 +65,7 @@
  /* Individual Icons in Network Section with Hover Effect */
  .network-icon i {
     opacity: 0;
+    animation: grow 2s ease forwards; /* Icon fade-in animation */
     color: #1565c0; /* Default color */
     transition: color 0.3s ease; /* Smooth color transition */
  }
