@@ -5,33 +5,33 @@
 
 main:
   - name: Home
-    url: '/'
+    url: ''
     weight: 10
- #   icon: home
+    icon: home
   - name: Portfolio
-    url: '#projects'
+    url: '/projects/'
     weight: 20
- #   icon: briefcase
+    icon: briefcase
   - name: Experience
     url: '#experience'
     weight: 30
- #   icon: book
+    icon: book
   - name: Education
     url: '#degrees'
     weight: 40
-#    icon: school
+    icon: school
   - name: Blog
     url: 'https://franciscoyira.com'
     weight: 50
-#    icon: blog
+    icon: blog
   - name: Newsletter
     url: 'https://franciscoyira.com/subscribe/'
     weight: 60
     icon: envelope
-    - name: Contact
+  - name: Contact
     url: '#contact'
     weight: 70
- #   icon: address-book
+    icon: address-book
     
   #- name: Download Resume as PDF
   #  url: Ibrahim_Maïga_resume.pdf
