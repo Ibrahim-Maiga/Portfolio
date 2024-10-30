@@ -13,6 +13,11 @@
 }
 .navbar-nav .nav-item {
     margin-right: 40px; /* Adjust as needed */
+}
+/* Remove right margin from the last nav item to keep it aligned */
+.navbar-nav .nav-item:last-child {
+    margin-right: 0;
+}
 
 
 
