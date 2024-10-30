@@ -1,7 +1,10 @@
 {{ $scr := .Scratch }}
 <head>
 
-    <script src="{{ "js/custom.js" | relURL }}"></script>
+    {{ if .Site.Params.custom_js }}
+<script src="{{ .Site.Params.custom_js | relURL }}"></script>
+{{ end }}
+
     
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10962032231"></script>
