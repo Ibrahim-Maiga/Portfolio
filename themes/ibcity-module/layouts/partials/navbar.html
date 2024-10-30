@@ -113,12 +113,15 @@
 
           <li class="nav-item">
             <a class="nav-link {{if and $highlight_active_link $is_link_in_current_path }} active{{end}}" href="{{.URL | relLangURL}}"{{ if and $is_widget_page $is_same_page }} data-target="{{$hash}}"{{ end }}{{ ($.Scratch.Get "target") | safeHTMLAttr }}>
-              {{ if eq .Name "Download Resume as PDF" }}
-              <i class="fas fa-download"></i> <!-- This line adds the download icon -->
+            {{ range .Site.Menus.main }}
+              {{ if .Name }}
+                <a href="{{ .URL }}" class="menu-item">
+                  <i class="fas fa-{{ .Params.icon }}"></i> <!-- Dynamically add the icon based on .Params.icon -->
+                  {{ .Name }}
+                </a>
+              {{ end }}
             {{ end }}
-            {{ if eq .Name "Contact" }}
-              <i class="fas fa-envelope"></i> <!-- This line adds the download icon -->
-            {{ end }}
+
               {{- .Pre -}}<span>{{ .Name | safeHTML }}</span>{{- .Post -}}
             </a>
           </li>
