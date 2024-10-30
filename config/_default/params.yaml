@@ -109,5 +109,5 @@ security:
   allow_frame: true
 
 params:
-  custom_js: js/custom.js
+  custom_js:  ["custom"]
   custom_css: ["custom"]
