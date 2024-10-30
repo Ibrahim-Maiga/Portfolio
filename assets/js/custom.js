@@ -7,19 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Function to trigger animations
     function triggerAnimations() {
-        // Remove animation classes to reset animations
-        avatar.classList.remove('animate');
-        title.classList.remove('animate');
-        location.classList.remove('animate');
-        networkIcons.forEach(icon => icon.classList.remove('animate'));
-
-        // Force reflow to reset the animation
-        void avatar.offsetWidth; // This forces a reflow
-        void title.offsetWidth;
-        void location.offsetWidth;
-        networkIcons.forEach(icon => void icon.offsetWidth);
-
-        // Add the animation classes back
+        // Add animation classes
         avatar.classList.add('animate');
         title.classList.add('animate');
         location.classList.add('animate');
@@ -29,11 +17,19 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-    // Trigger animations on page load
-    triggerAnimations();
+    // Create an intersection observer
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                triggerAnimations(); // Trigger animations when visible
+                observer.unobserve(entry.target); // Stop observing after triggering
+            }
+        });
+    }, { threshold: 0.1 }); // Adjust threshold as needed
 
-    // Optionally, you can trigger animations again when navigating back to the profile page
-    window.addEventListener("popstate", function () {
-        triggerAnimations();
-    });
+    // Observe the profile section or the main content container
+    const profileSection = document.querySelector('#profile');
+    if (profileSection) {
+        observer.observe(profileSection);
+    }
 });
