@@ -108,6 +108,3 @@ security:
   # Allow frame for embedding speaker notes in slides
   allow_frame: true
 
-params:
-  custom_js:  ["custom"]
-  custom_css: css/cstom.css
