@@ -118,6 +118,51 @@
 }
 
 
+/* Carousel Container Styling */
+.multi-carousel {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin: auto;
+}
+.multi-carousel-wrapper {
+  display: flex;
+  align-items: center;
+}
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.carousel-slide {
+  flex: 0 0 80%; /* Width of each card */
+  margin: 0 10px;
+}
+/* Navigation Button Styling */
+.carousel-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #1565c0;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+}
+.prev {
+  left: 10px;
+}
+.next {
+  right: 10px;
+}
+/* Optional Hover Styling */
+.carousel-slide:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+
+
+
 /* Button Styles */
 .btn-download {
     animation: grow 2s ease forwards; /* Icon fade-in animation */
@@ -129,7 +174,7 @@
 }
 
 .btn-toolbar .btn.active {
-    box-shadow: 1.5px 1.5px 0 0 white;
+    box-shadow: 0 1.5px 0 0 white;
 }
 
 .btn-outline-primary-circle {
