@@ -11,6 +11,14 @@
   transform: scale(1.1); /* Slightly increase size */
   font-weight: bold; /* Make text bold */
 }
+.navbar-nav .nav-item {
+    margin-right: 15px; /* Adjust as needed */
+}
+/* Remove right margin from the last nav item to keep it aligned */
+.navbar-nav .nav-item:last-child {
+    margin-right: 0;
+}
+
 
 
 #about-me {
