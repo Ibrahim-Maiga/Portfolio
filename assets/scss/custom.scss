@@ -11,14 +11,9 @@
   transform: scale(1.1); /* Slightly increase size */
   font-weight: bold; /* Make text bold */
 }
-.navbar-nav .nav-item {
-    margin-right: 500px; /* Adjust as needed */
+.navbar .nav-item {
+    margin: 0 15px; /* Optional: add some spacing between items */
 }
-/* Remove right margin from the last nav item to keep it aligned */
-.navbar-nav .nav-item:last-child {
-    margin-right: 100px;
-}
-
 
 
 
