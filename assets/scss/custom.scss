@@ -129,7 +129,7 @@
 }
 
 .btn-toolbar .btn.active {
-    box-shadow: 0 3px 0 0 white;
+    box-shadow: 0 2px 0 2px white;
 }
 
 .btn-outline-primary-circle {
@@ -148,7 +148,7 @@
 }
 .card-simple {
     background-color: transparent !important; /* Ensure the background is transparent */
-    border: 3px solid white !important; /* Add blue border */
+    border: 2px solid white !important; /* Add blue border */
     border-radius: 20px; /* gives the border a rounded edge */
     transition: background-color 0.3s ease, border-color 0.3s ease;
 }
