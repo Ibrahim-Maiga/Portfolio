@@ -17,6 +17,18 @@
   color: grey;
 }
 
+/* Animation Trigger Class */
+.animate {
+    animation: slideRight 2s cubic-bezier(0.87, 0, 0.13, 1) forwards;
+}
+
+.animate-left {
+    animation: slideLeft 2s ease-out forwards; /* Applies to .slide-left class */
+}
+
+.animate-grow {
+    animation: grow 1.5s ease-out forwards;
+}
 
 /* slideLeft, slideRight and grow keyframes */
 @keyframes slideLeft {
