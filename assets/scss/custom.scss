@@ -1,8 +1,5 @@
 /* My Custom Animations */
 
-.navbar-collapse {
-    margin-left: 2cm; 
-}
 .navbar-nav .nav-link {
   display: inline-block;
   transition: transform 0.3s ease-in-out, font-weight 0.3s ease-in-out; /* Smooth animation */
@@ -11,11 +8,14 @@
   transform: scale(1.1); /* Slightly increase size */
   font-weight: bold; /* Make text bold */
 }
+.navbar {
+    display: flex;
+    justify-content: center; /* Center the navbar items */
+    align-items: center;     /* Vertically align items */
+}
 .navbar .nav-item {
     margin: 0 15px; /* Optional: add some spacing between items */
 }
-
-
 
 #about-me {
   color: grey;
