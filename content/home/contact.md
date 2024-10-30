@@ -42,7 +42,7 @@ content:
 #  - 'Friday 07:00 a.m. to 12:00 p.m.'
   appointment_url: 'https://calendly.com/imaig090/'
   contact_links:
-    - icon: address-book
+    - icon: envelope
       icon_pack: fas
       name: E-mail me from your device 
       link: 'mailto:imaig090@gmail.com'
