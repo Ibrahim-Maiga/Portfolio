@@ -118,48 +118,45 @@
 }
 
 
-/* Carousel Container Styling */
-.multi-carousel {
+
+
+.carousel-container {
   position: relative;
   overflow: hidden;
-  width: 100%;
-  margin: auto;
 }
-.multi-carousel-wrapper {
-  display: flex;
-  align-items: center;
-}
+
 .carousel-inner {
   display: flex;
   transition: transform 0.5s ease-in-out;
 }
+
 .carousel-slide {
-  flex: 0 0 80%; /* Width of each card */
-  margin: 0 10px;
+  min-width: 100%; /* Make each slide take up the full width */
+  flex: 0 0 100%;
 }
-/* Navigation Button Styling */
-.carousel-nav {
+
+.carousel-control-prev, .carousel-control-next {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: #1565c0;
-  color: white;
+  font-size: 2rem;
+  background: none;
   border: none;
   cursor: pointer;
-  padding: 10px;
-  border-radius: 50%;
+  color: #1565c0;
+  padding: 0 10px;
 }
-.prev {
+
+.carousel-control-prev {
   left: 10px;
 }
-.next {
+
+.carousel-control-next {
   right: 10px;
 }
-/* Optional Hover Styling */
-.carousel-slide:hover {
-  transform: scale(1.05);
-  transition: transform 0.3s;
-}
+
+
+
 
 
 
