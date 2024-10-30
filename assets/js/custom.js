@@ -1,26 +1,39 @@
-let currentIndex = 0;
-const slides = document.querySelectorAll('.carousel-slide');
-const totalSlides = slides.length;
+document.addEventListener("DOMContentLoaded", function () {
+    // Get all elements that need animations
+    const avatar = document.querySelector('.avatar-circle');
+    const title = document.querySelector('.portrait-title');
+    const location = document.querySelector('.location');
+    const networkIcons = document.querySelectorAll('.network-icon');
 
-function showSlide(index) {
-  const carouselInner = document.querySelector('.carousel-inner');
-  carouselInner.style.transform = `translateX(-${index * 100}%)`;
-}
+    // Function to trigger animations
+    function triggerAnimations() {
+        // Remove animation classes to reset animations
+        avatar.classList.remove('animate');
+        title.classList.remove('animate');
+        location.classList.remove('animate');
+        networkIcons.forEach(icon => icon.classList.remove('animate'));
 
-function nextSlide() {
-  if (currentIndex < totalSlides - 1) {
-    currentIndex++;
-  } else {
-    currentIndex = 0; // Loop back to the start
-  }
-  showSlide(currentIndex);
-}
+        // Force reflow to reset the animation
+        void avatar.offsetWidth; // This forces a reflow
+        void title.offsetWidth;
+        void location.offsetWidth;
+        networkIcons.forEach(icon => void icon.offsetWidth);
 
-function prevSlide() {
-  if (currentIndex > 0) {
-    currentIndex--;
-  } else {
-    currentIndex = totalSlides - 1; // Loop to the end
-  }
-  showSlide(currentIndex);
-}
+        // Add the animation classes back
+        avatar.classList.add('animate');
+        title.classList.add('animate');
+        location.classList.add('animate');
+        networkIcons.forEach((icon, index) => {
+            icon.classList.add('animate');
+            icon.style.animationDelay = `${index * 0.1}s`; // Stagger the animations
+        });
+    }
+
+    // Trigger animations on page load
+    triggerAnimations();
+
+    // Optionally, you can trigger animations again when navigating back to the profile page
+    window.addEventListener("popstate", function () {
+        triggerAnimations();
+    });
+});
