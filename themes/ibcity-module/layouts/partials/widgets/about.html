@@ -8,6 +8,8 @@
   {{ $author = $page.Params.author }}
 {{end}}
 
+<script src="{{ "js/custom.js" | relURL }}"></script>
+
 {{ $person_page_path := (printf "/authors/%s" $author) }}
 {{ $person_page := site.GetPage $person_page_path }}
 {{ if not $person_page }}
