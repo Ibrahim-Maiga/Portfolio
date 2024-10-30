@@ -118,48 +118,6 @@
 }
 
 
-
-
-.carousel-container {
-  position: relative;
-  overflow: hidden;
-}
-
-.carousel-inner {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-}
-
-.carousel-slide {
-  min-width: 100%; /* Make each slide take up the full width */
-  flex: 0 0 100%;
-}
-
-.carousel-control-prev, .carousel-control-next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 2rem;
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: #1565c0;
-  padding: 0 10px;
-}
-
-.carousel-control-prev {
-  left: 10px;
-}
-
-.carousel-control-next {
-  right: 10px;
-}
-
-
-
-
-
-
 /* Button Styles */
 .btn-download {
     animation: grow 2s ease forwards; /* Icon fade-in animation */
