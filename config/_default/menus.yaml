@@ -4,6 +4,8 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
+  - name: Home
+    url: '/'
   - name: Portfolio
     url: '#projects'
     weight: 10
