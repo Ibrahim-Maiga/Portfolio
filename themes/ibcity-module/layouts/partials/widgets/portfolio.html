@@ -70,8 +70,26 @@
     {{ $sort_order := cond $sort_ascending "asc" "desc" }}
     {{ $query = sort $query $sort_by $sort_order }}
 
-    {{ range $index, $item := $query }}
-      {{ $js_tag_classes := delimit (apply (apply $item.Params.tags "replace" "." " " "-") "printf" "js-id-%s" ".") " " }}
+    <div class="multi-carousel sneaky-multi-carousel" data-grid="container" id="sneakyCarousel">
+  <div class="multi-carousel-wrapper">
+    <div class="carousel-inner">
+      {{/* Iterate through the portfolio items and wrap them in the carousel-slide structure */}}
+      {{ range $index, $item := $query }}
+        {{ $js_tag_classes := delimit (apply (apply $item.Params.tags "replace" "." " " "-") "printf" "js-id-%s" ".") " " }}
+
+        {{/* Only apply carousel-slide class to .card-simple.view-card elements */}}
+        <div class="carousel-slide card-simple view-card project-card project-item isotope-item {{ $js_tag_classes | safeHTMLAttr }}">
+          {{ partial "functions/render_view" (dict "page" $st "item" . "view" $view "index" $index) }}
+        </div>
+      {{ end }}
+    </div>
+
+    <!-- Carousel Navigation -->
+    <button class="carousel-nav prev" id="carouselPrev" aria-label="Previous"></button>
+    <button class="carousel-nav next" id="carouselNext" aria-label="Next"></button>
+  </div>
+</div>
+
         {{ if in (slice "masonry" 3) $view }}
           <div class="project-card project-item isotope-item {{ $js_tag_classes | safeHTMLAttr }}">
         {{else}}
