@@ -1,5 +1,3 @@
-<script src="{{ "js/custom.js" | relURL }}"></script>
-
 {{ $page := . }}
 {{ $featured := (.Resources.ByType "image").GetMatch "*featured*" }}
 {{ $anchor := $page.Params.image.focal_point | default "Smart" }}
