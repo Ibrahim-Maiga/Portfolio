@@ -8,14 +8,10 @@
   transform: scale(1.1); /* Slightly increase size */
   font-weight: bold; /* Make text bold */
 }
-.navbar {
-    display: flex;
-    justify-content: center; /* Center the navbar items */
-    align-items: center;     /* Vertically align items */
+.navbar-nav .nav-item {
+    margin-right: 15px; /* Adjust as needed */
 }
-.navbar .nav-item {
-    margin: 0 15px; /* Optional: add some spacing between items */
-}
+
 
 #about-me {
   color: grey;
