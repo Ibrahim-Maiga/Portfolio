@@ -1,6 +1,4 @@
 {{/* Portfolio Widget */}}
-
-{{/* Initialise */}}
 {{ $ := .root }}
 {{ $st := .page }}
 {{ $columns := $st.Params.design.columns | default "2" }}
@@ -14,10 +12,7 @@
   {{ with $st.Content }}{{ . }}{{ end }}
 
   {{ if $st.Params.content.filter_button }}
-
     {{ $filter_default := default (int $st.Params.content.filter_default) 0 }}
-
-    {{/* Parse default filter tag from front matter in the form of either tag name or CSS class name. */}}
     {{ $default_filter_tag_raw := (index $st.Params.content.filter_button ($filter_default)).tag }}
     {{ $default_filter_tag := printf ".js-id-%s" (replace $default_filter_tag_raw " " "-") }}
     {{ if or (eq (substr $default_filter_tag_raw 0 1) "*") (eq (substr $default_filter_tag_raw 0 1) ".") }}
@@ -26,14 +21,12 @@
 
     <span class="d-none default-project-filter">{{ $default_filter_tag }}</span>
 
-    {{/* Only show filter buttons if there are multiple filters. */}}
     {{ if gt (len $st.Params.content.filter_button) 1 }}
     <div class="project-toolbar">
       <div class="project-filters">
         <div class="btn-toolbar {{if eq $columns "1"}}d-flex justify-content-center{{end}}">
           <div class="btn-group flex-wrap">
             {{ range $idx, $item := $st.Params.content.filter_button }}
-              {{/* Parse filter tag from front matter in the form of either tag name or CSS class name. */}}
               {{ $data_filter := printf ".js-id-%s" (replace .tag " " "-") }}
               {{ if or (eq (substr .tag 0 1) "*") (eq (substr .tag 0 1) ".") }}
                 {{ $data_filter = .tag }}
@@ -47,114 +40,30 @@
     {{ end }}
   {{ end }}
 
-  <div class="multi-carousel sneaky-multi-carousel" data-grid="container" id="sneakyCarousel">
-    <div class="multi-carousel-wrapper">
-      <div class="carousel-inner {{ if or $st.Params.content.filter_button (in (slice "masonry" 3) $view) }}isotope projects-container{{end}} {{if in (slice "masonry" 3) $view}}js-layout-masonry{{else}}row js-layout-row{{end}} {{ if eq $view "showcase" }}project-showcase{{end}}">
+  <div class="carousel-container">
+    <div class="carousel-inner {{ if or $st.Params.content.filter_button (in (slice "masonry" 3) $view) }}isotope projects-container{{end}} {{if in (slice "masonry" 3) $view}}js-layout-masonry{{else}}row js-layout-row{{end}} {{ if eq $view "showcase" }}project-showcase{{end}}">
 
-        {{/* Query */}}
-        {{ $query := site.RegularPages }}
+      {{/* Query */}}
+      {{ $query := site.RegularPages }}
+      {{ with $st.Params.content.page_type }}{{ $query = where $query "Type" . }}{{ end }}
+      {{ with $st.Params.content.filters.folders }}{{ $query = where $query "Section" "in" . }}{{ end }}
+      {{ with $st.Params.content.filters.tags }}{{ $query = where $query "Params.tags" "intersect" . }}{{ end }}
+      {{ $sort_by := $st.Params.content.sort_by | default "Date" }}
+      {{ $sort_ascending := $st.Params.content.sort_ascending | default (eq $st.Params.content.order "asc") | default false }}
+      {{ $sort_order := cond $sort_ascending "asc" "desc" }}
+      {{ $query = sort $query $sort_by $sort_order }}
 
-        {{/* Filters */}}
-        {{ with $st.Params.content.page_type }}
-          {{/* Legacy filter, superseded by `filters.folders` */}}
-          {{ $query = where $query "Type" . }}
-        {{ end }}
-        {{ with $st.Params.content.filters.folders }}
-          {{ $query = where $query "Section" "in" . }}
-        {{ end }}
-        {{ with $st.Params.content.filters.tags }}
-          {{ $query = where $query "Params.tags" "intersect" . }}
-        {{ end }}
+      {{ range $index, $item := $query }}
+        {{ $js_tag_classes := delimit (apply (apply $item.Params.tags "replace" "." " " "-") "printf" "js-id-%s" ".") " " }}
+        <div class="carousel-slide project-card project-item isotope-item {{ $js_tag_classes | safeHTMLAttr }}">
+          {{ partial "functions/render_view" (dict "page" $st "item" . "view" $view "index" $index) }}
+        </div>
+      {{ end }}
 
-        {{/* Sort */}}
-        {{ $sort_by := $st.Params.content.sort_by | default "Date" }}
-        {{ $sort_ascending := $st.Params.content.sort_ascending | default (eq $st.Params.content.order "asc") | default false }}
-        {{ $sort_order := cond $sort_ascending "asc" "desc" }}
-        {{ $query = sort $query $sort_by $sort_order }}
-
-        {{ range $index, $item := $query }}
-          {{ $js_tag_classes := delimit (apply (apply $item.Params.tags "replace" "." " " "-") "printf" "js-id-%s" ".") " " }}
-          <div class="carousel-slide card-simple view-card isotope-item {{ $js_tag_classes | safeHTMLAttr }}">
-            {{ partial "functions/render_view" (dict "page" $st "item" . "view" $view "index" $index) }}
-          </div>
-        {{ end }}
-
-      </div>
-
-      <!-- Carousel Navigation -->
-      <button class="carousel-nav prev" id="carouselPrev" aria-label="Previous"></button>
-      <button class="carousel-nav next" id="carouselNext" aria-label="Next"></button>
     </div>
+
+    <!-- Carousel Navigation Buttons -->
+    <button class="carousel-control-prev" onclick="prevSlide()">‹</button>
+    <button class="carousel-control-next" onclick="nextSlide()">›</button>
   </div>
-
 </div>
-
-<script>
-  const carousel = document.querySelector('.carousel-inner');
-  let currentIndex = 0;
-  const totalSlides = document.querySelectorAll('.carousel-slide').length;
-
-  document.getElementById('carouselNext').addEventListener('click', () => {
-    if (currentIndex < totalSlides - 1) {
-      currentIndex++;
-      carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
-    }
-  });
-
-  document.getElementById('carouselPrev').addEventListener('click', () => {
-    if (currentIndex > 0) {
-      currentIndex--;
-      carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
-    }
-  });
-</script>
-
-<style>
-  .multi-carousel {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    margin: auto;
-  }
-
-  .multi-carousel-wrapper {
-    display: flex;
-    align-items: center;
-  }
-
-  .carousel-inner {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-  }
-
-  .carousel-slide {
-    flex: 0 0 80%; /* Adjust width of each slide as needed */
-    margin: 0 10px;
-  }
-
-  .carousel-nav {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: #1565c0;
-    color: white;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-    border-radius: 50%;
-  }
-
-  .prev {
-    left: 10px;
-  }
-
-  .next {
-    right: 10px;
-  }
-
-  /* Optional Hover Animation */
-  .carousel-slide:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s;
-  }
-</style>
