@@ -17,6 +17,8 @@ import {
 
 console.debug(`Environment: ${hugoEnvironment}`);
 
+alert("Custom JS is loading!");
+
 /* ---------------------------------------------------------------------------
  * Responsive scrolling for URL hashes.
  * --------------------------------------------------------------------------- */
