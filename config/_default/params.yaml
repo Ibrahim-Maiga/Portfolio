@@ -110,4 +110,4 @@ security:
 
 params:
   custom_js:  ["custom"]
-  custom_css: ["custom"]
+  custom_css: css/custom.css
