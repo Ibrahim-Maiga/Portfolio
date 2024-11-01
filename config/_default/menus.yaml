@@ -17,7 +17,7 @@ main:
     url: '#degrees'
     weight: 40
   - name: Blog
-    url: 'https://franciscoyira.com'
+    url: ''
     weight: 50
   - name: Newsletter
     url: 'https://franciscoyira.com/subscribe/'
