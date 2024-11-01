@@ -20,7 +20,7 @@ main:
     url: ''
     weight: 50
   - name: Newsletter
-    url: 'https://franciscoyira.com/subscribe/'
+    url: ''
     weight: 60
   - name: Contact
     url: '#contact'
