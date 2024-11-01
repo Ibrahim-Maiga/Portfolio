@@ -18,7 +18,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'Data scientist with a background in Maths and finance. Expertise in Python, R, SQL, Cloud Computing, and Artificial intelligence.'
+    description: 'Data Specialist with a background in mathematics and finance. Experienced in Python, SQL, Cloud Computing, and Artificial intelligence.'
     twitter: 'wowchemy'
   analytics:
     google_analytics: ''
@@ -110,5 +110,5 @@ security:
 
 
 params:
-  custom_js:  js/custom.js
+  custom_js: js/custom.js
   custom_css: ["custom"]
