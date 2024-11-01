@@ -17,7 +17,7 @@ main:
     url: '#degrees'
     weight: 40
   - name: Blog
-    url: ''
+    url: 'https://zhaohuabing.com'
     weight: 50
   - name: Newsletter
     url: ''
