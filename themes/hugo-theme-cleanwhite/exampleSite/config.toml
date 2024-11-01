@@ -1,5 +1,5 @@
 baseurl = "https://zhaohuabing.com"
-title = "Huabing Blog"
+title = "Ibrahim's Blog"
 theme = "hugo-theme-cleanwhite"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
