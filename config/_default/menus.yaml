@@ -19,9 +19,9 @@ main:
   - name: Blog
     url: 'https://zhaohuabing.com'
     weight: 50
-  - name: Newsletter
-    url: ''
-    weight: 60
+#  - name: Newsletter
+#    url: ''
+#    weight: 60
   - name: Contact
     url: '#contact'
     weight: 70
