@@ -1,5 +1,6 @@
 {{ $ := .root }}
 {{ $page := .page }}
+{{ $columns := $st.Params.design.columns | default "2" }}
 
 <div class="row featurette">
   {{ with $page.Title }}
