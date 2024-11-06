@@ -30,7 +30,6 @@ item:
     organization_url: https://aws.amazon.com/training/
     title: AWS Certified Data Engineer - Associate
     url: 'https://aws.amazon.com/certification/certified-data-engineer-associate/'
-    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="7ef955db-e669-4939-a1af-2907d37a787c" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
   - certificate_url: https://www.credly.com/badges/2d98a7fd-7c3c-4d81-95d9-d469cc78f3b1/
     date_start: '2024-02-07'
     description: 'Earned an IBM badge showcasing foundational skills in Enterprise Design Thinking, emphasizing user-centered design, empathy, experience design, and innovative problem-solving. Gained expertise in applying design thinking at scale, focusing on user research, ideation, and storytelling to address user challenges. Skilled in identifying and utilizing design thinking concepts in everyday work.'
@@ -105,3 +104,4 @@ design:
     text_color_light: true
   columns: '2'
 ---
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="7ef955db-e669-4939-a1af-2907d37a787c" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
