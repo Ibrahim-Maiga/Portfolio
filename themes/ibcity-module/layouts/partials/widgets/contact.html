@@ -1,5 +1,6 @@
 {{ $ := .root }}
 {{ $st := .page }}
+{{ $columns := $st.Params.design.columns | default "2" }}
 {{ $autolink := default true $st.Params.content.autolink }}
 {{ $data := $st.Params.content }}
 
