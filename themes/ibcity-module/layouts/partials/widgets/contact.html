@@ -13,7 +13,7 @@
 {{ $use_netlify_captcha := $st.Params.content.form.netlify.captcha | default true }}
 {{ $use_formspree_captcha := $st.Params.content.form.formspree.captcha | default false }}
 
-{{ $columns := $st.Params.design.columns | default "2" }}
+
 
 {{ if and $use_formspree_form $use_formspree_captcha }}
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
