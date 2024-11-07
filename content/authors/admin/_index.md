@@ -10,7 +10,7 @@ highlight_name: true
 first_name: Ibrahim
 last_name: Maïga
 
-bio: Python, R, SQL, Data Science, and Artificial Intelligence.
+bio: Python, SQL, Finance, Data Science, and Artificial Intelligence.
 
 location:
   city: Toronto
