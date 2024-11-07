@@ -84,7 +84,7 @@ experience:
 design:
    background:
      # Name of image in `assets/media/`.
-     image: background4.jpg
+     image: 4bryan-colosky-qHajeosTxBU-unsplash.jpg
      # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
      image_darken: 0.2
      #  Options are `cover` (default), `contain`, or `actual` size.
