@@ -79,7 +79,7 @@ experience:
 design:
    background:
      # Name of image in `assets/media/`.
-     image: background6.jpg
+     image: 5robin-schreiner-7y4858E8PfA-unsplash.jpg
      # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
      image_darken: 0.2
      #  Options are `cover` (default), `contain`, or `actual` size.
@@ -91,18 +91,4 @@ design:
      # Text color (true=light, false=dark, or remove for the dynamic theme color).
      text_color_light: true
    columns: '2'
-  # background:
-  #   # Name of image in `assets/media/`.
-  #   image: background7.jpg
-  #   # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
-  #   image_darken: 0.3
-  #   #  Options are `cover` (default), `contain`, or `actual` size.
-  #   image_size: cover
-  #   # Options include `left`, `center` (default), or `right`.
-  #   image_position: center
-  #   # Use a fun parallax-like fixed background effect on desktop? true/false
-  #   image_parallax: true
-  #   # Text color (true=light, false=dark, or remove for the dynamic theme color).
-  #   text_color_light: true
-  #columns: '2'
 ---
