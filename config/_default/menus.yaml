@@ -8,7 +8,7 @@ main:
     url: ''
     weight: 10
   - name: Skills
-    url: 'skills'
+    url: '#featurette'
     weight: 15
   - name: Portfolio
     url: '#projects'
@@ -20,7 +20,7 @@ main:
     url: '#degrees'
     weight: 40
   - name: Certifications
-    url: '#accomplishments.'
+    url: '#accomplishments'
     weight: 45
   - name: Blog
     url: 'https://ibrahimblog.com/'
