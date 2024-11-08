@@ -6,21 +6,34 @@ share: false
 featured: false
 #lastmod: "2020-12-13T00:00:00Z"
 #projects: []
-title: Credits for the images on the Landing page
+title: Image Credits
 ---
+The stunning visuals featured on this page are sourced from talented photographers on Unsplash. We extend our appreciation for their artistry:
 
-![](images/background13.jpg)
+![](assets/media/1peng-chen-qd-dvtbS45Q-unsplash.jpg)
 
-> Photo by [Dino Reichmuth](https://unsplash.com/@dinoreichmuth) on [Unsplash](https://unsplash.com/photos/kk3W5-0b6e0)
+> Photo by [Peng Chen](https://unsplash.com/@austincppc) on [Unsplash](https://unsplash.com/photos/landscape-photo-of-gray-tree-qd-dvtbS45Q)
 
-![Image by Shubham Dhage on Unsplash](images/background3.jpg)
+![](assets/media/2declan-sun-F6M9_IxQBJw-unsplash.jpg)
 
-> Image by [Shubham Dhage](https://unsplash.com/@theshubhamdhage) on [Unsplash](https://unsplash.com/photos/gC_aoAjQl2Q)
+> Image by [Declan Sun](https://unsplash.com/@declansun) on [Unsplash](https://unsplash.com/photos/a-tall-white-building-with-a-blue-sky-in-the-background-F6M9_IxQBJw)
 
-![](images/background4.jpg)
+![](assets/media/3hal-gatewood-aEBksUNzyT4-unsplash.jpg)
 
-> Photo by [Mike Kononov](https://unsplash.com/@mikofilm) on [Unsplash](https://unsplash.com/photos/lFv0V3_2H6s)
+> Photo by [Hal Gatewood](https://unsplash.com/@halacious) on [Unsplash](https://unsplash.com/photos/closeup-photo-of-assorted-colored-pencils-aEBksUNzyT4)
 
-![](images/background2.jpg)
+![](assets/media/4bryan-colosky-qHajeosTxBU-unsplash.jpg)
 
-> Image by [Conny Schneider](https://unsplash.com/@choys_) on [Unsplash](https://unsplash.com/photos/xuTJZ7uD7PI)
+> Image by [Bryan Colosky](https://unsplash.com/@bryancolosky) on [Unsplash](https://unsplash.com/photos/a-meshwork-of-concrete-support-beams-on-a-ceiling-qHajeosTxBU)
+
+![](assets/media/5robin-schreiner-7y4858E8PfA-unsplash.jpg)
+
+> Image by [Robin Schreiner](https://unsplash.com/@robin_schreiner) on [Unsplash](https://unsplash.com/photos/white-concrete-building-7y4858E8PfA)
+
+![](assets/media/6rocco-stoppoloni-Q3PpBabk7qw-unsplash.jpg)
+
+> Image by [ROCCO STOPPOLONI](https://unsplash.com/@sstoppo) on [Unsplash](https://unsplash.com/photos/black-coated-wire-under-blue-sky-Q3PpBabk7qw)
+
+![](assets/media/7scott-webb-GQD3Av_9A88-unsplash.jpg)
+
+> Image by [Scott Webb](https://unsplash.com/@scottwebb) on [Unsplash](https://unsplash.com/photos/assorted-colored-cactus-GQD3Av_9A88)
