@@ -14,7 +14,7 @@
 
 
 #about-me {
-  color: #3b3b3b;
+  color: #cfcfcf;
 }
 
 
@@ -100,7 +100,7 @@
  .network-icon i {
     opacity: 0;
     animation: grow 2s ease forwards; /* Icon fade-in animation */
-    color: #3b3b3b; /* Default color */
+    color: #cfcfcf; /* Default color */
     transition: color 1.1s ease; /* Smooth color transition */
  }
  .network-icon i:hover {
