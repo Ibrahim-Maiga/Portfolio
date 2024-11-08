@@ -119,6 +119,9 @@
               {{ if eq .Name "Home" }}
                 <i class="fas fa-home"></i> 
               {{ end }}
+              {{ if eq .Name "Skills" }}
+                <i class="fas fa-lightbulb"></i> 
+              {{ end }}
               {{ if eq .Name "Portfolio" }}
                 <i class="fas fa-book"></i> 
               {{ end }}
@@ -127,6 +130,9 @@
               {{ end }}
               {{ if eq .Name "Education" }}
                 <i class="fas fa-school"></i> 
+              {{ end }}
+              {{ if eq .Name "Certifications" }}
+                <i class="fas fa-certificate"></i> 
               {{ end }}
               {{ if eq .Name "Blog" }}
                 <i class="fas fa-blog"></i> 
