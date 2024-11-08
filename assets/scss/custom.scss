@@ -100,7 +100,7 @@
  .network-icon i {
     opacity: 0;
     animation: grow 2s ease forwards; /* Icon fade-in animation */
-    color: #EDC8FF; /* Default color */
+    color: #FAF2FF; /* Default color */
     transition: color 1.1s ease; /* Smooth color transition */
  }
  .network-icon i:hover {
@@ -164,7 +164,7 @@
 }
 /* Style the title link inside the card */
 .card-simple .section-subheading.article-title a {
-    color: #EDC8FF !important; /* Make title text light lilac */
+    color: #FAF2FF !important; /* Make title text light lilac */
     font-weight: bold; /* Optional: Makes the title stand out */
     text-decoration: none; /* Remove underline */
     transition: color 0.3s ease;
