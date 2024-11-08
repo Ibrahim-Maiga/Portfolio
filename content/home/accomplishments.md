@@ -101,7 +101,7 @@ design:
     # Use a fun parallax-like fixed background effect on desktop? true/false
     image_parallax: true
     # Text color (true=light, false=dark, or remove for the dynamic theme color).
-    text_color_light: false
+    text_color_light: true
   columns: '2'
 ---
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="7ef955db-e669-4939-a1af-2907d37a787c" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
