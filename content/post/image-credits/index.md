@@ -10,7 +10,7 @@ title: Image Credits
 ---
 The stunning visuals featured on this page are sourced from talented photographers on Unsplash. We extend our appreciation for their artistry:
 
-![](assets/media/1peng-chen-qd-dvtbS45Q-unsplash.jpg)
+![](Portfolio/assets/media/1peng-chen-qd-dvtbS45Q-unsplash.jpg)
 
 > Photo by [Peng Chen](https://unsplash.com/@austincppc) on [Unsplash](https://unsplash.com/photos/landscape-photo-of-gray-tree-qd-dvtbS45Q)
 
