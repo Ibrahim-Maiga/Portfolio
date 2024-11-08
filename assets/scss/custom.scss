@@ -100,7 +100,7 @@
  .network-icon i {
     opacity: 0;
     animation: grow 2s ease forwards; /* Icon fade-in animation */
-    color: #cfcfcf; /* Default color */
+    color: #EDC8FF; /* Default color */
     transition: color 1.1s ease; /* Smooth color transition */
  }
  .network-icon i:hover {
@@ -111,6 +111,14 @@
  .network-icon .fa-github { animation-delay: 1.5s; }
  .network-icon .fa-linkedin { animation-delay: 1.7s; }
 }
+
+/* Targeting Credly widget text */
+.credly-badge .badge-title, 
+.credly-badge .badge-description,
+.credly-badge .badge-issuer {
+    color: #ffffff !important; /* Makes text white */
+}
+
 
 
 /* Button Styles */
@@ -156,7 +164,7 @@
 }
 /* Style the title link inside the card */
 .card-simple .section-subheading.article-title a {
-    color: #3b3b3b !important; /* Make title text dark grey */
+    color: #EDC8FF !important; /* Make title text light lilac */
     font-weight: bold; /* Optional: Makes the title stand out */
     text-decoration: none; /* Remove underline */
     transition: color 0.3s ease;
