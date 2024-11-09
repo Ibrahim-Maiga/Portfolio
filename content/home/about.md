@@ -22,7 +22,7 @@ author: admin
 design:
   background:
     # Name of image in `assets/media/`.
-    image: 1hugo-sousa-BghGseQbAkA-unsplash.jpg
+    image: hongtao-cai-ZTwIbBgd3ns-unsplash.jpg
     # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
     image_darken: 0.8
     #  Options are `cover` (default), `contain`, or `actual` size.
