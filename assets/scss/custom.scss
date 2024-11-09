@@ -114,49 +114,6 @@
 
 
 
-/* Style the badge name/title */
-#badge-name {
-    color: #ffffff; /* Sets text color to white */
-    font-weight: bold; /* Makes the text bold */
-    font-size: 1.2em; /* Increases font size */
-}
-
-/* Style the badge issuer text */
-#badge-issuer {
-    color: #ffffff; /* Sets text color to white */
-    font-style: italic; /* Makes the text italic */
-    font-size: 1em; /* Adjust font size */
-}
-
-/* Style the provider text */
-#provided a, #provided span {
-    color: #ffffff; /* Sets text color to white */
-    font-size: 0.9em; /* Adjusts font size */
-}
-
-/* Style the entire badge card */
-#badge, #provided {
-    background-color: #333333; /* Dark background for contrast */
-    padding: 10px;
-    border-radius: 8px;
-    text-align: center;
-}
-
-/* Ensure links within badge are styled */
-#badge a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-/* Add hover effect for links */
-#badge a:hover, #provided a:hover {
-    color: #cccccc;
-    text-decoration: underline;
-}
-
-
-
-
 /* Button Styles */
 .btn-download {
     background-color: transparent;
