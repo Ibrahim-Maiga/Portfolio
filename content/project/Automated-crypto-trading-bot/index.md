@@ -24,6 +24,8 @@ tags:
 - Finance
 - Pipeline
 - Automation
+- Machine Learning
+- Featured
 title: "Flypto: Automated Crypto Trading Solution"
 url_code: ""
 url_pdf: ""

@@ -91,7 +91,7 @@ item:
 design:
   background:
     # Name of image in `assets/media/`.
-    image: elizabeth-dunne-FK3VL4N40yo-unsplash.jpg
+    image: 6rocco-stoppoloni-Q3PpBabk7qw-unsplash.jpg
     # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
     image_darken: 0.8
     #  Options are `cover` (default), `contain`, or `actual` size.

@@ -23,6 +23,8 @@ tags:
 - AWS
 - PostgreSQL
 - Data Engineering
+- Machine Learning
+- Featured
 title: An Analytics Solution for AML Transaction Monitoring
 url_code: ""
 url_pdf: ""
