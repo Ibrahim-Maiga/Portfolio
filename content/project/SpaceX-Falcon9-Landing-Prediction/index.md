@@ -28,21 +28,19 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
+## Introduction
+
+SpaceX has redefined aerospace economics with its reusable rocket system, achieving historic milestones that set it apart in the space industry. Since December 2010, SpaceX has been the only private company to return a spacecraft from low-Earth orbit. In 2024, it offers Falcon 9 rocket launches at a highly competitive price of approximately 67 million dollars per launch, a significant reduction compared to other providers. The closest competitor to the Falcon 9 in terms of payload capacity and market segment is ULA's Atlas V rocket, which had a launch cost of approximately 115 million per launch. The primary factor behind these cost savings is the reusability of the Falcon 9’s first stage, which allows for refurbishment and relaunch at a fraction of traditional costs.
+
+## Project Goal
+
+The primary objective was to develop a machine learning model capable of predicting Falcon 9 landing successes. Such a model could inform launch cost estimations and enhance mission planning, offering additional insights that could benefit other space organizations aiming to optimize their own rocket landings.
 
 ![](spacex-landing.gif)
 <center>Successful Landings</center>
 
 ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DS0701EN-SkillsNetwork/api/Images/crash.gif)
-<center>AFailed landings</center>
-
-
-## Introduction
-
-SpaceX has redefined aerospace economics with its reusable rocket system, achieving historic milestones that set it apart in the space industry. Since December 2010, SpaceX has been the only private company to return a spacecraft from low-Earth orbit. In 2024, it offers Falcon 9 rocket launches at a highly competitive price of approximately $67 million per launch, a significant reduction compared to other providers. The closest competitor to the Falcon 9 in terms of payload capacity and market segment is ULA's Atlas V rocket, which had a launch cost of approximately $115 million per launch. The primary factor behind these cost savings is the reusability of the Falcon 9’s first stage, which allows for refurbishment and relaunch at a fraction of traditional costs.
-
-## Project Goal
-
-The primary objective was to develop a machine learning model capable of predicting Falcon 9 landing successes. Such a model could inform launch cost estimations and enhance mission planning, offering additional insights that could benefit other space organizations aiming to optimize their own rocket landings.
+<center>Failed landings</center>
 
 ## Data Collection and Initial Analysis
 

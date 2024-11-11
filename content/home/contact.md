@@ -8,7 +8,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 80
 
-title: Contact me
+title: Contact Me
 subtitle: Thank you for visiting! I would love to hear from you, whether you have a project in mind, questions about my work, or just want to say hello. Please feel free to reach out using this form, and I will respond as soon as possible. I look forward to connecting with you!
 
 content:
@@ -44,7 +44,7 @@ content:
   contact_links:
     - icon: envelope
       icon_pack: fas
-      name: E-mail Me 
+      name: E-mail me 
       link: 'mailto:imaig090@gmail.com'
 
 design:
