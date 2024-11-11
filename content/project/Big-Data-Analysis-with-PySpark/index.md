@@ -4,7 +4,7 @@ date: "2024-07-01T00:00:00Z"
 image:
   #caption: 
   focal_point: Smart
-share: true
+share: false
 links:
 - icon: github
   icon_pack: fab
@@ -28,22 +28,18 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
-
+```
 ## **Contents**
 
   **1. Introduction**
 
   **2. Data**
-
-    **2.1 Data Sources**
-
-    **2.2 Databases**
+  * 2.1 Data Sources
+  * 2.2 Databases
 
   **3. ETL Pipeline**
-
-    **3.1 DATA CLEANING**
-
-    **3.2 Data Consolidation**
+  * 3.1 DATA CLEANING
+  * 3.2 Data Consolidation
 
   **4. Database Migration**
 
@@ -56,7 +52,7 @@ url_video: ""
   **8. Conclusion**
 
   **9. References**
-
+```
 
 ## **Abstract**
 
@@ -80,20 +76,20 @@ This project extracts data from various publicly available sources to collect th
 * Synthetic data.
 
 In order to conduct our analysis, it is crucial to ensure that the datasets we collect are on a daily basis. This is imperative for our process. The datasets that were sourced in this project are listed below.
- 
-**1. [USA Daily Birth](https://github.com/fivethirtyeight/data/blob/master/births/US_births_2000-2014_SSA.csv)**	
 
-**2. [USA Natality](https://wonder.cdc.gov/controller/datarequest/D10;jsessionid=4E3CD4A6945320675A2E65F0A87B)**
+1. **[Canada Daily Birth](https://www.statcan.gc.ca/en/start)**
 
-**3. [Canada Daily Birth](https://www.statcan.gc.ca/en/start)**
+2. **[Canada Daily Temperature](https://dd.weather.gc.ca/climate/ltce/daily/temperature/)**
 
-**4. [USA Daily Temperature](https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/)**
+3. **[USA Daily Temperature](https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/)**
 
-**5. [Canada Daily Temperature](https://dd.weather.gc.ca/climate/ltce/daily/temperature/)**
+4. **[USA Daily Birth](https://github.com/fivethirtyeight/data/blob/master/births/US_births_2000-2014_SSA.csv)**	
 
-**6. [USA Daily Energy Consumption](https://www.eia.gov/electricity/gridmonitor/dashboard/electric_overview/US48/US48)**
+5. **[USA Natality](https://wonder.cdc.gov/controller/datarequest/D10;jsessionid=4E3CD4A6945320675A2E65F0A87B)**
 
-**7. Additional sources:**
+6. **[USA Daily Energy Consumption](https://www.eia.gov/electricity/gridmonitor/dashboard/electric_overview/US48/US48)**
+
+7. **Additional sources:**
 * **[USA Accidents](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents/data?select=US_Accidents_March23.csv)**
 * **[Canadian Car Accidents](https://www.kaggle.com/datasets/tbsteal/canadian-car-accidents-19942014)**	
 * **[USA Hourly Energy Consumption](https://www.kaggle.com/datasets/robikscube/hourly-energy-consumption)**
@@ -116,7 +112,7 @@ Initial data collection and preprocessing involved cleaning and standardizing th
 
 For Canadian birth data, I could only get monthly counts, and I generated the daily counts using the actual monthly totals to ensure accuracy.
 
-![](Project-image1.png)
+![](Project-image1.jpg)
 <center>DBeaver UI on Azure VM</center>
 
 ## **PROGRAMMING LANGUAGES**
@@ -129,6 +125,7 @@ For Canadian birth data, I could only get monthly counts, and I generated the da
 
 ![](Data-Flow-Diagram.jpg)
 <center>DATA FLOW DIAGRAM</center>
+<br>
 
 Our ETL process commences with extracting raw data from the data sources, which is then organised into several datasets. Each dataset undergoes a cleaning and pre-processing phase before being stored in its respective databases, such as Apache Hadoop, Microsoft SQL Server, PostgreSQL, and MongoDB. Additionally, one dataset is retained as a CSV file to replicate local data processing scenarios.
 

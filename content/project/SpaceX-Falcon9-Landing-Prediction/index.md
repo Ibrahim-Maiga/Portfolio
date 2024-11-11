@@ -96,18 +96,22 @@ summarize what we observed while working with these 5 models.
 **Logistic Regression**
 - Default Model: Achieved the highest score amongst the other default models.
 - GridSearchCV: Did not substantially improve performance; default version outperformed it.
+
 **Random Forest**
 - Default Model: Performed nicely with a high score.
 - GridSearchCV: Benefited from tuning, reaching higher best score and best estimator rating
 as compared to the default.
+
 **Decision Tree**
 - Default Model: Performed reasonably well.
 - GridSearchCV: Showed improvement with higher best score, best estimator performance,
 and better confusion matrix performance.
+
 **SGD (Stochastic Gradient Descent)**
 - Default Model: Showed decent performance.
 - GridSearchCV: Tuning improved the model, accomplishing higher best score and best
 estimator score.
+
 **SVM (Support Vector Machine)**
 - Default Model: Showed incredibly lower overall performance.
 - GridSearchCV: Slightly improved best score but did no longer significantly affect the best
