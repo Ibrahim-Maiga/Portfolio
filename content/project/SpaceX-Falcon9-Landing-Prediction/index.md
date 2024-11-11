@@ -22,7 +22,7 @@ tags:
 - SpaceX
 - Featured
 
-title: Predicting SpaceX Rocket Landings: A Data Science Journey
+title: "Predicting SpaceX Rocket Landings: A Data Science Journey"
 url_code: ""
 url_pdf: ""
 url_slides: ""
