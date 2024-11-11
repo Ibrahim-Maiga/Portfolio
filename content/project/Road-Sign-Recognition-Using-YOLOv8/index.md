@@ -2,9 +2,9 @@
 date: "2024-08-25T00:00:00Z"
 #external_link: ""
 image:
-  caption: Caption test
+  caption: 
   focal_point: Smart
-share: true
+share: false
 links:
 - icon: arrow-up-right-from-square
   icon_pack: fas

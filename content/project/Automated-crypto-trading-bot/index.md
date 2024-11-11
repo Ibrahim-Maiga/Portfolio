@@ -19,21 +19,23 @@ links:
 summary: Flypto is a cloud-based automated cryptocurrency trading platform integrating advanced machine learning and Deep Learning models. The platform aims to enhance profitability by removing emotional biases and constantly adjusting to new data, offering a competitive advantage in the volatile cryptocurrency market.
 tags:
 - Artificial Intelligence
-- Python
+- Analytics
 - AWS
 - Finance
-- Pipeline
-- Automation
-- Machine Learning
+- ETL Pipeline
+- Cloud Computing
 - Featured
-title: "Flypto: Automated Crypto Trading Solution"
+title: "Flypto: Automated Cryptocurrency Trading Solution"
 url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
 
-# **Flypto: Revolutionizing Cryptocurrency Trading with AI-Driven Intelligence**
+![](https://github.com/user-attachments/assets/5b1f8252-5f87-4f74-a96b-86911e9838d5)
+<center>Architecture Diagram</center>
+
+## **Revolutionizing Crypto Trading with AI-Driven Intelligence**
 
 The cryptocurrency market has emerged as one of the most dynamic and volatile sectors in the global financial landscape. With its rapid growth and the advent of digital assets like Bitcoin, Ethereum, and numerous altcoins, the market offers unprecedented opportunities for traders and investors. However, this volatility also presents significant challenges, particularly for those who rely on manual trading methods. Emotional decision-making, the complexity of market data, and the constant need for vigilance can lead to suboptimal outcomes.
 
@@ -135,3 +137,5 @@ As the cryptocurrency market continues to evolve, Flypto remains at the forefron
 Join the growing number of traders and institutions who are discovering the power of AI-driven trading with Flypto. Contact us today to learn how we can help you achieve your trading goals. Stay ahead of the market with Flypto – where AI meets cryptocurrency trading excellence.
 
 **Disclaimer:** Cryptocurrency trading involves substantial risk of loss and is not suitable for every investor. The performance of backtested trading strategies does not guarantee future results.
+
+Contributor: [Andy Tang](https://www.linkedin.com/in/andythf/)

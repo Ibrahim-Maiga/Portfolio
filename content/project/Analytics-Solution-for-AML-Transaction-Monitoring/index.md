@@ -18,12 +18,11 @@ links:
 # The summary is what appears on the home page
 summary: Explore a comprehensive ETL pipeline project designed to enhance AML transaction monitoring for financial institutions. This hands-on guide walks you through using AWS services like Aurora MySQL, Glue, DMS, and Athena to build a robust solution for AML compliance. Ideal for data enthusiasts aiming to bridge finance and data science, this project covers database migration, ETL processing, and cost-effective querying, all while adhering to best practices in security and cost management.
 tags:
-- ETL
-- Python
+- ETL Pipeline
 - AWS
-- PostgreSQL
+- Cloud Computing
 - Data Engineering
-- Machine Learning
+- Analytics
 - Featured
 title: An Analytics Solution for AML Transaction Monitoring
 url_code: ""
@@ -46,10 +45,12 @@ The project highlight how practical use of AWS services and data engineering bes
 AML compliance is crucial for financial institutions to detect and report suspicious activity, fulfilling legal obligations.
 Banks must perform Know Your Customer (KYC) checks and submit Suspicious Activity Reports (SARs) to identify potential fraud or money laundering.
 
-**Project Scenario:** 
+**Project Scenario** 
+
 High transaction volumes place stress on databases, making it costly and slow to maintain primary databases for AML monitoring. This pipeline provides a solution by offloading transactions and transforming them into a format optimized for analysis.
 
 ## **Project Goals and Objectives**
+
 
 **Build a Robust ETL Pipeline:** Automate data flow from the primary transactional database to a queryable storage solution.
 
@@ -61,6 +62,7 @@ High transaction volumes place stress on databases, making it costly and slow to
 
 ![](AML-Project-Architecture-Diagram.png)
 <center>Architecture Diagram</center>
+
 
 Amazon Aurora MySQL serves as the primary source database, continuously storing real-time transaction data for AML monitoring. AWS Data Migration Service (DMS) facilitates efficient, uninterrupted data replication from Aurora to the analytics environment. AWS Glue performs the ETL processing, transforming raw data into an optimized format, ready for analysis. Transformed data is stored in Amazon S3, a cost-effective and scalable storage solution that enables seamless access to processed data. Finally, Amazon Athena offers fast, SQL-based querying capabilities directly on the data in S3, empowering AML analysts to quickly retrieve insights and identify patterns in transactions.
 

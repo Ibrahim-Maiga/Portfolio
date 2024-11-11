@@ -9,7 +9,7 @@ headless: true
 weight: 80
 
 title: Contact Me
-subtitle: Thank you for visiting! I would love to hear from you, whether you have a project in mind, questions about my work, or just want to say hello. Please feel free to reach out using this form, and I will respond as soon as possible. I look forward to connecting with you!
+subtitle: **Thank you for visiting! I would love to hear from you, whether you have a project in mind, questions about my work, or just want to say hello. Please feel free to reach out using this form, and I will respond as soon as possible. I look forward to connecting with you!**
 
 content:
   # Automatically link email and phone or display as text?
@@ -44,7 +44,7 @@ content:
   contact_links:
     - icon: envelope
       icon_pack: fas
-      name: E-mail me from your device 
+      name: E-mail Me 
       link: 'mailto:imaig090@gmail.com'
 
 design:
@@ -52,7 +52,7 @@ design:
     # Name of image in `assets/media/`.
     image: 1hugo-sousa-BghGseQbAkA-unsplash.jpg
     # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
-    image_darken: 0.8
+    image_darken: 0.9
     #  Options are `cover` (default), `contain`, or `actual` size.
     image_size: cover
     # Options include `left`, `center` (default), or `right`.

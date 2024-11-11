@@ -1,10 +1,10 @@
 ---
-date: "2024-06-11T00:00:00Z"
+date: "2024-07-01T00:00:00Z"
 #external_link: ""
 image:
   #caption: 
   focal_point: Smart
-share: false
+share: true
 links:
 - icon: github
   icon_pack: fab
@@ -15,13 +15,11 @@ links:
 summary: A comprehensive big data analysis examining correlations between temperature changes and societal metrics (crime rates, birth rates, and energy consumption) across the US and Canada. The project uses multiple database systems and cloud computing to process and analyze large-scale climate and social data.
 tags:
 - Big Data
-- PySpark
-- SQL
+- Data Warehousing
+- Cloud Computing
 - Azure
 - Analytics
-- PowerBI
-- Snowflake
-- Hadoop-HDFS
+- Visualization
 - Featured
 
 title: "Global Warming Effects: Big Data Analysis Reveals Surprising Connections"
@@ -33,22 +31,31 @@ url_video: ""
 
 ## **Contents**
 
-1. Introduction 
-2. Data 
-2.1 Data Sources 
-2.2 Datasets
-Databases
-Programming Languages
-3. ETL Pipeline
-Dataflow Diagram 
-3.1 DATA CLEANING 
-3.2 Data Consolidation 
-4. Database Migration 
-5. Dashboarding with Power BI
-6. Results and Findings 
-7. Limitations and Challenges
-8. Conclusion 
-9. References 
+  **1. Introduction**
+
+  **2. Data**
+
+    **2.1 Data Sources**
+
+    **2.2 Databases**
+
+  **3. ETL Pipeline**
+
+    **3.1 DATA CLEANING**
+
+    **3.2 Data Consolidation**
+
+  **4. Database Migration**
+
+  **5. Dashboarding with Power BI**
+
+  **6. Results and Findings**
+
+  **7. Limitations and Challenges**
+
+  **8. Conclusion**
+
+  **9. References**
 
 
 ## **Abstract**
@@ -65,74 +72,67 @@ The goal of this project is to leverage big data technologies to process and ana
 
 ## **2. Data**
 
-### **2.1 DATA SOURCES**
+### **2.1 Data Sources**
 
 This project extracts data from various publicly available sources to collect the data required for our analysis, including:
-• APIs from weather services, crime statistics bureaus, and energy consumption reports.
-• Publicly available datasets from Government websites and international organisations
-• Synthetic data
-
-**Data Collection and Preprocessing**
-
-Data was gathered from seven different sources, pre-processed, and stored in six databases as follows:
-• Hadoop: US crime data (us_crime.csv) and Canadian temperature data (ca_temp.csv)
-• Postgres: US temperature data (us_temp.csv)
-• MySQL: US birth data (us_birth.csv)
-• SQL Server: US energy consumption data (us_energy.csv)
-• MongoDB: Canadian birth data (ca_birth.json)
-• Local Machine Storage: Canadian crime data (ca_crime.csv)
-
-Initial data collection and preprocessing involved cleaning and standardizing the datasets. This included handling missing values, normalizing temperature readings, and ensuring consistency in the data formats across different sources.
-
-### **2.2 DATASETS**
+* APIs from weather services, crime statistics bureaus, and energy consumption reports.
+* Publicly available datasets from Government websites and international organisations. 
+* Synthetic data.
 
 In order to conduct our analysis, it is crucial to ensure that the datasets we collect are on a daily basis. This is imperative for our process. The datasets that were sourced in this project are listed below.
  
-**1. US Daily Birth:** https://github.com/fivethirtyeight/data/blob/master/births/US_births_2000-2014_SSA.csv	CSV	350KB	Github
+**1. [USA Daily Birth](https://github.com/fivethirtyeight/data/blob/master/births/US_births_2000-2014_SSA.csv)**	
 
-**2. US Natality:** https://wonder.cdc.gov/controller/datarequest/D10;jsessionid=4E3CD4A6945320675A2E65F0A87B (https://wonder.cdc.gov/)
+**2. [USA Natality](https://wonder.cdc.gov/controller/datarequest/D10;jsessionid=4E3CD4A6945320675A2E65F0A87B)**
 
-**3. Canada Daily Birth:** https://www.statcan.gc.ca/en/start
+**3. [Canada Daily Birth](https://www.statcan.gc.ca/en/start)**
 
-**4. US Daily Temperature:** https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/ (https://www.ncei.noaa.gov/access/crn/)
+**4. [USA Daily Temperature](https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/)**
 
-**5. Canada Daily Temperature:** https://dd.weather.gc.ca/climate/ltce/daily/temperature/ (https://climate.weather.gc.ca/historical_data/search_historic_data_e.html)
+**5. [Canada Daily Temperature](https://dd.weather.gc.ca/climate/ltce/daily/temperature/)**
 
-**6. US Daily Energy Consumption:** https://www.eia.gov/electricity/gridmonitor/dashboard/electric_overview/US48/US48
+**6. [USA Daily Energy Consumption](https://www.eia.gov/electricity/gridmonitor/dashboard/electric_overview/US48/US48)**
 
-**7. Other sources:**
-* https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents/data?select=US_Accidents_March23.csv	
-* https://www.kaggle.com/datasets/tbsteal/canadian-car-accidents-19942014	
-* https://www.kaggle.com/datasets/uciml/electric-power-consumption-data-set	
-* https://github.com/jakevdp/data-CDCbirths/blob/master/births.csv 
+**7. Additional sources:**
+* **[USA Accidents](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents/data?select=US_Accidents_March23.csv)**
+* **[Canadian Car Accidents](https://www.kaggle.com/datasets/tbsteal/canadian-car-accidents-19942014)**	
+* **[USA Hourly Energy Consumption](https://www.kaggle.com/datasets/robikscube/hourly-energy-consumption)**
 
-For Canadian birth data, we could only get monthly counts, and we generated the daily counts using the actual monthly totals to ensure accuracy.
 
-## **DATABASES**
-• MySQL (CSV)
-• Apache Hadoop (CSV)
-• PostgreSQL (CSV)
-• MongoDB (JSON)
-• SQL Server (CSV)
-• Local Machine (CSV)
+### **2.2 Databases**
 
-![](AML-Project-Architecture-Diagram.png)
+**Data Collection and Preprocessing**
+
+Data was gathered from nine different sources, pre-processed, and stored in seven databases as follows:
+* **Apache Hadoop:** US crime data (us_crime.csv) 
+* **Snowflake:** Canadian temperature data (ca_temp.csv)
+* **PostgreSQL:** US temperature data (us_temp.csv)
+* **MySQL:** US birth data (us_birth.csv)
+* **SQL Server:** US energy consumption data (us_energy.csv)
+* **MongoDB:** Canadian birth data (ca_birth.json)
+* **Local Machine Storage:** Canadian crime data (ca_crime.csv)
+
+Initial data collection and preprocessing involved cleaning and standardizing the datasets. This included handling missing values, normalizing temperature readings, and ensuring consistency in the data formats across different sources.
+
+For Canadian birth data, I could only get monthly counts, and I generated the daily counts using the actual monthly totals to ensure accuracy.
+
+![](Project-image1.png)
 <center>DBeaver UI on Azure VM</center>
 
 ## **PROGRAMMING LANGUAGES**
-• Python
-• SQL
-• PySpark
-• Shell Scripting
+* Python
+* SQL
+* PySpark
+* Shell Scripting
 
 ## **3. ETL Pipeline**
 
 ![](Data-Flow-Diagram.jpg)
 <center>DATA FLOW DIAGRAM</center>
 
-Our ETL process commences with extracting raw data from the data sources specified in section 2, which is then organised into several datasets. Each dataset undergoes a cleaning and pre-processing phase before being stored in its respective databases, such as Apache Hadoop, Microsoft SQL Server, PostgreSQL, and MongoDB. Additionally, one dataset is retained as a CSV file to replicate local data processing scenarios.
+Our ETL process commences with extracting raw data from the data sources, which is then organised into several datasets. Each dataset undergoes a cleaning and pre-processing phase before being stored in its respective databases, such as Apache Hadoop, Microsoft SQL Server, PostgreSQL, and MongoDB. Additionally, one dataset is retained as a CSV file to replicate local data processing scenarios.
 
-Apache Spark (PySpark) is utilised to consolidate data from different databases. The consolidated data is then exported to a CSV file and imported into Azure SQL Server using SSMS. Azure SQL Server, a cloud-based service, facilitates access to its data for all team members, regardless of location.
+Apache Spark is utilised to consolidate data from different databases. The consolidated data is then exported to a CSV file and imported into Azure SQL Server using SSMS. Azure SQL Server, a cloud-based service, facilitates access to its data for all team members, regardless of location.
 
 At the final stage, Power BI visualizes the data and provides insights for our research.
 
@@ -162,11 +162,6 @@ Filtered out irrelevant data points and outliers that could affect the analysis.
 - Validated the accuracy of the data by cross-referencing with reliable sources.
 - Ensured that the datasets were free from duplicates and errors.
 
-**Script sample screenshots:**
-
-![](Project-image2.jpg)
-![](Project-image3.jpg)
-
 ### **3.2 DATA CONSOLIDATION**
 
 To facilitate comprehensive analysis, we configured an Azure VM with 4 CPUs and 8GB RAM to host a single-node Hadoop cluster, PySpark, and DBeaver. However, due to resource constraints, this VM was inadequate, leading to its replacement with a more powerful VM with 8 CPUs and 32GB RAM.
@@ -176,35 +171,35 @@ Using PySpark, we aggregated data from the six databases, performed additional c
 To effectively manage and analyze the large and varied datasets, we utilized PySpark for aggregation and querying. PySpark is the Python API for Apache Spark, which is a powerful open-source distributed computing system.
 
 **Benefits of Using PySpark:**
-* Scalability:PySpark’s distributed computing capabilities allowed us to scale our data processing tasks across multiple nodes, handling large volumes of data efficiently.
-* Speed:Spark’s in-memory processing and optimized execution plans significantly reduced the time required for data aggregation and querying compared to traditional methods.
-* Integration:PySpark seamlessly integrates with various data sources, including HDFS, Apache Hive, and relational databases like MySQL and PostgreSQL, enabling easy data consolidation from diverse sources.
-* Flexibility:PySpark supports both SQL queries and complex data transformations using its DataFrame API, providing the flexibility needed for our data consolidation tasks.
+* Scalability: PySpark’s distributed computing capabilities allowed me to scale the data processing tasks across multiple nodes, handling large volumes of data efficiently.
+* Speed: Spark’s in-memory processing and optimized execution plans significantly reduced the time required for data aggregation and querying compared to traditional methods.
+* Integration: PySpark seamlessly integrates with various data sources, including HDFS, Apache Hive, and relational databases like MySQL and PostgreSQL, enabling easy data consolidation from diverse sources.
+* Flexibility: PySpark supports both SQL queries and complex data transformations using its DataFrame API, providing the flexibility needed for our data consolidation tasks.
 
-**1. Data Loading:**
+**1. Data Loading**
 
-We loaded the cleaned datasets into Spark DataFrames from various storage systems, including CSV files, databases, and Hadoop Distributed File System (HDFS).
+I loaded the cleaned datasets into Spark DataFrames from various storage systems, including Snowflake and Hadoop Distributed File System (HDFS).
 
-**2. Data Transformation:**
+**2. Data Transformation**
 
-Using PySpark’s DataFrame API, we performed necessary transformations such as filtering, joining, and grouping data. These transformations helped in aligning the data from different sources and preparing it for analysis.
+Using PySpark’s DataFrame API, I performed necessary transformations such as filtering, joining, and grouping data. These transformations helped in aligning the data from different sources and preparing it for analysis.
 
 
-**3. Aggregation:**
+**3. Aggregation**
 
-PySpark’s powerful aggregation functions enabled us to compute summary statistics, such as average daily birth rates and total daily energy consumption, across large datasets efficiently.
+PySpark’s powerful aggregation functions enabled me to compute summary statistics, such as average daily birth rates and total daily energy consumption, across large datasets efficiently.
 
-**4. Querying:**
+**4. Querying**
 
-For querying the data, we used PySpark SQL, which allowed us to run SQL-like queries on the DataFrames. This approach provided an intuitive and familiar interface for data analysts to extract insights from the consolidated data.
+For querying the data, I used PySpark SQL, which allowed me to run SQL-like queries on the dataframes. This approach provided an intuitive and familiar interface for data analysts to extract insights from the consolidated data.
 
-**5. Data Export:**
+**5. Data Export**
 
 After performing the necessary aggregations and queries, the resulting datasets were exported to formats suitable for further analysis and visualization, such as CSV files and tables in a relational database. In our case we are using PowerBi for further visualization
 
 ## **4. Data Migration**
 
-Data migration involves transferring data from source systems to the target data warehouse. This process ensures that data is accurately and efficiently moved while maintaining its integrity. Tools and techniques such as importing data from CSV files, ETL scripts, and database connectors are employed to facilitate smooth migration and data replication.
+Data migration involves transferring data from source systems to the target data warehouse. This process ensures that data is accurately and efficiently moved while maintaining its integrity. ETL scripting techniques and database connector tools facilitated smooth migration and data replication.
 
 ## **5. Dashboarding with Power BI**
 
@@ -253,25 +248,24 @@ Higher temperatures lead to increased energy demand, particularly for cooling pu
 ## **7. Limitations and Challenges**
 
 **1) Procuring datasets that matched for all the metrics we are querying**
-• Datasets with dissimilar scopes of time, frequency of data collection, and even unit measurements were a significant challenge that necessitated the use of big data analytical tools to aggregate this data across multiple sources and adjust it to be comparable.
-• Ensuring that the crime data included a similar scope of criminality – certain crimes in Canada aren’t even considered crimes in the US
-• Ensuring data relevant to our use case met the standards for big data in terms of size as well as format (.csv vs JSON)
+* Datasets with dissimilar scopes of time, frequency of data collection, and even unit measurements were a significant challenge that necessitated the use of big data analytical tools to aggregate this data across multiple sources and adjust it to be comparable.
+* Ensuring that the crime data included a similar scope of criminality – certain crimes in Canada aren’t even considered crimes in the US.
+* Ensuring data relevant to my use case met the standards for big data in terms of size and format (CSV vs JSON).
 
 **2) Issues with resources and resource allocation**
-• Handling large datasets requires substantial computational power and memory. Our initial setup lacked the necessary infrastructure to process and analyze the data efficiently, resulting in multiple crashes.
-• The project required a multidisciplinary team with skills in data science, database management, and domain expertise. Allocating the right resources at the right time was difficult.
-• Limited time for project completion meant that thorough data cleaning and preprocessing were rushed, potentially affecting the accuracy of the analysis.
-• Procuring high-quality datasets, especially from paid sources, and upgrading computational resources were constrained by budget limits.
+* Handling large datasets requires substantial computational power and memory. My initial Azure Virtual Machine setup did not provide sufficient power to efficiently process and analyze the data, which led to multiple crashes of Spark sessions.
+* I encountered an issue with the Hadoop NameNode entering safe mode, which halted all read and write operations on the file system. Safe mode is generally enabled when the NameNode detects resource constraints or during startup until a minimum percentage of data blocks are replicated safely. This can disrupt workflows, especially in resource-intensive tasks.
+* Procuring high-quality datasets, especially from paid sources, and upgrading computational resources were constrained by budget limits.
 
 **3) Difficulties connecting different databases and aggregating data**
-• Integrating multiple databases (Hadoop, SQL Server, MariaDB, MongoDB, PostgreSQL, MySQL) posed significant compatibility issues. Each database has its own query language and data handling mechanisms.
-• Aggregating data from different sources required complex ETL (Extract, Transform, Load) processes. Ensuring data integrity and consistency across databases was a major hurdle.
-• Querying large datasets across different databases resulted in high latency and performance issues, slowing down the analysis.
-• Each database might have a different schema for storing similar data, necessitating a thorough understanding and mapping of these schemas for accurate data integration.
+* Integrating data from heterogeneous sources (Hadoop HDFS, Snowflake, SQL Server, MongoDB, PostgreSQL, and MySQL) involved significant compatibility issues. Each database has its own query language and data handling mechanisms.
+* Aggregating data from different sources required complex ETL processes. Ensuring data integrity and consistency across databases was a major hurdle.
+* Querying large datasets across different databases resulted in high latency and performance issues, slowing down the analysis.
+* Each database have a different schema for storing similar data, necessitating a thorough understanding and mapping of these schemas for accurate data integration.
 
 ## 8. **Conclusion**
 
-This project demonstrates the potential of big data in transforming raw data into valuable insights. By analyzing the impact of global warming on crime rates, birth rates, and energy consumption, we have uncovered significant correlations that can inform policy and decision-making. The findings highlight the importance of addressing climate change and its far-reaching effects on society.
+This project demonstrates the potential of big data in transforming raw data into valuable insights. By analyzing the impact of global warming on crime rates, birth rates, and energy consumption, I have uncovered significant correlations that can inform policy and decision-making. The findings highlight the importance of addressing climate change and its far-reaching effects on society.
 
 Future work could involve extending the analysis to include additional metrics and regions, as well as exploring predictive modeling techniques to forecast the impacts of global warming. Continued advancements in big data technologies and methodologies will further enhance our ability to derive meaningful insights from complex datasets.
 
@@ -279,12 +273,12 @@ This project underscores the value of big data in understanding and addressing g
 
 ## **9. References**
 
-1. Government of Canada. (n.d.). Daily climate data. Retrieved July 11, 2024, from https://climate-change.canada.ca/climate-data/#/daily-climate-data
-2. Government of Canada. (n.d.). Daily temperature data. Retrieved July 11, 2024, from https://dd.weather.gc.ca/climate/ltce/daily/temperature/
-3. National Centers for Environmental Information. (n.d.). Climate Reference Network (CRN). Retrieved July 11, 2024, from https://www.ncei.noaa.gov/access/crn/
-4. National Centers for Environmental Information. (n.d.). U.S. Climate Reference Network (USCRN) daily data. Retrieved July 11, 2024, from https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/
-5. VanderPlas, J. (n.d.). CDC births data. GitHub. Retrieved July 11, 2024, from https://github.com/jakevdp/data-CDCbirths/blob/master/births.csv
-6. FiveThirtyEight. (n.d.). US births 2000-2014 data. GitHub. Retrieved July 11, 2024, from https://github.com/fivethirtyeight/data/blob/master/births/US_births_2000-2014_SSA.csv
-7. Centers for Disease Control and Prevention. (n.d.). CDC WONDER data request. Retrieved July 11, 2024, from https://wonder.cdc.gov/controller/datarequest/D10;jsessionid=4E3CD4A6945320675A2E65F0A87B
-8. Kaggle. (n.d.). US accidents data. Retrieved July 11, 2024, from https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents/data?select=US_Accidents_March23.csv
-9. Kaggle. (n.d.). Canadian car accidents (1994-2014) [Data set]. Retrieved July 11, 2024, from https://www.kaggle.com/datasets/tbsteal/canadian-car-accidents-19
+1. [Government of Canada. (n.d.). Daily climate data. Retrieved July 11, 2024](https://climate-change.canada.ca/climate-data/#/daily-climate-data)
+2. [Government of Canada. (n.d.). Daily temperature data. Retrieved July 11, 2024](https://dd.weather.gc.ca/climate/ltce/daily/temperature/)
+3. [National Centers for Environmental Information. (n.d.). Climate Reference Network (CRN). Retrieved July 11, 2024](https://www.ncei.noaa.gov/access/crn/)
+4. [National Centers for Environmental Information. (n.d.). U.S. Climate Reference Network (USCRN) daily data. Retrieved July 11, 2024](https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/)
+5. [VanderPlas, J. (n.d.). CDC births data. GitHub. Retrieved July 11, 2024](https://github.com/jakevdp/data-CDCbirths/blob/master/births.csv)
+6. [FiveThirtyEight. (n.d.). US births 2000-2014 data. GitHub. Retrieved July 11, 2024](https://github.com/fivethirtyeight/data/blob/master/births/US_births_2000-2014_SSA.csv)
+7. [Centers for Disease Control and Prevention. (n.d.). CDC WONDER data request. Retrieved July 11, 2024](https://wonder.cdc.gov/controller/datarequest/D10;jsessionid=4E3CD4A6945320675A2E65F0A87B)
+8. [Kaggle. (n.d.). US accidents data. Retrieved July 11, 2024](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents/data?select=US_Accidents_March23.csv)
+9. [Kaggle. (n.d.). Canadian car accidents (1994-2014) [Data set]. Retrieved July 11, 2024](https://www.kaggle.com/datasets/tbsteal/canadian-car-accidents-19)

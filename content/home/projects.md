@@ -27,12 +27,12 @@ content:
   filter_button:
     - name: Featured
       tag: Featured
-    - name: Causal Inference
-      tag: Causal Inference
-    - name: Python
-      tag: Python
-    - name: Machine Learning
-      tag: Machine Learning
+    - name: Artificial Intelligence
+      tag: Artificial Intelligence
+    - name: Cloud Computing
+      tag: Cloud Computing
+    - name: Analytics
+      tag: Analytics
     - name: Visualization
       tag: Visualization
     - name: All

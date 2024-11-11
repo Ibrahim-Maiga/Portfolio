@@ -41,7 +41,7 @@ item:
     date_end: '2022-06-30'
     date_start: '2022-02-01'
     description: 'Completed a rigorous, project-based certification with a strong focus on applied learning. Gained proficiency in key tools and libraries such as Python, SQL, Jupyter, GitHub, R Studio, Pandas, Numpy, Scikit-Learn, and Matplotlib. Developed expertise through projects including financial data analysis, SQL queries on demographic datasets, regression modeling for housing prices, a dynamic dashboard for flight reliability, and machine learning models for loan repayment prediction. Earned 12 college credits and 6 ECTS credits.'
-    organization: Coursera (Authorized by IBM)
+    organization: Coursera
     organization_url: https://www.coursera.org
     title: IBM Data Science Professional Certificate
     url: 'https://www.coursera.org/professional-certificates/ibm-data-science'
@@ -49,7 +49,7 @@ item:
     date_end: '2022-06-26'
     date_start: '2022-04-26'
     description: 'Completed a machine learning course in Python, covering supervised and unsupervised algorithms, including K-Nearest Neighbors (KNN), decision trees, logistic regression, and k-means clustering. Gained proficiency in building and evaluating models using linear, non-linear, and multiple regression techniques. Hands-on labs with Python, SciPy, and scikit-learn reinforced skills in implementing, evaluating, and comparing machine learning models.'
-    organization: Coursera (Authorized by IBM)
+    organization: Coursera 
     organization_url: https://www.coursera.org
     title: Machine Learning with Python
     url: 'https://www.coursera.org/learn/machine-learning-with-python/'
@@ -57,7 +57,7 @@ item:
     date_end: '2022-06-23'
     date_start: '2022-05-23'
     description: 'Completed a course in Python-based data visualization, developing skills in storytelling with data through various plots and charts. Gained expertise in libraries such as Matplotlib, Seaborn, Folium, Plotly, and Dash to create both basic and advanced visualizations, including line, area, waffle, word cloud, and choropleth maps. Built interactive dashboards and practiced hands-on techniques in Jupyter Notebooks and a cloud-based IDE.'
-    organization: Coursera (Authorized by IBM)
+    organization: Coursera 
     organization_url: https://www.coursera.org
     title: Data Visualization with Python
     url: 'https://www.coursera.org/learn/python-for-data-visualization'
@@ -65,7 +65,7 @@ item:
     date_end: '2022-06-12'
     date_start: '2022-04-12'
     description: 'Completed an intensive course on data analysis with Python, focusing on data cleaning, preparation, and exploratory data analysis (EDA) with libraries like Pandas, Numpy, and Scipy. Developed skills in data manipulation, data visualization, and creating data pipelines. Built and evaluated regression models using Scikit-learn for predictive analytics.'
-    organization: Coursera (Authorized by IBM)
+    organization: Coursera
     organization_url: https://www.coursera.org
     title: Data Analysis with Python
     url: 'https://www.coursera.org/learn/data-analysis-with-python'
@@ -73,7 +73,7 @@ item:
     date_end: '2022-05-28'
     date_start: '2022-03-28'
     description: 'Completed a comprehensive course on SQL, covering foundational to advanced database skills essential for data science. Gained experience with SQL commands (DML & DDL), including SELECT, INSERT, UPDATE, DELETE, and advanced techniques like JOINs, views, transactions, and stored procedures. Practiced analyzing real-world datasets and creating relational databases, as well as using SQL and Python in Jupyter notebooks for data extraction and manipulation.'
-    organization: Coursera (Authorized by IBM)
+    organization: Coursera
     organization_url: https://www.coursera.org
     title: Databases and SQL for Data Science
     url: 'https://www.coursera.org/learn/sql-data-science'
@@ -81,7 +81,7 @@ item:
     date_end: '2022-04-20'
     date_start: '2022-02-20'
     description: 'Completed a detailed course on data science methodology, focusing on foundational and CRISP-DM approaches for problem-solving in data science. Developed skills in selecting analytic models, determining data sources, data preparation, model building, deployment, data storytelling, and feedback collection. Gained practical experience through labs using Jupyter Notebooks and Python in real-world-inspired scenarios.'
-    organization: Coursera (Authorized by IBM)
+    organization: Coursera 
     organization_url: https://www.coursera.org
     title: Data Science Methodology
     url: 'https://www.coursera.org/learn/data-science-methodology'
