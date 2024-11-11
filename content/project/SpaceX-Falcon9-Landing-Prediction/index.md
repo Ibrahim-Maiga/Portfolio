@@ -29,9 +29,12 @@ url_slides: ""
 url_video: ""
 ---
 
-![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DS0701EN-SkillsNetwork/api/Images/landing\_1.gif)
+![](spacex-landing.gif)
+<center>Successful Landings</center>
 
 ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DS0701EN-SkillsNetwork/api/Images/crash.gif)
+<center>AFailed landings</center>
+
 
 ## Introduction
 
