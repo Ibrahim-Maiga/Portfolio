@@ -115,15 +115,6 @@
 
 
 /* Button Styles */
-.btn-download {
-    background-color: transparent;
-    color: #1565c0;
-    transition:  background-color 1.1s ease, color 1.1s ease, transform 0.3s ease !important;
-    animation: grow 2s ease forwards !important;
-}
-.btn-download:hover {
-    transform: scale(1.1); /* Slightly grow button */
-}
 
 .btn-toolbar .btn.active {
     box-shadow: 0 1.5px 0 0 white;
