@@ -35,7 +35,7 @@ feature:
     icon_pack: fas
     name: Machine Learning
   - icon: cloud
-    icon_pack: fab
+    icon_pack: fas
     name: Cloud Computing
   - icon: chart-line
     icon_pack: fas
