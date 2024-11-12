@@ -72,7 +72,7 @@
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
     transform: translate(50%, 50%);
     opacity: 0;
-    animation: grow 2s ease-out 2.5s forwards;
+    animation: grow 1.8s ease-out 2.5s forwards;
 }
 #profile {
  .portrait-title,
@@ -108,8 +108,8 @@
  }
  .network-icon .fa-facebook { animation-delay: 1s; }
  .network-icon .fa-globe { animation-delay: 1.3s; }
- .network-icon .fa-github { animation-delay: 1.5s; }
- .network-icon .fa-linkedin { animation-delay: 1.7s; }
+ .network-icon .fa-github { animation-delay: 1.6s; }
+ .network-icon .fa-linkedin { animation-delay: 1.9s; }
 }
 
 
