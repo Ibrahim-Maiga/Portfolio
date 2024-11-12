@@ -23,7 +23,7 @@ feature:
     icon_pack: fab
     name: R
   - icon: git
-    icon_pack: fas
+    icon_pack: fab
     name: Git
   - icon: database
     icon_pack: fas
@@ -41,7 +41,7 @@ feature:
     icon_pack: fas
     name: Visualization and Dashboarding
   - icon: microsoft
-    icon_pack: fas
+    icon_pack: fab
     name: Microsoft 365
   - icon: gear
     icon_pack: fas

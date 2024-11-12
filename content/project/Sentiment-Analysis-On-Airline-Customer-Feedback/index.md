@@ -9,7 +9,7 @@ links:
 - icon: arrow-up-right-from-square
   icon_pack: fas
   name: See presentation
-  url: "/Sentiment-Analysis-On-Airline-Customer-Feedback.pptx"
+  url: /Sentiment-Analysis-On-Airline-Customer-Feedback.pptx
 - icon: github
   icon_pack: fab
   name: See on GitHub

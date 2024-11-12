@@ -38,7 +38,7 @@ experience:
         * Apply legal, ethical, privacy, and security-related standards and considerations in data science projects in a manner that protects privacy and confidentiality, addresses data bias and transparency, and ensures data integrity.
         * Implement artificial intelligence systems on time and budget using best practices and strategies in design thinking, project management, and lifecycle management.
   - title: Financial Analyst
-    company: Banque Malienne de Solidarité (BMS SA)
+    company: Banque Malienne de Solidarité
     company_url: 'https://bms-sa.ml/'
     company_logo: BMS
     location: Bamako, Mali
