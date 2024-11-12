@@ -15,22 +15,22 @@ subtitle:
 # Showcase personal skills or business features.
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
-feature:
+feature:  
   - icon: python
     icon_pack: fab
     name: Python
-  - icon: r-project
-    icon_pack: fab
-    name: R
   - icon: git
     icon_pack: fab
     name: Git
   - icon: database
     icon_pack: fas
     name: Advanced SQL
-  - icon: comments
+  - icon: terminal
     icon_pack: fas
-    name: Effective Communication
+    name: Command-Line Interface
+  - icon: r-project
+    icon_pack: fab
+    name: R
   - icon: microchip
     icon_pack: fas
     name: Machine Learning
@@ -39,7 +39,10 @@ feature:
     name: Cloud Computing
   - icon: chart-line
     icon_pack: fas
-    name: Visualization and Dashboarding
+    name: Data Visualization   
+  - icon: comments
+    icon_pack: fas
+    name: Effective Communication
   - icon: microsoft
     icon_pack: fab
     name: Microsoft 365
