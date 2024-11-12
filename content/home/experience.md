@@ -25,7 +25,7 @@ experience:
   - title: AI Developer
     company: Semper8
     company_url: 'https://semper8.com/'
-    company_logo: mach
+    company_logo: semper8
     location: Toronto, Canada
     date_start: '2024-09-03'
     date_end: '2024-12-13'
@@ -40,7 +40,7 @@ experience:
   - title: Financial Analyst
     company: Banque Malienne de Solidarité (BMS SA)
     company_url: 'https://bms-sa.ml/'
-    company_logo: logo-wom
+    company_logo: BMS
     location: Bamako, Mali
     date_start: '2022-01-21'
     date_end: '2023-12-14'
@@ -55,7 +55,7 @@ experience:
   - title: Data Specialist
     company: Orange Mali
     company_url: 'https://www.orangemali.com/'
-    company_logo: Walmart_logo
+    company_logo: Orange
     location: Bamako, Mali
     date_start: '2021-01-05'
     date_end: '2021-08-18'
@@ -71,7 +71,7 @@ experience:
   - title: Ecommerce Analyst
     company: Affinity Gear (Website)
     company_url: ''
-    company_logo: Walmart_logo
+    company_logo: AFFINITY
     location: Ottawa, Canada
     date_start: '2018-04-02'
     date_end: '2018-08-30'

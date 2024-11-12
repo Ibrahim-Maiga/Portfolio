@@ -54,7 +54,7 @@ experience:
   - title: Honours Bachelor of Science in Financial Mathematics and Economics    
     company: University of Ottawa, Faculty of Science
     company_url: 'https://catalogue.uottawa.ca/en/undergrad/honours-bsc-financial-mathematics-economics/'
-    company_logo: universidad-de-chile
+    company_logo: university-of-ottawa
     location: Ottawa, Canada
     date_start: '2017-01-01'
     date_end: '2021-12-31'

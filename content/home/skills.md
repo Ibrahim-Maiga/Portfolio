@@ -16,33 +16,40 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-  - icon: r-project
-    icon_pack: fab
-    name: R
   - icon: python
     icon_pack: fab
     name: Python
+  - icon: r-project
+    icon_pack: fab
+    name: R
+  - icon: git
+    icon_pack: fas
+    name: Git
   - icon: database
     icon_pack: fas
     name: Advanced SQL
-  - icon: chart-line
+  - icon: comments
     icon_pack: fas
-    name: Visualization and Dashboards
-  - icon: vial
-    icon_pack: fas
-    name: Causal Inference and Experimentation
+    name: Effective Communication
   - icon: microchip
     icon_pack: fas
     name: Machine Learning
-  - icon: comments
-    icon_pack: fas
-    name: Effective Communication with Stakeholders
-  - icon: aws
+  - icon: cloud
     icon_pack: fab
-    name: Amazon Web Services
-  - icon: terminal
+    name: Cloud Computing
+  - icon: chart-line
     icon_pack: fas
-    name: Git and Command Line
+    name: Visualization and Dashboarding
+  - icon: microsoft
+    icon_pack: fas
+    name: Microsoft 365
+  - icon: gear
+    icon_pack: fas
+    name: ERP Systems
+  - icon: screwdriver-wrench
+    icon_pack: fas
+    name: Project Management Software
+
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
 #  icon_pack: "emoji"
