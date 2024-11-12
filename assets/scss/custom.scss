@@ -106,16 +106,15 @@
  .network-icon i:hover {
     color: #1565c0; /* Change icons color to blue when pointed */
  }
- .network-icon .fa-facebook { animation-delay: 1s; }
- .network-icon .fa-globe { animation-delay: 1.3s; }
- .network-icon .fa-github { animation-delay: 1.6s; }
- .network-icon .fa-linkedin { animation-delay: 1.9s; }
+ .network-icon .fa-facebook { animation-delay: 1.2s; }
+ .network-icon .fa-globe { animation-delay: 1.5s; }
+ .network-icon .fa-github { animation-delay: 1.8s; }
+ .network-icon .fa-linkedin { animation-delay: 2.1s; }
 }
 
 
 
 /* Button Styles */
-
 
 .btn-toolbar .btn.active {
     box-shadow: 0 1.5px 0 0 white;
