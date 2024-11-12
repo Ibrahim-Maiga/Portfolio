@@ -43,7 +43,7 @@ design:
     # Name of image in `assets/media/`.
     image: juan-domenech-LESaWcz8j9U-unsplash.jpg
     # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
-    image_darken: 0.7
+    image_darken: 0.5
     #  Options are `cover` (default), `contain`, or `actual` size.
     image_size: cover
     # Options include `left`, `center` (default), or `right`.
