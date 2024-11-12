@@ -72,7 +72,7 @@
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
     transform: translate(50%, 50%);
     opacity: 0;
-    animation: grow 1.5s ease-out 2.5s forwards;
+    animation: grow 2s ease-out 2.5s forwards;
 }
 #profile {
  .portrait-title,
@@ -84,17 +84,17 @@
  }
  .portrait-title {
     left: -1000px;
-    animation-delay: 0.1s;
+    animation-delay: 0.2s;
  }
  .location {
     left: -1400px;
-    animation-delay: 0.2s;
+    animation-delay: 0.4s;
  }
  .network-icon {
     left: -1800px;
     margin-top: 15px;
     padding: 5px;
-    animation-delay: 0.3s;
+    animation-delay: 0.6s;
  }   
  /* Network Icons with Hover Effect */
  .network-icon i {
