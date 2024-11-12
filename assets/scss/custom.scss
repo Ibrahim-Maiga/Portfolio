@@ -115,7 +115,9 @@
 
 
 /* Button Styles */
-
+.btn-download {
+    margin-left: 0.2cm; /* Move button 3cm to the right */
+}
 .btn-download:hover {
     transform: scale(1.1); /* Slightly grow button */
 }
