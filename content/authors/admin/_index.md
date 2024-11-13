@@ -47,9 +47,9 @@ social:
 - icon: facebook
   icon_pack: fab
   link: https://www.facebook.com/ibcity
-- icon: globe
+- icon: blog
   icon_pack: fas
-  link: https://ibrahimmaiga.netlify.app
+  link: https://ibrahimblog.com
 - icon: github
   icon_pack: fab
   link: https://github.com/Ibrahim-Maiga

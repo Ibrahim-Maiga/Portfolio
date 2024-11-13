@@ -35,8 +35,8 @@ content:
       tag: Analytics
     - name: Visualization
       tag: Visualization
-    - name: All
-      tag: '*'
+  #  - name: All
+  #    tag: '*'
 
 design:
   background:
