@@ -26,7 +26,7 @@ url_video: ""
 
 **Company Overview**
 
-Bon Films Inc. is a mid-budget film production company, operating within a financial range of $100,000 to $1,000,000. The company also runs an in-house streaming service that focuses on English and French-language films for the Canadian market. Unlike traditional film production companies that rely heavily on creative intuition, Bon Films employs a data-driven approach integrated into its production and distribution model. This method supports informed creative decisions, ensures efficient turnaround times, and maintains a balance between financial goals and artistic integrity.
+Bon Films Inc. is a mid-budget film production company, operating within a financial range of 100,000 to 1,000,000 USD. The company also runs an in-house streaming service that focuses on English and French-language films for the Canadian market. Unlike traditional film production companies that rely heavily on creative intuition, Bon Films employs a data-driven approach integrated into its production and distribution model. This method supports informed creative decisions, ensures efficient turnaround times, and maintains a balance between financial goals and artistic integrity.
 
 The main objective is to use data insights to improve decision-making processes, especially in determining the optimal runtimes for movies and identifying the directors best suited for specific genres. This strategy aims to enhance the financial viability of projects while preserving the creative aspects of filmmaking.
 
