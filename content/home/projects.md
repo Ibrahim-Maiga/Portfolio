@@ -27,12 +27,12 @@ content:
   filter_button:
     - name: Featured
       tag: Featured
+    - name: Analytics
+      tag: Analytics
     - name: Artificial Intelligence
       tag: Artificial Intelligence
     - name: Cloud Computing
       tag: Cloud Computing
-    - name: Analytics
-      tag: Analytics
     - name: Visualization
       tag: Visualization
   #  - name: All
@@ -41,7 +41,7 @@ content:
 design:
   background:
     # Name of image in `assets/media/`.
-    image: milad-fakurian-w-X0yL9n-0g-unsplash.jpg
+    image: 3hal-gatewood-aEBksUNzyT4-unsplash.jpeg
     # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
     image_darken: 0.6
     #  Options are `cover` (default), `contain`, or `actual` size.
