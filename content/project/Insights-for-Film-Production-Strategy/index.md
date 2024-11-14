@@ -22,7 +22,7 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
-## A. **Definition, Objectives, and Scope**
+## A. Definition, Objectives, and Scope
 
 **Company Overview**
 
@@ -51,11 +51,11 @@ Another key objective is to identify emerging directors whose work aligns with B
 
 The scope of this analysis is confined to films that align with Bon Films’ budget range and have verifiable revenue data. Films with missing or incomplete revenue documentation will be excluded to ensure the results are relevant and applicable to the company’s operations and financial strategy.
 
-## B. **Data Acquisition**
+## B. Data Acquisition
 
 The data for this analysis is sourced from [The Movies Dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset) on Kaggle, which consolidates information from [TMDb](https://www.themoviedb.org/) and [IMDb](https://www.imdb.com/). These are well-established databases in the film industry, maintained and updated regularly by industry professionals. The dataset includes a unified identifier linking primary keys from both TMDb and IMDb, facilitating consistent data analysis. Preprocessing and data cleaning, such as JSON parsing for genre extraction, are conducted using Tableau Prep to ensure the dataset is ready for visualization and analysis.
 
-## C. **Data Visualization**
+## C. Data Visualization
 
 Data visualization is performed using Tableau, which enables the creation of comprehensive visual summaries. These include detailed text tables and interactive dashboards that highlight key trends and correlations in the data.
 
@@ -134,7 +134,7 @@ Utilizing a Pareto analysis of genre profitability can guide refined strategic d
 ![](Pareto.png)
 <center>Pareto chart</center>
 
-## D. **Conclusion**:
+## D. Conclusion
 
 Combining detailed data analysis with strategic cost management and creative innovation provides a clear pathway for Bon Films to achieve sustained growth and profitability. Aligning production strategies with data-driven insights ensures films resonate with audiences while meeting financial goals.
 

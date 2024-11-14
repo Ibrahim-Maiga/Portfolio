@@ -32,7 +32,7 @@ url_slides: ""
 url_video: ""
 ---
 
-## **Table of Contents**
+## Table of Contents*
 
 1. Introduction
 2. Story
@@ -49,19 +49,19 @@ url_video: ""
 13. Q&A
 14. References
 
-## **1. Introduction**
+## 1. Introduction
 
 In this project, I explore the complexities of Traffic Sign Recognition (TSR), a pivotal technology for autonomous driving and smart city systems. Leveraging the power of the YOLOv8 model, I set out to create a robust, high-accuracy solution for detecting and classifying key road signs, such as stop signs, traffic lights, crosswalks, and speed limits. Through extensive training, data augmentation, and model fine-tuning, this TSR system achieves real-time detection with impressive precision and recall, making it well-suited for practical deployment in real-world, on-road environments.
 
-## **2. The Story**
+## 2. The Story
 
 This project is inspired by real-world driving challenges where traffic sign visibility is often compromised by environmental factors, leading to potentially hazardous situations. Driven by a vision for safer roads, I set out to build a deep-learning-powered system capable of accurately recognizing traffic signs even under difficult conditions. My goal is to create a solution that enhances driver awareness, supports safer decision-making, and ultimately reduces traffic sign-related incidents.
 
-## **3. Problem Statement**
+## 3. Problem Statement
 
 Traffic Sign Recognition (TSR) involves both object detection and classification, made challenging by factors like changing weather conditions, occlusions, and variable lighting. Achieving accurate TSR requires the ability to distinguish subtle differences between similar signs while maintaining high speed and low latency; critical features for real-world use in autonomous vehicles and advanced driver-assistance systems.
 
-## **4. The Dataset**
+## 4. The Dataset
 
 The dataset, sourced from Kaggle, contains 877 images annotated in PASCAL VOC XML format across four classes: Traffic Light, Stop, Speed Limit, and Crosswalk. To make the dataset compatible with YOLOv8, I utilized a custom Python function to convert these XML annotations into the YOLO format, allowing for seamless integration with YOLOv8 for training.
 
@@ -75,7 +75,7 @@ Key preprocessing steps included:
 
 This preprocessing pipeline ensured a well-structured and standardized dataset for accurate and efficient training.
 
-## **5. Model Selection**
+## 5. Model Selection
 
 I selected YOLOv8, specifically the nano version (YOLOv8n), for its exceptional speed and accuracy, making it highly suitable for real-time applications. Building on the efficiency of the YOLO series, YOLOv8 enables simultaneous object detection and classification with high precision and minimal latency; key features for real-world performance.
 
@@ -83,7 +83,7 @@ I selected YOLOv8, specifically the nano version (YOLOv8n), for its exceptional 
 
 I explored other models, including Faster R-CNN and SSD, but they fell short on the speed and efficiency required for real-time detection. A detailed comparison of these models confirmed that YOLOv8 strikes the ideal balance between accuracy and processing time, making it the optimal choice for this project.
 
-## **6. Model Training**
+## 6. Model Training
 
 ![](image1.jpg)
 <center>Training Metrics</center>
@@ -123,7 +123,7 @@ During initial training, the model faced accuracy issues. Fine-tuning resolved t
 
 These results illustrate the impact of meticulous fine-tuning, which optimized the model’s ability to manage diverse, real-world conditions with improved accuracy and reliability.
 
-## **7. Training Metrics**
+## 7. Training Metrics
 
 ![](image2.jpg)
 <center>Confusion Matrix Normalized</center>
@@ -139,7 +139,7 @@ Throughout training, I tracked key metrics to assess the model’s performance a
 
 The analysis demonstrated a steady increase in both precision and recall after fine-tuning, highlighting the model’s enhanced ability to detect and classify signs accurately. The upward trends in these metrics reflect the model’s growing accuracy and robustness, making it well-suited for real-world traffic sign recognition.
 
-## **8. Outcome Analysis**
+## 8. Outcome Analysis
 
 ### Class-Wise Performance
 
@@ -167,7 +167,7 @@ Post-fine-tuning, the model achieved:
 
 **mAP@50-95:** 0.658
 
-## **9. Demonstration**
+## 9. Demonstration
 
 ![](image5.jpg)
 <center>Validation Images</center>
@@ -175,7 +175,7 @@ Post-fine-tuning, the model achieved:
 ![](image6.jpg)
 <center>Inference Images Taken Around GBC</center>
 
-## **10. Validation Images**
+## 10. Validation Images
 
 Validation images were used to further verify model accuracy. Some notable examples include:
 
@@ -187,11 +187,11 @@ Validation images were used to further verify model accuracy. Some notable examp
 
 **Crosswalk Detection:** Accurate identification of crosswalks, even with pedestrian presence.
 
-## **11. Conclusion**
+## 11. Conclusion
 
 This project demonstrates the power of YOLOv8 in addressing the challenges of traffic sign recognition. With fine-tuning and data augmentation, the model has proven capable of accurately identifying key road signs in real-time, paving the way for applications in autonomous driving and smart traffic management.
 
-## **12. Further Development**
+## 12. Further Development
 
 **Expand Dataset:** Introduce more classes and regional sign samples for greater generalization.
 
@@ -201,7 +201,7 @@ This project demonstrates the power of YOLOv8 in addressing the challenges of tr
 
 **Exploring Advanced Models:** Explore newer versions of YOLO or models like SAM, and investigate additional deep learning architectures for improved accuracy.
 
-## **13. Q&A**
+## 13. Q&A
 
 **Q1: How does the model handle different lighting conditions?**
 
@@ -215,6 +215,6 @@ One limitation is the lower recall rate for traffic lights, which I plan to impr
 
 Yes, the model’s real-time detection capabilities make it a viable solution for autonomous driving and traffic monitoring applications.
 
-## **14. References**
+## 14. References
 YOLOv8 Documentation: https://docs.ultralytics.com/
 Dataset (Kaggle Road Sign Detection): https://www.kaggle.com/datasets/andrewmvd/road-sign-detection

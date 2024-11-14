@@ -28,17 +28,17 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
-## **Contents**
+## Contents
 
   **1. Introduction**
 
   **2. Data**
-  * 2.1 Data Sources
-  * 2.2 Databases
+    2.1 Data Sources
+    2.2 Databases
 
   **3. ETL Pipeline**
-  * 3.1 DATA CLEANING
-  * 3.2 Data Consolidation
+    3.1 DATA CLEANING
+    3.2 Data Consolidation
 
   **4. Database Migration**
 
@@ -53,21 +53,21 @@ url_video: ""
   **9. References**
 
 
-## **Abstract**
+## Abstract
 
 This report explores the impact of global warming on crime rates, birth rates, and energy consumption in the United States and Canada. With the evolution towards a digitally connected world, the volume, variety, and velocity of data have increased significantly. To derive valuable insights from this data, we utilized temperature, crime, natality, and energy consumption data from various sources. By employing big data tools and techniques, we transformed raw data into meaningful insights. Key findings indicate that higher temperatures are correlated with increased crime rates and energy consumption, while extreme temperatures are associated with reduced birth rates. This project demonstrates the potential of big data in enhancing our understanding of the implications of global warming.
 
 This project aims to integrate and analyze diverse data sources to gain insights into the correlations between weather patterns, birth rates, crime statistics, and energy consumption in Canada and the USA. By leveraging big data technologies such as Hadoop, PostgreSQL, MongoDB, MySQL, and MSSQL Server, we aim to build a comprehensive ETL pipeline that facilitates the seamless collection, storage, and analysis of large datasets. The outcome will provide valuable insights to inform policy decisions and operational strategies across various sectors.
 
-## **1. Introduction**
+## 1. Introduction
 
 The digital age has led to an exponential increase in data generation, characterized by high volume, variety, and velocity. Managing this much data requires robust data governance policies and best practices. However, the true value of data lies in its ability to provide actionable insights. This project aims to analyze the impact of global warming on crime rates, birth rates, and energy consumption in the US and Canada using temperature, crime, natality, and energy consumption data.
 
 The goal of this project is to leverage big data technologies to process and analyze data from multiple sources, thereby gaining a better understanding of how rising global temperatures affect various societal metrics. By integrating and analyzing data from different databases, we aim to uncover patterns and correlations that can inform policy decisions and future research. The goal is to create a seamless data flow from collection to analysis, enabling comprehensive insights into how these variables interact over time and across regions.
 
-## **2. Data**
+## 2. Data
 
-### **2.1 Data Sources**
+### 2.1 Data Sources
 
 This project extracts data from various publicly available sources to collect the data required for our analysis, including:
 * APIs from weather services, crime statistics bureaus, and energy consumption reports.
@@ -94,7 +94,7 @@ In order to conduct our analysis, it is crucial to ensure that the datasets we c
 * **[USA Hourly Energy Consumption](https://www.kaggle.com/datasets/robikscube/hourly-energy-consumption)**
 
 
-### **2.2 Databases**
+### 2.2 Databases
 
 **Data Collection and Preprocessing**
 
@@ -114,13 +114,13 @@ For Canadian birth data, I could only get monthly counts, and I generated the da
 ![](Project-image1.jpg)
 <center>DBeaver UI on Azure VM</center>
 
-## **PROGRAMMING LANGUAGES**
+## PROGRAMMING LANGUAGES
 * Python
 * SQL
 * PySpark
 * Shell Scripting
 
-## **3. ETL Pipeline**
+## 3. ETL Pipeline
 
 ![](Data-Flow-Diagram.jpg)
 <center>DATA FLOW DIAGRAM</center>
@@ -134,31 +134,31 @@ At the final stage, Power BI visualizes the data and provides insights for our r
 
 ### 3.1 DATA CLEANING
 
-**1. Data Alignment:**
+1. **Data Alignment:**
 
 Aligned datasets to a common timeline to ensure consistency in time series analysis. This involved transforming various temporal resolutions (daily, monthly, yearly) into a unified format.
 
-**2. Data Normalization:**
+2. **Data Normalization:**
 - Standardized units of measurement across different datasets (e.g., Fahrenheit to Celsius for temperature data
 - Harmonized categorical variables, especially in crime datasets, to ensure comparability between US and Canada data.
 
-**3. Handling Missing Data:**
+3. **Handling Missing Data:**
 - Identified and addressed missing values through interpolation or imputation methods.
 - Ensured that the missing data did not skew the results by applying appropriate statistical techniques.
 
-**4. Data Filtering:**
+4. **Data Filtering:**
 
 Filtered out irrelevant data points and outliers that could affect the analysis. For instance, extreme temperature values that were likely recording errors were excluded.
 
-**5. Data Integration:**
+5. **Data Integration:**
 - Merged datasets from different sources, ensuring data integrity and consistency.
 - Used ETL (Extract, Transform, Load) processes to consolidate data into a unified database, facilitating easier access and analysis.
 
-**6. Data Validation:**
+6. **Data Validation:**
 - Validated the accuracy of the data by cross-referencing with reliable sources.
 - Ensured that the datasets were free from duplicates and errors.
 
-### **3.2 DATA CONSOLIDATION**
+### 3.2 DATA CONSOLIDATION
 
 To facilitate comprehensive analysis, we configured an Azure VM with 4 CPUs and 8GB RAM to host a single-node Hadoop cluster, PySpark, and DBeaver. However, due to resource constraints, this VM was inadequate, leading to its replacement with a more powerful VM with 8 CPUs and 32GB RAM.
 
@@ -172,32 +172,32 @@ To effectively manage and analyze the large and varied datasets, we utilized PyS
 * Integration: PySpark seamlessly integrates with various data sources, including HDFS, Apache Hive, and relational databases like MySQL and PostgreSQL, enabling easy data consolidation from diverse sources.
 * Flexibility: PySpark supports both SQL queries and complex data transformations using its DataFrame API, providing the flexibility needed for our data consolidation tasks.
 
-**1. Data Loading**
+1. **Data Loading**
 
 I loaded the cleaned datasets into Spark DataFrames from various storage systems, including Snowflake and Hadoop Distributed File System (HDFS).
 
-**2. Data Transformation**
+2. **Data Transformation**
 
 Using PySpark’s DataFrame API, I performed necessary transformations such as filtering, joining, and grouping data. These transformations helped in aligning the data from different sources and preparing it for analysis.
 
 
-**3. Aggregation**
+3. **Aggregation**
 
 PySpark’s powerful aggregation functions enabled me to compute summary statistics, such as average daily birth rates and total daily energy consumption, across large datasets efficiently.
 
-**4. Querying**
+4. **Querying**
 
 For querying the data, I used PySpark SQL, which allowed me to run SQL-like queries on the dataframes. This approach provided an intuitive and familiar interface for data analysts to extract insights from the consolidated data.
 
-**5. Data Export**
+5. **Data Export**
 
 After performing the necessary aggregations and queries, the resulting datasets were exported to formats suitable for further analysis and visualization, such as CSV files and tables in a relational database. In our case we are using PowerBi for further visualization
 
-## **4. Data Migration**
+## 4. Data Migration
 
 Data migration involves transferring data from source systems to the target data warehouse. This process ensures that data is accurately and efficiently moved while maintaining its integrity. ETL scripting techniques and database connector tools facilitated smooth migration and data replication.
 
-## **5. Dashboarding with Power BI**
+## 5. Dashboarding with Power BI
 
 **PowerBI** was used to create various visualizations to represent the findings:
 
@@ -219,7 +219,7 @@ Data migration involves transferring data from source systems to the target data
 ![](Project-image7.jpg)
 <center>Figure 4. Dashboard of Canada’s Statistics, including birth rate, max and min temperatures, and crime rate</center>
 
-## **6. Results and Findings**
+## 6. Results and Findings
 
 **Temperature Trends:**
 
@@ -241,25 +241,25 @@ This trend may be attributed to the adverse effects of heat on human health and 
 Energy consumption is directly correlated with temperature variations.
 Higher temperatures lead to increased energy demand, particularly for cooling purposes, while lower temperatures increase heating needs.
 
-## **7. Limitations and Challenges**
+## 7. Limitations and Challenges
 
-**1) Procuring datasets that matched for all the metrics we are querying**
+1. **Procuring datasets that matched for all the metrics we are querying**
 * Datasets with dissimilar scopes of time, frequency of data collection, and even unit measurements were a significant challenge that necessitated the use of big data analytical tools to aggregate this data across multiple sources and adjust it to be comparable.
 * Ensuring that the crime data included a similar scope of criminality – certain crimes in Canada aren’t even considered crimes in the US.
 * Ensuring data relevant to my use case met the standards for big data in terms of size and format (CSV vs JSON).
 
-**2) Issues with resources and resource allocation**
+2. **Issues with resources and resource allocation**
 * Handling large datasets requires substantial computational power and memory. My initial Azure Virtual Machine setup did not provide sufficient power to efficiently process and analyze the data, which led to multiple crashes of Spark sessions.
 * I encountered an issue with the Hadoop NameNode entering safe mode, which halted all read and write operations on the file system. Safe mode is generally enabled when the NameNode detects resource constraints or during startup until a minimum percentage of data blocks are replicated safely. This can disrupt workflows, especially in resource-intensive tasks.
 * Procuring high-quality datasets, especially from paid sources, and upgrading computational resources were constrained by budget limits.
 
-**3) Difficulties connecting different databases and aggregating data**
+3. **Difficulties connecting different databases and aggregating data**
 * Integrating data from heterogeneous sources (Hadoop HDFS, Snowflake, SQL Server, MongoDB, PostgreSQL, and MySQL) involved significant compatibility issues. Each database has its own query language and data handling mechanisms.
 * Aggregating data from different sources required complex ETL processes. Ensuring data integrity and consistency across databases was a major hurdle.
 * Querying large datasets across different databases resulted in high latency and performance issues, slowing down the analysis.
 * Each database have a different schema for storing similar data, necessitating a thorough understanding and mapping of these schemas for accurate data integration.
 
-## 8. **Conclusion**
+## 8. Conclusion
 
 This project demonstrates the potential of big data in transforming raw data into valuable insights. By analyzing the impact of global warming on crime rates, birth rates, and energy consumption, I have uncovered significant correlations that can inform policy and decision-making. The findings highlight the importance of addressing climate change and its far-reaching effects on society.
 
@@ -267,7 +267,7 @@ Future work could involve extending the analysis to include additional metrics a
 
 This project underscores the value of big data in understanding and addressing global challenges, reinforcing the need for robust data governance and analytics frameworks.
 
-## **9. References**
+## 9. References
 
 1. [Government of Canada. (n.d.). Daily climate data. Retrieved July 11, 2024](https://climate-change.canada.ca/climate-data/#/daily-climate-data)
 2. [Government of Canada. (n.d.). Daily temperature data. Retrieved July 11, 2024](https://dd.weather.gc.ca/climate/ltce/daily/temperature/)
