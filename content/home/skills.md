@@ -27,7 +27,7 @@ feature:
     name: Advanced SQL
   - icon: terminal
     icon_pack: fas
-    name: Command-Line Interface
+    name: CLI
   - icon: r-project
     icon_pack: fab
     name: R
