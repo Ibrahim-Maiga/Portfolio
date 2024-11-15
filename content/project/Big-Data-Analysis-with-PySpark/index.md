@@ -15,10 +15,10 @@ links:
 summary: A comprehensive big data analysis examining correlations between temperature changes and societal metrics (crime rates, birth rates, and energy consumption) across the US and Canada. The project uses multiple database systems and cloud computing to process and analyze large-scale climate and social data.
 tags:
 - Big Data
-- Data Warehousing
 - Cloud Computing
 - Azure
 - Analytics
+- PowerBI
 - Visualization
 - Featured
 

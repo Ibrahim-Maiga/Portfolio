@@ -11,6 +11,7 @@ links:
 summary: Bon Films Inc., a Canadian film company, uses data-driven insights to optimize runtimes, select genre-suited directors, and strategically time releases to balance creativity and profitability. Analyzing trends with tools like Tableau, the company finds that releases in June and December and genres like Action, Adventure, and Drama maximize returns. This approach supports financial goals and audience engagement on its streaming platform while fostering innovation by collaborating with emerging directors
 tags:
 - Visualization
+- Tableau
 - Analytics
 - Storytelling
 - Pareto Analysis
