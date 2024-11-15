@@ -31,10 +31,6 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
-
-![](https://github.com/user-attachments/assets/5b1f8252-5f87-4f74-a96b-86911e9838d5)
-<center>Architecture Diagram</center>
-
 ## Revolutionizing Crypto Trading with AI-Driven Intelligence
 
 The cryptocurrency market has emerged as one of the most dynamic and volatile sectors in the global financial landscape. With its rapid growth and the advent of digital assets like Bitcoin, Ethereum, and numerous altcoins, the market offers unprecedented opportunities for traders and investors. However, this volatility also presents significant challenges, particularly for those who rely on manual trading methods. Emotional decision-making, the complexity of market data, and the constant need for vigilance can lead to suboptimal outcomes.
@@ -64,6 +60,9 @@ Unlike traditional stock markets, cryptocurrency markets never close. This means
 ## Enter Flypto: Your AI Trading Advantage
 
 Flypto offers a solution to these challenges by leveraging artificial intelligence (AI) to automate trading decisions and eliminate emotional biases. By using advanced machine learning algorithms, Flypto can process massive amounts of data from multiple sources in real-time, identify emerging market trends, and execute trades faster than any human trader could. This allows Flypto to take advantage of market opportunities around the clock, without the limitations imposed by human emotions or the need for constant attention.
+
+![](https://github.com/user-attachments/assets/5b1f8252-5f87-4f74-a96b-86911e9838d5)
+<center>Architecture Diagram</center>
 
 ### Key Features That Set Us Apart
 
