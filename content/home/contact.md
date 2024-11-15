@@ -45,7 +45,7 @@ content:
     - icon: envelope
       icon_pack: fas
       name: E-mail me 
-      link: 'mailto:imaig090@gmail.com'
+      link: 'mailto:contactme@ibrahimmaiga.com'
 
 design:
   background:

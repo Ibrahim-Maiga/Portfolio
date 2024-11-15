@@ -33,12 +33,8 @@ url_video: ""
   **1. Introduction**
 
   **2. Data**
-    2.1 Data Sources
-    2.2 Databases
 
   **3. ETL Pipeline**
-    3.1 DATA CLEANING
-    3.2 Data Consolidation
 
   **4. Database Migration**
 

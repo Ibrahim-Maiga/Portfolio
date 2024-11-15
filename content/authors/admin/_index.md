@@ -44,18 +44,19 @@ role: AI Developer
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 social:
-- icon: facebook
-  icon_pack: fab
-  link: https://www.facebook.com/ibcity
+- icon: envelope
+  icon_pack: fas
+  link: 'mailto:contactme@ibrahimmaiga.com'
 - icon: blog
   icon_pack: fas
-  link: https://ibrahimblog.com
+  link: 'https://ibrahimblog.com'
 - icon: github
   icon_pack: fab
-  link: https://github.com/Ibrahim-Maiga
+  link: 'https://github.com/Ibrahim-Maiga'
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/in/ibrahim-ma%C3%AFga
+  link: 'https://www.linkedin.com/in/ibrahim-ma%C3%AFga'
+  
 
 ---
 ## **About Me**
