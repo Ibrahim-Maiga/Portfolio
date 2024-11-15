@@ -28,7 +28,7 @@ experience:
     company_logo: semper8
     location: Toronto, Canada
     date_start: '2024-09-03'
-    date_end: '2024-12-13'
+    date_end: 'present'
     description: |2-
         * Identify, evaluate, and manage relevant data sources to support data analytics and meet organizational needs.
         * Recommend different systems, architectures, and data storage technologies to support data-driven solutions.
