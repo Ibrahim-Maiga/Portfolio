@@ -6,10 +6,6 @@ image:
   focal_point: Smart
 share: false
 links:
-- icon: arrow-up-right-from-square
-  icon_pack: fas
-  name: See presentation
-  url: https://docs.google.com/presentation/d/1m6Ce7XWYDPAEOkxQsIoKydP45RgdNvog
 - icon: github
   icon_pack: fab
   name: See on GitHub
