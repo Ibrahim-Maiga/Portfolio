@@ -24,7 +24,7 @@ feature:
     name: Git
   - icon: database
     icon_pack: fas
-    name: Advanced SQL
+    name: SQL
   - icon: terminal
     icon_pack: fas
     name: CLI
