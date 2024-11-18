@@ -6,10 +6,6 @@ image:
   focal_point: Smart
 share: false
 links:
-- icon: globe
-  icon_pack: fas
-  name: See demo interface
-  url: https://aasd4016.ml-demo.lol
 - icon: github
   icon_pack: fab
   name: See on GitHub
