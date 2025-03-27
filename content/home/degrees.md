@@ -28,7 +28,7 @@ experience:
     company_logo: gbc
     location: Toronto, Canada
     date_start: '2024-01-05'
-    #date_end: '2025-01-01'
+    date_end: '2024-12-13'
     description: |2-
         Completed an intensive graduate program at George Brown College focusing on developing full-stack AI and data science solutions. Gained expertise in AI, machine learning, deep learning, and data analytics, with cross-disciplinary training in computer science, mathematics, and business. Developed machine learning models, data visualizations, and dashboards to communicate findings effectively to both technical and business stakeholders. Acquired business analysis and design-thinking skills to optimize AI-driven solutions for diverse industries, supporting roles such as data scientist, data engineer, and machine learning engineer.
 
