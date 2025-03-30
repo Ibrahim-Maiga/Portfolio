@@ -27,7 +27,7 @@ experience:
     company_url: 'https://www.georgebrown.ca/programs/applied-ai-solutions-development-program-postgraduate-t431'
     company_logo: gbc
     location: Toronto, Canada
-    date_start: '2024-01-05'
+    date_start: 
     date_end: '2024-12-13'
     description: |2-
         Completed an intensive graduate program at George Brown College focusing on developing full-stack AI and data science solutions. Gained expertise in AI, machine learning, deep learning, and data analytics, with cross-disciplinary training in computer science, mathematics, and business. Developed machine learning models, data visualizations, and dashboards to communicate findings effectively to both technical and business stakeholders. Acquired business analysis and design-thinking skills to optimize AI-driven solutions for diverse industries, supporting roles such as data scientist, data engineer, and machine learning engineer.
@@ -56,8 +56,8 @@ experience:
     company_url: 'https://catalogue.uottawa.ca/en/undergrad/honours-bsc-financial-mathematics-economics/'
     company_logo: university-of-ottawa
     location: Ottawa, Canada
-    date_start: '2017-01-01'
-    date_end: '2021-12-31'
+    date_start: 
+    date_end: '2022-05-31'
     description: |2-
         An interdisciplinary degree combining advanced mathematical and statistical methods with economic theory to model and analyze financial systems. This program emphasized problem-solving and data-driven insights, covering topics such as market fluctuations, futures pricing, and data mining. Graduates are well-prepared to apply quantitative analysis across finance, business, and sciences.
 
