@@ -18,14 +18,14 @@ location:
   
 education:
   courses:
-  - course: Post Graduate, Applied A.I. Solutions Development
+  - course: Postgraduate Certificate, Applied A.I. Solutions Development
     institution: George Brown College
-    year: 2024-2025
+    year: 2024
   - course: Honours Bachelor of Science, Financial Mathematics and Economics
     institution: University of Ottawa
-    year: 2017-2021
+    year: 2022
     
-email: "imaig090@gmail.com"
+email: "contactme@ibrahimmaiga.com"
 
 Interests:
 - Artificial Intelligence
@@ -39,7 +39,7 @@ Interests:
 organizations:
   - name: Semper8
     url: https://semper8.com
-role: AI Developer
+role: AI Analyst
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
