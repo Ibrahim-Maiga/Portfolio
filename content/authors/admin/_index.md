@@ -37,8 +37,8 @@ Interests:
   
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Semper8
-    url: https://semper8.com
+  - name: Outlier.ai
+    url: https://outlier.ai
 role: AI Analyst
 
 # Social network links
