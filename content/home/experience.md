@@ -74,8 +74,8 @@ experience:
     company_url: ''
     company_logo: freelancer-1
     location: Ottawa, Canada
-    date_start: '2020-05-02'
-    date_end: '2020-10-30'
+    date_start: '2019-05-02'
+    date_end: '2020-12-30'
     description: |2-
       * Conducted portfolio performance analysis for investment clients, evaluating historical returns, volatility, and risk measures, leading to optimized asset allocation strategies.
       * Utilized Microsoft Excel to develop financial models, conduct sensitivity analysis, and design automated dashboards for tracking essential financial metrics.
