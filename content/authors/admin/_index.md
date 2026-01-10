@@ -37,9 +37,9 @@ Interests:
   
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Outlier.ai
-    url: https://outlier.ai
-role: AI Analyst
+  - name: Aviva Canada
+    url: https://www.aviva.ca
+role: Data Analyst
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
